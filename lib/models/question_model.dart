@@ -15,7 +15,6 @@ class QuestionModel {
     required this.explanation,
   });
 
-  // JSON'dan Model üretme
   factory QuestionModel.fromJson(Map<String, dynamic> json) {
     return QuestionModel(
       id: json['id'] ?? '',

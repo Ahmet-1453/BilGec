@@ -16,7 +16,6 @@ class QuizController extends ChangeNotifier {
   String errorMessage = '';
   bool isLastAnswerCorrect = false;
 
-  // Uygulama açılınca çalışır
   Future<void> initReadyQuestions() async {
     if (isQuestionsLoaded) return;
     isLoading = true;

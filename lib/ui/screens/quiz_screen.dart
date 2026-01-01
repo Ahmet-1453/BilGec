@@ -17,123 +17,248 @@ class _QuizScreenState extends State<QuizScreen> {
   @override
   Widget build(BuildContext context) {
     final controller = Provider.of<QuizController>(context);
-    
-    if (controller.questions.isEmpty) return const Scaffold(body: Center(child: Text("Soru Yok")));
+
+    if (controller.questions.isEmpty) {
+      return const Scaffold(body: Center(child: CircularProgressIndicator()));
+    }
 
     final currentQuestion = controller.questions[controller.currentIndex];
 
     return Scaffold(
-      appBar: AppBar(title: Text("Soru ${controller.currentIndex + 1} / 10")),
-      body: Padding(
-        padding: const EdgeInsets.all(16.0),
-        child: Column(
-          children: [
-            LinearProgressIndicator(
-              value: (controller.currentIndex + 1) / 10,
-              minHeight: 10,
-              borderRadius: BorderRadius.circular(5),
-              color: Colors.indigo,
-              backgroundColor: Colors.grey.shade300,
-            ),
-            const SizedBox(height: 20),
+      backgroundColor: const Color(0xFFF8F9FA), 
+      appBar: AppBar(
+        backgroundColor: Colors.transparent,
+        elevation: 0,
+        centerTitle: true,
+        leading: IconButton(
+          icon: const Icon(Icons.arrow_back_ios, color: Colors.black87),
+          onPressed: () => Navigator.pop(context),
+        ),
+        title: Text(
+          "Soru ${controller.currentIndex + 1} / ${controller.questions.length}",
+          style: const TextStyle(color: Colors.black87, fontWeight: FontWeight.bold),
+        ),
+      ),
+      body: SafeArea(
+        child: Padding(
+          padding: const EdgeInsets.symmetric(horizontal: 20.0, vertical: 10.0),
+          child: Column(
+            children: [
 
-            Expanded(
-              child: FlipCard(
-                key: cardKey,
-                flipOnTouch: false, 
-                front: Card(
-                  elevation: 8,
-                  child: Padding(
-                    padding: const EdgeInsets.all(20.0),
-                    child: Column(
-                      children: [
-                        Expanded(
-                          child: Center(
-                            child: Text(
-                              currentQuestion.questionText,
-                              style: const TextStyle(fontSize: 22, fontWeight: FontWeight.bold),
-                              textAlign: TextAlign.center,
-                            ),
-                          ),
+              ClipRRect(
+                borderRadius: BorderRadius.circular(10),
+                child: LinearProgressIndicator(
+                  value: (controller.currentIndex + 1) / controller.questions.length,
+                  minHeight: 8,
+                  color: const Color(0xFF3F51B5),
+                  backgroundColor: Colors.grey.shade300,
+                ),
+              ),
+              const SizedBox(height: 20),
+
+              Expanded(
+                child: FlipCard(
+                  key: cardKey,
+                  flipOnTouch: false,
+                  direction: FlipDirection.HORIZONTAL,
+                  speed: 500,
+                  front: Container(
+                    decoration: BoxDecoration(
+                      color: Colors.white,
+                      borderRadius: BorderRadius.circular(24),
+                      boxShadow: [
+                        BoxShadow(
+                          color: Colors.black.withOpacity(0.05),
+                          blurRadius: 20,
+                          offset: const Offset(0, 5),
                         ),
-                        ...List.generate(4, (index) => Padding(
-                          padding: const EdgeInsets.only(bottom: 10),
-                          child: ElevatedButton(
-                            style: ElevatedButton.styleFrom(
-                              backgroundColor: Colors.white,
-                              foregroundColor: Colors.black87,
-                              elevation: 2,
-                              minimumSize: const Size(double.infinity, 50),
-                              alignment: Alignment.centerLeft,
-                              shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10), side: BorderSide(color: Colors.indigo)),
-                            ),
-                            onPressed: () {
-                              controller.checkAnswer(index);
-                              cardKey.currentState?.toggleCard();
-                            },
-                            child: Text("${String.fromCharCode(65 + index)}) ${currentQuestion.options[index]}"),
-                          ),
-                        )),
                       ],
                     ),
+                    child: Padding(
+                      padding: const EdgeInsets.all(24.0),
+                      child: Column(
+                        children: [
+                          Expanded(
+                            flex: 2,
+                            child: Center(
+                              child: Text(
+                                currentQuestion.questionText,
+                                textAlign: TextAlign.center,
+                                style: const TextStyle(
+                                  fontSize: 22,
+                                  fontWeight: FontWeight.w800,
+                                  color: Color(0xFF2C3E50),
+                                  height: 1.3,
+                                ),
+                              ),
+                            ),
+                          ),
+                          const SizedBox(height: 20),
+                          Expanded(
+                            flex: 3,
+                            child: Column(
+                              mainAxisAlignment: MainAxisAlignment.end,
+                              children: List.generate(currentQuestion.options.length, (index) {
+                                return Padding(
+                                  padding: const EdgeInsets.only(bottom: 12.0),
+                                  child: Material(
+                                    color: Colors.transparent,
+                                    child: InkWell(
+                                      onTap: () {
+                                        controller.checkAnswer(index);
+                                        cardKey.currentState?.toggleCard();
+                                      },
+                                      borderRadius: BorderRadius.circular(16),
+                                      child: Container(
+                                        width: double.infinity,
+                                        padding: const EdgeInsets.symmetric(vertical: 16, horizontal: 20),
+                                        decoration: BoxDecoration(
+                                          color: Colors.white,
+                                          borderRadius: BorderRadius.circular(16),
+                                          border: Border.all(color: Colors.grey.shade300, width: 1.5),
+                                          boxShadow: [
+                                            BoxShadow(
+                                              color: Colors.black.withOpacity(0.02),
+                                              blurRadius: 5,
+                                              offset: const Offset(0, 2),
+                                            ),
+                                          ],
+                                        ),
+                                        child: Text(
+                                          currentQuestion.options[index],
+                                          style: TextStyle(
+                                            fontSize: 16,
+                                            fontWeight: FontWeight.w600,
+                                            color: Colors.grey.shade800,
+                                          ),
+                                        ),
+                                      ),
+                                    ),
+                                  ),
+                                );
+                              }),
+                            ),
+                          ),
+                        ],
+                      ),
+                    ),
                   ),
-                ),
-                back: Card(
-                  color: controller.isLastAnswerCorrect ? Colors.green.shade50 : Colors.red.shade50,
-                  elevation: 8,
-                  child: Padding(
-                    padding: const EdgeInsets.all(20.0),
-                    child: Column(
-                      mainAxisAlignment: MainAxisAlignment.center,
-                      children: [
-                        Text(
-                          controller.isLastAnswerCorrect ? "TEBRİKLER DOĞRU!" : "MAALESEF YANLIŞ",
-                          style: TextStyle(
-                            fontSize: 24, 
-                            fontWeight: FontWeight.bold, 
-                            color: controller.isLastAnswerCorrect ? Colors.green : Colors.red
-                          ),
+                  
+                  back: Container(
+                    decoration: BoxDecoration(
+                      color: controller.isLastAnswerCorrect ? const Color(0xFFE8F5E9) : const Color(0xFFFFEBEE),
+                      borderRadius: BorderRadius.circular(24),
+                      boxShadow: [
+                        BoxShadow(
+                          color: Colors.black.withOpacity(0.05),
+                          blurRadius: 20,
+                          offset: const Offset(0, 5),
                         ),
-                        const SizedBox(height: 30),
-                        const Text("Doğru Cevap:", style: TextStyle(fontWeight: FontWeight.bold)),
-                        const SizedBox(height: 10),
-                        Container(
-                          padding: const EdgeInsets.all(15),
-                          decoration: BoxDecoration(color: Colors.indigo, borderRadius: BorderRadius.circular(10)),
-                          child: Text(
-                            currentQuestion.options[currentQuestion.correctIndex],
-                            style: const TextStyle(color: Colors.white, fontSize: 20, fontWeight: FontWeight.bold),
-                            textAlign: TextAlign.center,
-                          ),
-                        ),
-                        const SizedBox(height: 20),
-                        Text(currentQuestion.explanation, textAlign: TextAlign.center, style: const TextStyle(fontSize: 16)),
-                        const Spacer(),
-                        ElevatedButton(
-                          style: ElevatedButton.styleFrom(
-                            backgroundColor: Colors.redAccent, 
-                            foregroundColor: Colors.white, 
-                            minimumSize: const Size(double.infinity, 50)
-                          ),
-                          onPressed: () {
-                            if (controller.currentIndex < 9) {
-                              cardKey.currentState?.toggleCard();
-                              Future.delayed(const Duration(milliseconds: 200), () {
-                                controller.nextQuestion();
-                              });
-                            } else {
-                              Navigator.pushReplacement(context, MaterialPageRoute(builder: (_) => const ResultScreen()));
-                            }
-                          },
-                          child: const Text("Sonraki Soru"),
-                        )
                       ],
+                    ),
+                    child: Padding(
+                      padding: const EdgeInsets.all(24.0),
+                      child: Column(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          const Spacer(),
+                          Icon(
+                            controller.isLastAnswerCorrect ? Icons.check_circle_rounded : Icons.cancel_rounded,
+                            color: controller.isLastAnswerCorrect ? Colors.green : Colors.red,
+                            size: 80,
+                          ),
+                          const SizedBox(height: 20),
+                          Text(
+                            controller.isLastAnswerCorrect ? "TEBRİKLER DOĞRU!" : "MAALESEF YANLIŞ!",
+                            textAlign: TextAlign.center,
+                            style: TextStyle(
+                              fontSize: 24,
+                              fontWeight: FontWeight.w900,
+                              color: controller.isLastAnswerCorrect ? Colors.green.shade800 : Colors.red.shade800,
+                            ),
+                          ),
+                          const SizedBox(height: 30),
+                          
+                          const Text("DOĞRU CEVAP", style: TextStyle(color: Colors.grey, fontWeight: FontWeight.bold, letterSpacing: 1.2)),
+                          const SizedBox(height: 10),
+                          Container(
+                            width: double.infinity,
+                            padding: const EdgeInsets.all(16),
+                            decoration: BoxDecoration(
+                              color: const Color(0xFF3F51B5), // İndigo
+                              borderRadius: BorderRadius.circular(16),
+                              boxShadow: [
+                                BoxShadow(color: const Color(0xFF3F51B5).withOpacity(0.3), blurRadius: 10, offset: const Offset(0, 4))
+                              ]
+                            ),
+                            child: Text(
+                              currentQuestion.options[currentQuestion.correctIndex],
+                              textAlign: TextAlign.center,
+                              style: const TextStyle(
+                                color: Colors.white,
+                                fontSize: 18,
+                                fontWeight: FontWeight.bold,
+                              ),
+                            ),
+                          ),
+                          
+                          const SizedBox(height: 20),
+                          
+                          Expanded(
+                            flex: 2,
+                            child: SingleChildScrollView(
+                              child: Text(
+                                currentQuestion.explanation.isNotEmpty ? currentQuestion.explanation : "Açıklama bulunmuyor.",
+                                textAlign: TextAlign.center,
+                                style: TextStyle(
+                                  fontSize: 15,
+                                  color: Colors.grey.shade700,
+                                  height: 1.4
+                                ),
+                              ),
+                            ),
+                          ),
+                          
+                          const Spacer(),
+
+                          SizedBox(
+                            width: double.infinity,
+                            height: 56,
+                            child: ElevatedButton(
+                              style: ElevatedButton.styleFrom(
+                                backgroundColor: const Color(0xFFFF5252),
+                                foregroundColor: Colors.white,
+                                elevation: 4,
+                                shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
+                              ),
+                              onPressed: () {
+                                if (controller.currentIndex < controller.questions.length - 1) {
+                                  cardKey.currentState?.toggleCard();
+                                  Future.delayed(const Duration(milliseconds: 200), () {
+                                    controller.nextQuestion();
+                                  });
+                                } else {
+                                  Navigator.pushReplacement(context, MaterialPageRoute(builder: (_) => const ResultScreen()));
+                                }
+                              },
+                              child: Row(
+                                mainAxisAlignment: MainAxisAlignment.center,
+                                children: const [
+                                  Text("Sonraki Soru", style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold)),
+                                  SizedBox(width: 8),
+                                  Icon(Icons.arrow_forward_rounded)
+                                ],
+                              ),
+                            ),
+                          ),
+                        ],
+                      ),
                     ),
                   ),
                 ),
               ),
-            ),
-          ],
+            ],
+          ),
         ),
       ),
     );

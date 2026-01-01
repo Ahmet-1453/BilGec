@@ -10,10 +10,10 @@ dependencies:
   flutter:
     sdk: flutter
 
-  # Varsayilan ikonlar
+ 
   cupertino_icons: ^1.0.8
 
-  # Bizim eklediklerimiz
+  
   provider: ^6.1.2
   flip_card: ^0.7.0
   flutter_spinkit: ^5.2.1
