@@ -5,6 +5,7 @@ import 'state/quiz_controller.dart';
 import 'ui/screens/home_screen.dart';
 
 void main() {
+  WidgetsFlutterBinding.ensureInitialized();
   runApp(const BilGecApp());
 }
 
@@ -15,7 +16,9 @@ class BilGecApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MultiProvider(
       providers: [
-        ChangeNotifierProvider(create: (_) => QuizController()),
+        ChangeNotifierProvider(
+          create: (_) => QuizController()..initReadyQuestions(),
+        ),
       ],
       child: MaterialApp(
         title: 'BilGeç MVP',

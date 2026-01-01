@@ -1,0 +1,6568 @@
+{
+  "version": "bilgec-quizbank-50x10-v2",
+  "generatedAt": "2026-01-01T17:00:00+03:00",
+  "categories": [
+    {
+      "id": "cografya",
+      "name": "Coğrafya",
+      "color": "0xFF1976D2",
+      "icon": "public"
+    },
+    {
+      "id": "tarih",
+      "name": "Tarih",
+      "color": "0xFF6D4C41",
+      "icon": "history_edu"
+    },
+    {
+      "id": "bilim_teknoloji",
+      "name": "Bilim & Teknoloji",
+      "color": "0xFF2E7D32",
+      "icon": "science"
+    },
+    {
+      "id": "edebiyat",
+      "name": "Edebiyat",
+      "color": "0xFF512DA8",
+      "icon": "menu_book"
+    },
+    {
+      "id": "sanat",
+      "name": "Sanat",
+      "color": "0xFFE91E63",
+      "icon": "palette"
+    },
+    {
+      "id": "muzik",
+      "name": "Müzik",
+      "color": "0xFF7B1FA2",
+      "icon": "music_note"
+    },
+    {
+      "id": "film_dizi",
+      "name": "Film & Dizi",
+      "color": "0xFF00897B",
+      "icon": "movie"
+    },
+    {
+      "id": "spor",
+      "name": "Spor",
+      "color": "0xFFD32F2F",
+      "icon": "sports_soccer"
+    },
+    {
+      "id": "pop_kultur",
+      "name": "Pop Kültür",
+      "color": "0xFFF57C00",
+      "icon": "emoji_objects"
+    },
+    {
+      "id": "genel_kultur",
+      "name": "Genel Kültür",
+      "color": "0xFF607D8B",
+      "icon": "psychology"
+    }
+  ],
+  "questions": [
+    {
+      "id": "cografya_001",
+      "categoryId": "cografya",
+      "questionText": "Türkiye'nin başkenti neresidir?",
+      "options": [
+        "Ankara",
+        "İstanbul",
+        "İzmir",
+        "Bursa"
+      ],
+      "correctIndex": 0,
+      "explanation": "Türkiye'nin başkenti Ankara'dır."
+    },
+    {
+      "id": "cografya_002",
+      "categoryId": "cografya",
+      "questionText": "Dünyanın en uzun nehri hangisidir? (Yaygın kabul)",
+      "options": [
+        "Nil",
+        "Amazon",
+        "Yangtze",
+        "Mississippi"
+      ],
+      "correctIndex": 0,
+      "explanation": "Yaygın kabule göre en uzun nehir Nil'dir."
+    },
+    {
+      "id": "cografya_003",
+      "categoryId": "cografya",
+      "questionText": "Dünyanın en büyük okyanusu hangisidir?",
+      "options": [
+        "Pasifik",
+        "Atlas",
+        "Hint",
+        "Arktik"
+      ],
+      "correctIndex": 0,
+      "explanation": "Yüzölçümü en büyük okyanus Pasifik Okyanusu'dur."
+    },
+    {
+      "id": "cografya_004",
+      "categoryId": "cografya",
+      "questionText": "Ekvator çizgisi Dünya'yı hangi iki yarımküreye ayırır?",
+      "options": [
+        "Kuzey-Güney",
+        "Doğu-Batı",
+        "Batı-Kuzey",
+        "Güney-Doğu"
+      ],
+      "correctIndex": 0,
+      "explanation": "Ekvator, Kuzey ve Güney Yarımküre'yi ayırır."
+    },
+    {
+      "id": "cografya_005",
+      "categoryId": "cografya",
+      "questionText": "Türkiye'nin en yüksek dağı hangisidir?",
+      "options": [
+        "Ağrı Dağı",
+        "Erciyes",
+        "Kaçkar",
+        "Uludağ"
+      ],
+      "correctIndex": 0,
+      "explanation": "Türkiye'nin en yüksek noktası Ağrı Dağı'dır (5137 m)."
+    },
+    {
+      "id": "cografya_006",
+      "categoryId": "cografya",
+      "questionText": "Hangi deniz Türkiye'nin güneyinde yer alır?",
+      "options": [
+        "Akdeniz",
+        "Karadeniz",
+        "Ege Denizi",
+        "Marmara Denizi"
+      ],
+      "correctIndex": 0,
+      "explanation": "Türkiye'nin güneyinde Akdeniz bulunur."
+    },
+    {
+      "id": "cografya_007",
+      "categoryId": "cografya",
+      "questionText": "Avrupa Birliği'nin merkezi olarak bilinen şehir hangisidir?",
+      "options": [
+        "Brüksel",
+        "Paris",
+        "Berlin",
+        "Roma"
+      ],
+      "correctIndex": 0,
+      "explanation": "AB kurumlarının önemli kısmı Brüksel'dedir."
+    },
+    {
+      "id": "cografya_008",
+      "categoryId": "cografya",
+      "questionText": "Avustralya hangi okyanus ile çevrilidir? (En belirgin)",
+      "options": [
+        "Hint ve Pasifik",
+        "Atlas ve Pasifik",
+        "Arktik ve Atlas",
+        "Sadece Atlas"
+      ],
+      "correctIndex": 0,
+      "explanation": "Avustralya; Hint ve Pasifik Okyanusları arasında yer alır."
+    },
+    {
+      "id": "cografya_009",
+      "categoryId": "cografya",
+      "questionText": "İstanbul Boğazı hangi iki denizi birbirine bağlar?",
+      "options": [
+        "Karadeniz-Marmara",
+        "Ege-Akdeniz",
+        "Marmara-Ege",
+        "Karadeniz-Ege"
+      ],
+      "correctIndex": 0,
+      "explanation": "İstanbul Boğazı Karadeniz ile Marmara Denizi'ni bağlar."
+    },
+    {
+      "id": "cografya_010",
+      "categoryId": "cografya",
+      "questionText": "Dünyanın en büyük çölü hangisidir?",
+      "options": [
+        "Sahra",
+        "Gobi",
+        "Kalahari",
+        "Atacama"
+      ],
+      "correctIndex": 0,
+      "explanation": "En büyük sıcak çöl Sahra Çölü'dür."
+    },
+    {
+      "id": "cografya_011",
+      "categoryId": "cografya",
+      "questionText": "Türkiye kaç coğrafi bölgeden oluşur?",
+      "options": [
+        "7",
+        "5",
+        "6",
+        "8"
+      ],
+      "correctIndex": 0,
+      "explanation": "Türkiye 7 coğrafi bölgeden oluşur."
+    },
+    {
+      "id": "cografya_012",
+      "categoryId": "cografya",
+      "questionText": "Hangi ülke iki kıtada toprağa sahiptir?",
+      "options": [
+        "Rusya",
+        "Japonya",
+        "İsveç",
+        "Portekiz"
+      ],
+      "correctIndex": 0,
+      "explanation": "Rusya Avrupa ve Asya'da topraklara sahiptir."
+    },
+    {
+      "id": "cografya_013",
+      "categoryId": "cografya",
+      "questionText": "Akdeniz'e kıyısı olmayan ülke hangisidir?",
+      "options": [
+        "Almanya",
+        "İspanya",
+        "İtalya",
+        "Türkiye"
+      ],
+      "correctIndex": 0,
+      "explanation": "Almanya'nın Akdeniz'e kıyısı yoktur."
+    },
+    {
+      "id": "cografya_014",
+      "categoryId": "cografya",
+      "questionText": "Türkiye'nin en büyük gölü hangisidir?",
+      "options": [
+        "Van Gölü",
+        "Tuz Gölü",
+        "Beyşehir Gölü",
+        "Eğirdir Gölü"
+      ],
+      "correctIndex": 0,
+      "explanation": "Yüzölçümü en büyük göl Van Gölü'dür."
+    },
+    {
+      "id": "cografya_015",
+      "categoryId": "cografya",
+      "questionText": "Kuzey Kutbu hangi okyanusta yer alır?",
+      "options": [
+        "Arktik Okyanusu",
+        "Atlas Okyanusu",
+        "Hint Okyanusu",
+        "Pasifik Okyanusu"
+      ],
+      "correctIndex": 0,
+      "explanation": "Kuzey Kutbu Arktik Okyanusu üzerindedir."
+    },
+    {
+      "id": "cografya_016",
+      "categoryId": "cografya",
+      "questionText": "Güney Amerika'nın en uzun sıradağları hangisidir?",
+      "options": [
+        "And Dağları",
+        "Alpler",
+        "Himalayalar",
+        "Kayalık Dağları"
+      ],
+      "correctIndex": 0,
+      "explanation": "Güney Amerika boyunca uzanan And Dağları'dır."
+    },
+    {
+      "id": "cografya_017",
+      "categoryId": "cografya",
+      "questionText": "Haritada yükseltiyi gösteren çizgilere ne ad verilir?",
+      "options": [
+        "İzohips (eş yükselti)",
+        "İzoterm",
+        "İzobar",
+        "Meridyen"
+      ],
+      "correctIndex": 0,
+      "explanation": "İzohips eğrileri yükseltiyi gösterir."
+    },
+    {
+      "id": "cografya_018",
+      "categoryId": "cografya",
+      "questionText": "Fransa'nın başkenti neresidir?",
+      "options": [
+        "Paris",
+        "Lyon",
+        "Marsilya",
+        "Nice"
+      ],
+      "correctIndex": 0,
+      "explanation": "Fransa'nın başkenti Paris'tir."
+    },
+    {
+      "id": "cografya_019",
+      "categoryId": "cografya",
+      "questionText": "Japonya'nın başkenti neresidir?",
+      "options": [
+        "Tokyo",
+        "Osaka",
+        "Kyoto",
+        "Nagoya"
+      ],
+      "correctIndex": 0,
+      "explanation": "Japonya'nın başkenti Tokyo'dur."
+    },
+    {
+      "id": "cografya_020",
+      "categoryId": "cografya",
+      "questionText": "Brezilya'nın başkenti neresidir?",
+      "options": [
+        "Brasília",
+        "Rio de Janeiro",
+        "São Paulo",
+        "Salvador"
+      ],
+      "correctIndex": 0,
+      "explanation": "Brezilya'nın başkenti Brasília'dır."
+    },
+    {
+      "id": "cografya_021",
+      "categoryId": "cografya",
+      "questionText": "Kanada'nın başkenti neresidir?",
+      "options": [
+        "Ottawa",
+        "Toronto",
+        "Vancouver",
+        "Montreal"
+      ],
+      "correctIndex": 0,
+      "explanation": "Kanada'nın başkenti Ottawa'dır."
+    },
+    {
+      "id": "cografya_022",
+      "categoryId": "cografya",
+      "questionText": "Mısır'ın başkenti neresidir?",
+      "options": [
+        "Kahire",
+        "İskenderiye",
+        "Gize",
+        "Luksor"
+      ],
+      "correctIndex": 0,
+      "explanation": "Mısır'ın başkenti Kahire'dir."
+    },
+    {
+      "id": "cografya_023",
+      "categoryId": "cografya",
+      "questionText": "İtalya'nın başkenti neresidir?",
+      "options": [
+        "Roma",
+        "Milano",
+        "Venedik",
+        "Floransa"
+      ],
+      "correctIndex": 0,
+      "explanation": "İtalya'nın başkenti Roma'dır."
+    },
+    {
+      "id": "cografya_024",
+      "categoryId": "cografya",
+      "questionText": "İspanya'nın başkenti neresidir?",
+      "options": [
+        "Madrid",
+        "Barselona",
+        "Valensiya",
+        "Sevilla"
+      ],
+      "correctIndex": 0,
+      "explanation": "İspanya'nın başkenti Madrid'dir."
+    },
+    {
+      "id": "cografya_025",
+      "categoryId": "cografya",
+      "questionText": "Birleşik Krallık'ın başkenti neresidir?",
+      "options": [
+        "Londra",
+        "Manchester",
+        "Edinburgh",
+        "Birmingham"
+      ],
+      "correctIndex": 0,
+      "explanation": "Birleşik Krallık'ın başkenti Londra'dır."
+    },
+    {
+      "id": "cografya_026",
+      "categoryId": "cografya",
+      "questionText": "Çin'in başkenti neresidir?",
+      "options": [
+        "Pekin",
+        "Şanghay",
+        "Guangzhou",
+        "Shenzhen"
+      ],
+      "correctIndex": 0,
+      "explanation": "Çin'in başkenti Pekin'dir."
+    },
+    {
+      "id": "cografya_027",
+      "categoryId": "cografya",
+      "questionText": "Hindistan'ın başkenti neresidir?",
+      "options": [
+        "Yeni Delhi",
+        "Mumbai",
+        "Kalküta",
+        "Bangalore"
+      ],
+      "correctIndex": 0,
+      "explanation": "Hindistan'ın başkenti Yeni Delhi'dir."
+    },
+    {
+      "id": "cografya_028",
+      "categoryId": "cografya",
+      "questionText": "Rusya'nın başkenti neresidir?",
+      "options": [
+        "Moskova",
+        "St. Petersburg",
+        "Kazan",
+        "Soçi"
+      ],
+      "correctIndex": 0,
+      "explanation": "Rusya'nın başkenti Moskova'dır."
+    },
+    {
+      "id": "cografya_029",
+      "categoryId": "cografya",
+      "questionText": "ABD'nin başkenti neresidir?",
+      "options": [
+        "Washington, D.C.",
+        "New York",
+        "Los Angeles",
+        "Chicago"
+      ],
+      "correctIndex": 0,
+      "explanation": "ABD'nin başkenti Washington, D.C.'dir."
+    },
+    {
+      "id": "cografya_030",
+      "categoryId": "cografya",
+      "questionText": "Türkiye'nin en kalabalık şehri hangisidir?",
+      "options": [
+        "İstanbul",
+        "Ankara",
+        "İzmir",
+        "Bursa"
+      ],
+      "correctIndex": 0,
+      "explanation": "Türkiye'nin en kalabalık şehri İstanbul'dur."
+    },
+    {
+      "id": "cografya_031",
+      "categoryId": "cografya",
+      "questionText": "Rüzgârın oluşmasının temel nedeni nedir?",
+      "options": [
+        "Basınç farkı",
+        "Nem artışı",
+        "Yer çekimi",
+        "Güneş tutulması"
+      ],
+      "correctIndex": 0,
+      "explanation": "Rüzgâr, basınç farkından dolayı oluşur."
+    },
+    {
+      "id": "cografya_032",
+      "categoryId": "cografya",
+      "questionText": "Dünya'nın kendi ekseni etrafındaki dönüşü yaklaşık ne kadar sürer?",
+      "options": [
+        "24 saat",
+        "12 saat",
+        "36 saat",
+        "48 saat"
+      ],
+      "correctIndex": 0,
+      "explanation": "Dünya kendi ekseni etrafında yaklaşık 24 saatte döner."
+    },
+    {
+      "id": "cografya_033",
+      "categoryId": "cografya",
+      "questionText": "Türkiye'nin en uzun nehri hangisidir?",
+      "options": [
+        "Kızılırmak",
+        "Fırat",
+        "Dicle",
+        "Sakarya"
+      ],
+      "correctIndex": 0,
+      "explanation": "Türkiye sınırları içindeki en uzun nehir Kızılırmak'tır."
+    },
+    {
+      "id": "cografya_034",
+      "categoryId": "cografya",
+      "questionText": "Afrika kıtasının en yüksek dağı hangisidir?",
+      "options": [
+        "Kilimanjaro",
+        "Everest",
+        "Elbruz",
+        "Ağrı"
+      ],
+      "correctIndex": 0,
+      "explanation": "Afrika'nın en yüksek noktası Kilimanjaro'dur."
+    },
+    {
+      "id": "cografya_035",
+      "categoryId": "cografya",
+      "questionText": "Hangi iklim tipinde yazlar sıcak ve kurak, kışlar ılık ve yağışlıdır?",
+      "options": [
+        "Akdeniz iklimi",
+        "Karasal iklim",
+        "Muson iklimi",
+        "Tundra iklimi"
+      ],
+      "correctIndex": 0,
+      "explanation": "Akdeniz ikliminin temel özelliği yazın kurak, kışın yağışlı olmasıdır."
+    },
+    {
+      "id": "cografya_036",
+      "categoryId": "cografya",
+      "questionText": "Dünyanın en yüksek dağı hangisidir?",
+      "options": [
+        "Everest",
+        "K2",
+        "Kangchenjunga",
+        "Lhotse"
+      ],
+      "correctIndex": 0,
+      "explanation": "Dünyanın en yüksek dağı Everest'tir."
+    },
+    {
+      "id": "cografya_037",
+      "categoryId": "cografya",
+      "questionText": "Aşağıdakilerden hangisi bir kıta değildir?",
+      "options": [
+        "Grönland",
+        "Afrika",
+        "Avrupa",
+        "Antarktika"
+      ],
+      "correctIndex": 0,
+      "explanation": "Grönland bir adadır, kıta değildir."
+    },
+    {
+      "id": "cografya_038",
+      "categoryId": "cografya",
+      "questionText": "Sıcaklık aynı anda hangi enlemde daha yüksektir? (Genel)",
+      "options": [
+        "Ekvator çevresi",
+        "Kutuplar",
+        "60° enlemleri",
+        "45° enlemleri"
+      ],
+      "correctIndex": 0,
+      "explanation": "Güneş ışınları ekvatora daha dik geldiği için sıcaklık daha yüksektir."
+    },
+    {
+      "id": "cografya_039",
+      "categoryId": "cografya",
+      "questionText": "Türkiye'nin en büyük adası hangisidir?",
+      "options": [
+        "Gökçeada",
+        "Bozcaada",
+        "Büyükada",
+        "Avşa"
+      ],
+      "correctIndex": 0,
+      "explanation": "Türkiye'nin en büyük adası Gökçeada'dır."
+    },
+    {
+      "id": "cografya_040",
+      "categoryId": "cografya",
+      "questionText": "Kutup kuşağında görülen doğal bitki örtüsü hangisidir?",
+      "options": [
+        "Tundra",
+        "Maki",
+        "Savan",
+        "Step"
+      ],
+      "correctIndex": 0,
+      "explanation": "Kutup kuşağında tundra bitki örtüsü yaygındır."
+    },
+    {
+      "id": "cografya_041",
+      "categoryId": "cografya",
+      "questionText": "Türkiye'nin 'Göller Yöresi' en çok hangi bölgemizdedir?",
+      "options": [
+        "Akdeniz",
+        "Karadeniz",
+        "Marmara",
+        "Doğu Anadolu"
+      ],
+      "correctIndex": 0,
+      "explanation": "Göller Yöresi ağırlıklı olarak Akdeniz Bölgesi'ndedir."
+    },
+    {
+      "id": "cografya_042",
+      "categoryId": "cografya",
+      "questionText": "Aşağıdakilerden hangisi bir boğaz değildir?",
+      "options": [
+        "Panama",
+        "Bering",
+        "İstanbul",
+        "Cebelitarık"
+      ],
+      "correctIndex": 0,
+      "explanation": "Panama bir kanaldır; boğaz değildir."
+    },
+    {
+      "id": "cografya_043",
+      "categoryId": "cografya",
+      "questionText": "Dünya'da zaman farkının temel nedeni nedir?",
+      "options": [
+        "Meridyen farkı",
+        "Eksen eğikliği",
+        "Okyanus akıntıları",
+        "Rüzgârlar"
+      ],
+      "correctIndex": 0,
+      "explanation": "Zaman farkı meridyen farkından kaynaklanır."
+    },
+    {
+      "id": "cografya_044",
+      "categoryId": "cografya",
+      "questionText": "Türkiye'de 'sert karasal iklim' en çok hangi bölgede görülür?",
+      "options": [
+        "Doğu Anadolu",
+        "Ege",
+        "Akdeniz",
+        "Marmara"
+      ],
+      "correctIndex": 0,
+      "explanation": "Yüksekliğin fazla olması nedeniyle Doğu Anadolu'da sert karasal iklim görülür."
+    },
+    {
+      "id": "cografya_045",
+      "categoryId": "cografya",
+      "questionText": "Aşağıdakilerden hangisi bir yarımada örneğidir?",
+      "options": [
+        "Anadolu",
+        "Sibirya",
+        "Sahra",
+        "Amazon"
+      ],
+      "correctIndex": 0,
+      "explanation": "Anadolu büyük bir yarımadadır."
+    },
+    {
+      "id": "cografya_046",
+      "categoryId": "cografya",
+      "questionText": "Erozyon en çok hangi etkenle hızlanır?",
+      "options": [
+        "Bitki örtüsünün tahribi",
+        "Yağmurun azalması",
+        "Deniz seviyesinin yükselmesi",
+        "Depremler"
+      ],
+      "correctIndex": 0,
+      "explanation": "Bitki örtüsü yok olunca toprak daha kolay taşınır."
+    },
+    {
+      "id": "cografya_047",
+      "categoryId": "cografya",
+      "questionText": "Türkiye'de kış turizmi denince öne çıkan illerden biri hangisidir?",
+      "options": [
+        "Erzurum",
+        "Antalya",
+        "Mersin",
+        "Muğla"
+      ],
+      "correctIndex": 0,
+      "explanation": "Palandöken gibi merkezlerle Erzurum kış turizminde öne çıkar."
+    },
+    {
+      "id": "cografya_048",
+      "categoryId": "cografya",
+      "questionText": "Doğu-Batı doğrultusunda uzanan çizgilere ne ad verilir?",
+      "options": [
+        "Paralel",
+        "Meridyen",
+        "İzohips",
+        "Ekvator"
+      ],
+      "correctIndex": 0,
+      "explanation": "Paraleller doğu-batı doğrultusunda uzanır."
+    },
+    {
+      "id": "cografya_049",
+      "categoryId": "cografya",
+      "questionText": "Kuzey-Güney doğrultusunda uzanan çizgilere ne ad verilir?",
+      "options": [
+        "Meridyen",
+        "Paralel",
+        "İzobar",
+        "İzoterm"
+      ],
+      "correctIndex": 0,
+      "explanation": "Meridyenler kuzey-güney doğrultusunda uzanır."
+    },
+    {
+      "id": "cografya_050",
+      "categoryId": "cografya",
+      "questionText": "İklim ile hava durumu arasındaki temel fark nedir?",
+      "options": [
+        "İklim uzun yılların ortalamasıdır",
+        "İklim günlük değişir",
+        "Hava durumu yıllarca sürer",
+        "İkisi aynıdır"
+      ],
+      "correctIndex": 0,
+      "explanation": "İklim, uzun yıllar boyunca gözlenen ortalama koşulları ifade eder."
+    },
+    {
+      "id": "tarih_001",
+      "categoryId": "tarih",
+      "questionText": "İstanbul kaç yılında fethedildi?",
+      "options": [
+        "1839",
+        "1989",
+        "1453",
+        "1918"
+      ],
+      "correctIndex": 2,
+      "explanation": "İstanbul 1453'te fethedildi."
+    },
+    {
+      "id": "tarih_002",
+      "categoryId": "tarih",
+      "questionText": "Malazgirt Meydan Muharebesi hangi yılda yapıldı?",
+      "options": [
+        "1974",
+        "1071",
+        "1776",
+        "1945"
+      ],
+      "correctIndex": 1,
+      "explanation": "Malazgirt 1071'de gerçekleşti."
+    },
+    {
+      "id": "tarih_003",
+      "categoryId": "tarih",
+      "questionText": "Türkiye Cumhuriyeti hangi yıl ilan edildi?",
+      "options": [
+        "1299",
+        "1923",
+        "476",
+        "1402"
+      ],
+      "correctIndex": 1,
+      "explanation": "Cumhuriyet 29 Ekim 1923'te ilan edildi."
+    },
+    {
+      "id": "tarih_004",
+      "categoryId": "tarih",
+      "questionText": "TBMM hangi yıl açıldı?",
+      "options": [
+        "1945",
+        "1920",
+        "1869",
+        "1991"
+      ],
+      "correctIndex": 1,
+      "explanation": "TBMM 23 Nisan 1920'de açıldı."
+    },
+    {
+      "id": "tarih_005",
+      "categoryId": "tarih",
+      "questionText": "I. Dünya Savaşı hangi yıl başladı?",
+      "options": [
+        "1914",
+        "1945",
+        "1908",
+        "1839"
+      ],
+      "correctIndex": 0,
+      "explanation": "I. Dünya Savaşı 1914'te başladı."
+    },
+    {
+      "id": "tarih_006",
+      "categoryId": "tarih",
+      "questionText": "I. Dünya Savaşı hangi yıl bitti?",
+      "options": [
+        "1923",
+        "1776",
+        "1989",
+        "1918"
+      ],
+      "correctIndex": 3,
+      "explanation": "I. Dünya Savaşı 1918'de bitti."
+    },
+    {
+      "id": "tarih_007",
+      "categoryId": "tarih",
+      "questionText": "II. Dünya Savaşı hangi yıl başladı?",
+      "options": [
+        "1789",
+        "1939",
+        "1952",
+        "1924"
+      ],
+      "correctIndex": 1,
+      "explanation": "II. Dünya Savaşı 1939'da başladı."
+    },
+    {
+      "id": "tarih_008",
+      "categoryId": "tarih",
+      "questionText": "II. Dünya Savaşı hangi yıl bitti?",
+      "options": [
+        "1945",
+        "1920",
+        "1918",
+        "1922"
+      ],
+      "correctIndex": 0,
+      "explanation": "II. Dünya Savaşı 1945'te bitti."
+    },
+    {
+      "id": "tarih_009",
+      "categoryId": "tarih",
+      "questionText": "Fransız Devrimi hangi yıl başladı?",
+      "options": [
+        "1952",
+        "1920",
+        "1789",
+        "1924"
+      ],
+      "correctIndex": 2,
+      "explanation": "Fransız Devrimi 1789'da başladı."
+    },
+    {
+      "id": "tarih_010",
+      "categoryId": "tarih",
+      "questionText": "ABD Bağımsızlık Bildirgesi hangi yıl yayımlandı?",
+      "options": [
+        "1776",
+        "1991",
+        "1453",
+        "1402"
+      ],
+      "correctIndex": 0,
+      "explanation": "ABD bağımsızlığını 1776'da ilan etti."
+    },
+    {
+      "id": "tarih_011",
+      "categoryId": "tarih",
+      "questionText": "Rönesans hareketi ilk olarak hangi ülkede doğdu?",
+      "options": [
+        "Fransa",
+        "Birleşik Krallık",
+        "İtalya",
+        "Yunanistan"
+      ],
+      "correctIndex": 2,
+      "explanation": "Rönesans İtalya'da doğdu."
+    },
+    {
+      "id": "tarih_012",
+      "categoryId": "tarih",
+      "questionText": "Sanayi Devrimi ilk olarak hangi ülkede başladı?",
+      "options": [
+        "İngiltere",
+        "Birleşik Krallık",
+        "Fransa",
+        "Yunanistan"
+      ],
+      "correctIndex": 1,
+      "explanation": "Sanayi Devrimi İngiltere'de başladı."
+    },
+    {
+      "id": "tarih_013",
+      "categoryId": "tarih",
+      "questionText": "Lozan Barış Antlaşması hangi yıl imzalandı?",
+      "options": [
+        "1908",
+        "1839",
+        "1923",
+        "1071"
+      ],
+      "correctIndex": 2,
+      "explanation": "Lozan 1923'te imzalandı."
+    },
+    {
+      "id": "tarih_014",
+      "categoryId": "tarih",
+      "questionText": "Berlin Duvarı hangi yıl yıkıldı?",
+      "options": [
+        "1856",
+        "1931",
+        "1920",
+        "1989"
+      ],
+      "correctIndex": 3,
+      "explanation": "Berlin Duvarı 1989'da yıkıldı."
+    },
+    {
+      "id": "tarih_015",
+      "categoryId": "tarih",
+      "questionText": "Sovyetler Birliği hangi yıl dağıldı?",
+      "options": [
+        "1839",
+        "1856",
+        "1876",
+        "1908"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tanzimat Fermanı 1839 yılında ilan edilmiştir."
+    },
+    {
+      "id": "tarih_016",
+      "categoryId": "tarih",
+      "questionText": "Birleşmiş Milletler hangi yıl kuruldu?",
+      "options": [
+        "1952",
+        "1945",
+        "1908",
+        "1920"
+      ],
+      "correctIndex": 1,
+      "explanation": "BM 1945'te kuruldu."
+    },
+    {
+      "id": "tarih_017",
+      "categoryId": "tarih",
+      "questionText": "Türkiye NATO'ya hangi yıl katıldı?",
+      "options": [
+        "1908",
+        "1789",
+        "1952",
+        "1402"
+      ],
+      "correctIndex": 2,
+      "explanation": "Türkiye 1952'de NATO'ya katıldı."
+    },
+    {
+      "id": "tarih_018",
+      "categoryId": "tarih",
+      "questionText": "İlk insanlı Ay inişi (Apollo 11) hangi yıl yapıldı?",
+      "options": [
+        "1920",
+        "1931",
+        "1453",
+        "1969"
+      ],
+      "correctIndex": 3,
+      "explanation": "Apollo 11, 1969'da Ay'a indi."
+    },
+    {
+      "id": "tarih_019",
+      "categoryId": "tarih",
+      "questionText": "Tanzimat Fermanı hangi yıl ilan edildi?",
+      "options": [
+        "1989",
+        "1990",
+        "1991",
+        "1993"
+      ],
+      "correctIndex": 2,
+      "explanation": "Sovyetler Birliği resmî olarak 1991 yılında dağıldı."
+    },
+    {
+      "id": "tarih_020",
+      "categoryId": "tarih",
+      "questionText": "Islahat Fermanı hangi yıl ilan edildi?",
+      "options": [
+        "1856",
+        "1939",
+        "1299",
+        "1974"
+      ],
+      "correctIndex": 0,
+      "explanation": "Islahat 1856'da ilan edildi."
+    },
+    {
+      "id": "tarih_021",
+      "categoryId": "tarih",
+      "questionText": "Çanakkale Savaşı'nın en yoğun yılı hangisidir?",
+      "options": [
+        "1914",
+        "1915",
+        "1916",
+        "1917"
+      ],
+      "correctIndex": 1,
+      "explanation": "Çanakkale Muharebeleri'nin en yoğun yılı 1915'tir."
+    },
+    {
+      "id": "tarih_022",
+      "categoryId": "tarih",
+      "questionText": "Batı Roma İmparatorluğu'nun yıkılışı hangi yıla tarihlenir?",
+      "options": [
+        "1299",
+        "1856",
+        "476",
+        "1989"
+      ],
+      "correctIndex": 2,
+      "explanation": "Batı Roma 476'da yıkıldı."
+    },
+    {
+      "id": "tarih_023",
+      "categoryId": "tarih",
+      "questionText": "Matbaayı Avrupa'da yaygınlaştıran kişi kimdir?",
+      "options": [
+        "Johannes Gutenberg",
+        "Leonardo da Vinci",
+        "Galileo Galilei",
+        "Martin Luther"
+      ],
+      "correctIndex": 0,
+      "explanation": "Matbaanın Avrupa'da yaygınlaşmasında Johannes Gutenberg'in geliştirdiği baskı tekniği etkili olmuştur."
+    },
+    {
+      "id": "tarih_024",
+      "categoryId": "tarih",
+      "questionText": "Amerika'ya 1492'de ulaşan kaşif kimdir?",
+      "options": [
+        "Kristof Kolomb",
+        "Vasco da Gama",
+        "Ferdinand Magellan",
+        "Amerigo Vespucci"
+      ],
+      "correctIndex": 0,
+      "explanation": "1492'de Amerika'ya ulaşan kaşif Kristof Kolomb'dur."
+    },
+    {
+      "id": "tarih_025",
+      "categoryId": "tarih",
+      "questionText": "Ayasofya ilk yapıldığında hangi amaçla inşa edildi?",
+      "options": [
+        "Kilise",
+        "Saray",
+        "Cami",
+        "Müze"
+      ],
+      "correctIndex": 0,
+      "explanation": "Ayasofya ilk yapıldığında bir kilise/katedral olarak inşa edilmiştir."
+    },
+    {
+      "id": "tarih_026",
+      "categoryId": "tarih",
+      "questionText": "Hicri takvim hangi olayı başlangıç alır?",
+      "options": [
+        "Ticaret",
+        "Dicle ve Fırat",
+        "Hicret",
+        "Pusula"
+      ],
+      "correctIndex": 2,
+      "explanation": "Hicri takvim hicreti başlangıç alır."
+    },
+    {
+      "id": "tarih_027",
+      "categoryId": "tarih",
+      "questionText": "İlk yazıyı geliştiren uygarlık hangisidir?",
+      "options": [
+        "Sümerler",
+        "Hititler",
+        "Mısırlılar",
+        "Fenikeliler"
+      ],
+      "correctIndex": 0,
+      "explanation": "Bilinen en eski yazı örnekleri Sümerlere (çivi yazısı) aittir."
+    },
+    {
+      "id": "tarih_028",
+      "categoryId": "tarih",
+      "questionText": "Mezopotamya hangi iki nehir arasında yer alır?",
+      "options": [
+        "Dicle ve Fırat",
+        "Hicret",
+        "Ticaret",
+        "Nil"
+      ],
+      "correctIndex": 0,
+      "explanation": "Mezopotamya Dicle-Fırat arasındadır."
+    },
+    {
+      "id": "tarih_029",
+      "categoryId": "tarih",
+      "questionText": "Antik Olimpiyatlar hangi ülkede doğdu?",
+      "options": [
+        "İtalya",
+        "Birleşik Krallık",
+        "Yunanistan",
+        "İngiltere"
+      ],
+      "correctIndex": 2,
+      "explanation": "Olimpiyatlar Antik Yunan'da başladı."
+    },
+    {
+      "id": "tarih_030",
+      "categoryId": "tarih",
+      "questionText": "Osmanlı Devleti'nin kuruluş yılı yaygın kabulüyle kaçtır?",
+      "options": [
+        "1299",
+        "1918",
+        "1991",
+        "476"
+      ],
+      "correctIndex": 0,
+      "explanation": "Osmanlı'nın kuruluşu genelde 1299 kabul edilir."
+    },
+    {
+      "id": "tarih_031",
+      "categoryId": "tarih",
+      "questionText": "İstanbul'un fethini gerçekleştiren padişah kimdir?",
+      "options": [
+        "Fatih Sultan Mehmet",
+        "Yavuz Sultan Selim",
+        "Kanuni Sultan Süleyman",
+        "II. Bayezid"
+      ],
+      "correctIndex": 0,
+      "explanation": "İstanbul'un fethini 1453'te Fatih Sultan Mehmet gerçekleştirmiştir."
+    },
+    {
+      "id": "tarih_032",
+      "categoryId": "tarih",
+      "questionText": "Kurtuluş Savaşı'nın başlangıcı sayılan tarih hangisidir?",
+      "options": [
+        "19 Mayıs 1919",
+        "23 Nisan 1920",
+        "30 Ağustos 1922",
+        "29 Ekim 1923"
+      ],
+      "correctIndex": 0,
+      "explanation": "Kurtuluş Savaşı'nın başlangıcı kabul edilen tarih 19 Mayıs 1919'dur (Samsun'a çıkış)."
+    },
+    {
+      "id": "tarih_033",
+      "categoryId": "tarih",
+      "questionText": "Magna Carta hangi ülkede imzalandı?",
+      "options": [
+        "1389",
+        "1402",
+        "1453",
+        "1473"
+      ],
+      "correctIndex": 1,
+      "explanation": "Ankara Savaşı 1402 yılında Yıldırım Bayezid ile Timur arasında yapıldı."
+    },
+    {
+      "id": "tarih_034",
+      "categoryId": "tarih",
+      "questionText": "Napolyon Bonapart hangi ülkenin liderlerindendir?",
+      "options": [
+        "İngiltere",
+        "Yunanistan",
+        "Birleşik Krallık",
+        "Fransa"
+      ],
+      "correctIndex": 3,
+      "explanation": "Napolyon Fransa'nın liderlerindendir."
+    },
+    {
+      "id": "tarih_035",
+      "categoryId": "tarih",
+      "questionText": "Coğrafi keşifler döneminde deniz yolculuklarını kolaylaştıran araç hangisidir?",
+      "options": [
+        "Dicle ve Fırat",
+        "Kilise",
+        "Hicret",
+        "Pusula"
+      ],
+      "correctIndex": 3,
+      "explanation": "Pusula yön bulmayı kolaylaştırdı."
+    },
+    {
+      "id": "tarih_036",
+      "categoryId": "tarih",
+      "questionText": "İpek Yolu'nun temel işlevi nedir?",
+      "options": [
+        "Pusula",
+        "Ticaret",
+        "Kilise",
+        "Hicret"
+      ],
+      "correctIndex": 1,
+      "explanation": "İpek Yolu bir ticaret hattıydı."
+    },
+    {
+      "id": "tarih_037",
+      "categoryId": "tarih",
+      "questionText": "Türk Tarih Kurumu hangi yıl kuruldu?",
+      "options": [
+        "1974",
+        "1908",
+        "1931",
+        "1945"
+      ],
+      "correctIndex": 2,
+      "explanation": "TTK 1931'de kuruldu."
+    },
+    {
+      "id": "tarih_038",
+      "categoryId": "tarih",
+      "questionText": "Saltanat hangi yıl kaldırıldı?",
+      "options": [
+        "1789",
+        "1945",
+        "1922",
+        "1991"
+      ],
+      "correctIndex": 2,
+      "explanation": "Saltanat 1922'de kaldırıldı."
+    },
+    {
+      "id": "tarih_039",
+      "categoryId": "tarih",
+      "questionText": "Halifelik hangi yıl kaldırıldı?",
+      "options": [
+        "1924",
+        "1869",
+        "1991",
+        "1931"
+      ],
+      "correctIndex": 0,
+      "explanation": "Halifelik 1924'te kaldırıldı."
+    },
+    {
+      "id": "tarih_040",
+      "categoryId": "tarih",
+      "questionText": "Ankara Savaşı hangi yılda yapıldı?",
+      "options": [
+        "1839",
+        "1856",
+        "1876",
+        "1908"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tanzimat Fermanı 1839 yılında ilan edilmiştir."
+    },
+    {
+      "id": "tarih_041",
+      "categoryId": "tarih",
+      "questionText": "Süveyş Kanalı hangi yıl açıldı?",
+      "options": [
+        "1299",
+        "1991",
+        "1918",
+        "1869"
+      ],
+      "correctIndex": 3,
+      "explanation": "Süveyş Kanalı 1869'da açıldı."
+    },
+    {
+      "id": "tarih_042",
+      "categoryId": "tarih",
+      "questionText": "Panama Kanalı hangi yıl açıldı?",
+      "options": [
+        "1969",
+        "1914",
+        "1928",
+        "1923"
+      ],
+      "correctIndex": 1,
+      "explanation": "Panama Kanalı 1914'te açıldı."
+    },
+    {
+      "id": "tarih_043",
+      "categoryId": "tarih",
+      "questionText": "Birinci Meşrutiyet hangi yıl ilan edildi?",
+      "options": [
+        "1914",
+        "1876",
+        "1299",
+        "1071"
+      ],
+      "correctIndex": 1,
+      "explanation": "I. Meşrutiyet 1876'da ilan edildi."
+    },
+    {
+      "id": "tarih_044",
+      "categoryId": "tarih",
+      "questionText": "İkinci Meşrutiyet hangi yıl ilan edildi?",
+      "options": [
+        "1908",
+        "1939",
+        "1869",
+        "1923"
+      ],
+      "correctIndex": 0,
+      "explanation": "II. Meşrutiyet 1908'de ilan edildi."
+    },
+    {
+      "id": "tarih_045",
+      "categoryId": "tarih",
+      "questionText": "Kıbrıs Barış Harekâtı hangi yıl yapıldı?",
+      "options": [
+        "1215",
+        "1243",
+        "1258",
+        "1274"
+      ],
+      "correctIndex": 2,
+      "explanation": "Bağdat 1258'de Moğollar tarafından ele geçirildi."
+    },
+    {
+      "id": "tarih_046",
+      "categoryId": "tarih",
+      "questionText": "İnsan Hakları Evrensel Bildirgesi hangi yıl kabul edildi?",
+      "options": [
+        "1945",
+        "1969",
+        "1948",
+        "1920"
+      ],
+      "correctIndex": 2,
+      "explanation": "Bildirge 1948'de kabul edildi."
+    },
+    {
+      "id": "tarih_047",
+      "categoryId": "tarih",
+      "questionText": "Latin harflerine geçiş (Harf Devrimi) hangi yıldadır?",
+      "options": [
+        "1928",
+        "1856",
+        "1991",
+        "1922"
+      ],
+      "correctIndex": 0,
+      "explanation": "Harf Devrimi 1928'de yapıldı."
+    },
+    {
+      "id": "tarih_048",
+      "categoryId": "tarih",
+      "questionText": "Türkiye'de kadınlara seçme ve seçilme hakkı hangi yıl verildi?",
+      "options": [
+        "1915",
+        "1934",
+        "1948",
+        "1914"
+      ],
+      "correctIndex": 1,
+      "explanation": "Kadınlara siyasi haklar 1934'te verildi."
+    },
+    {
+      "id": "tarih_049",
+      "categoryId": "tarih",
+      "questionText": "Kanun-ı Esasi (ilk anayasa) hangi yılda ilan edildi?",
+      "options": [
+        "1453",
+        "1299",
+        "1952",
+        "1876"
+      ],
+      "correctIndex": 3,
+      "explanation": "Kanun-ı Esasi 1876'da ilan edildi."
+    },
+    {
+      "id": "tarih_050",
+      "categoryId": "tarih",
+      "questionText": "Antik Mısır uygarlığı hangi nehir çevresinde gelişti?",
+      "options": [
+        "Hicret",
+        "Ticaret",
+        "Dicle ve Fırat",
+        "Nil"
+      ],
+      "correctIndex": 3,
+      "explanation": "Antik Mısır Nil Nehri çevresinde gelişti."
+    },
+    {
+      "id": "bilim_teknoloji_001",
+      "categoryId": "bilim_teknoloji",
+      "questionText": "Suyun kimyasal formülü nedir?",
+      "options": [
+        "F=ma",
+        "CO2",
+        "H2O",
+        "NaCl"
+      ],
+      "correctIndex": 2,
+      "explanation": "Su H2O formülüyle gösterilir."
+    },
+    {
+      "id": "bilim_teknoloji_002",
+      "categoryId": "bilim_teknoloji",
+      "questionText": "Karbondioksitin kimyasal formülü nedir?",
+      "options": [
+        "NaCl",
+        "F=ma",
+        "H2O",
+        "CO2"
+      ],
+      "correctIndex": 3,
+      "explanation": "Karbondioksit CO2'dir."
+    },
+    {
+      "id": "bilim_teknoloji_003",
+      "categoryId": "bilim_teknoloji",
+      "questionText": "Sodyum klorürün (sofra tuzu) formülü nedir?",
+      "options": [
+        "CO2",
+        "H2O",
+        "F=ma",
+        "NaCl"
+      ],
+      "correctIndex": 3,
+      "explanation": "Sofra tuzu NaCl'dir."
+    },
+    {
+      "id": "bilim_teknoloji_004",
+      "categoryId": "bilim_teknoloji",
+      "questionText": "Oksijenin kimyasal sembolü nedir?",
+      "options": [
+        "Cl",
+        "O",
+        "H",
+        "Hg"
+      ],
+      "correctIndex": 1,
+      "explanation": "Oksijenin sembolü O'dur."
+    },
+    {
+      "id": "bilim_teknoloji_005",
+      "categoryId": "bilim_teknoloji",
+      "questionText": "Hidrojenin kimyasal sembolü nedir?",
+      "options": [
+        "Mg",
+        "H",
+        "I",
+        "Pb"
+      ],
+      "correctIndex": 1,
+      "explanation": "Hidrojenin sembolü H'dir."
+    },
+    {
+      "id": "bilim_teknoloji_006",
+      "categoryId": "bilim_teknoloji",
+      "questionText": "Karbonun kimyasal sembolü nedir?",
+      "options": [
+        "K",
+        "Cl",
+        "Ca",
+        "C"
+      ],
+      "correctIndex": 3,
+      "explanation": "Karbonun sembolü C'dir."
+    },
+    {
+      "id": "bilim_teknoloji_007",
+      "categoryId": "bilim_teknoloji",
+      "questionText": "Azotun kimyasal sembolü nedir?",
+      "options": [
+        "K",
+        "N",
+        "Na",
+        "Cu"
+      ],
+      "correctIndex": 1,
+      "explanation": "Azotun sembolü N'dir."
+    },
+    {
+      "id": "bilim_teknoloji_008",
+      "categoryId": "bilim_teknoloji",
+      "questionText": "Demirin kimyasal sembolü nedir?",
+      "options": [
+        "C",
+        "Fe",
+        "Au",
+        "Pb"
+      ],
+      "correctIndex": 1,
+      "explanation": "Demirin sembolü Fe'dir."
+    },
+    {
+      "id": "bilim_teknoloji_009",
+      "categoryId": "bilim_teknoloji",
+      "questionText": "Altının kimyasal sembolü nedir?",
+      "options": [
+        "Au",
+        "K",
+        "Fe",
+        "Ca"
+      ],
+      "correctIndex": 0,
+      "explanation": "Altının sembolü Au'dur."
+    },
+    {
+      "id": "bilim_teknoloji_010",
+      "categoryId": "bilim_teknoloji",
+      "questionText": "Gümüşün kimyasal sembolü nedir?",
+      "options": [
+        "C",
+        "Pb",
+        "Cl",
+        "Ag"
+      ],
+      "correctIndex": 3,
+      "explanation": "Gümüşün sembolü Ag'dir."
+    },
+    {
+      "id": "bilim_teknoloji_011",
+      "categoryId": "bilim_teknoloji",
+      "questionText": "Bakırın kimyasal sembolü nedir?",
+      "options": [
+        "K",
+        "Cu",
+        "Pb",
+        "O"
+      ],
+      "correctIndex": 1,
+      "explanation": "Bakırın sembolü Cu'dur."
+    },
+    {
+      "id": "bilim_teknoloji_012",
+      "categoryId": "bilim_teknoloji",
+      "questionText": "Sodyumun kimyasal sembolü nedir?",
+      "options": [
+        "Na",
+        "N",
+        "H",
+        "Au"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sodyumun sembolü Na'dır."
+    },
+    {
+      "id": "bilim_teknoloji_013",
+      "categoryId": "bilim_teknoloji",
+      "questionText": "Potasyumun kimyasal sembolü nedir?",
+      "options": [
+        "Na",
+        "Ag",
+        "Hg",
+        "K"
+      ],
+      "correctIndex": 3,
+      "explanation": "Potasyumun sembolü K'dir."
+    },
+    {
+      "id": "bilim_teknoloji_014",
+      "categoryId": "bilim_teknoloji",
+      "questionText": "Kalsiyumun kimyasal sembolü nedir?",
+      "options": [
+        "O",
+        "Ca",
+        "C",
+        "K"
+      ],
+      "correctIndex": 1,
+      "explanation": "Kalsiyumun sembolü Ca'dır."
+    },
+    {
+      "id": "bilim_teknoloji_015",
+      "categoryId": "bilim_teknoloji",
+      "questionText": "Magnezyumun kimyasal sembolü nedir?",
+      "options": [
+        "Mg",
+        "Ca",
+        "Cu",
+        "N"
+      ],
+      "correctIndex": 0,
+      "explanation": "Magnezyumun sembolü Mg'dir."
+    },
+    {
+      "id": "bilim_teknoloji_016",
+      "categoryId": "bilim_teknoloji",
+      "questionText": "Klorun kimyasal sembolü nedir?",
+      "options": [
+        "Cl",
+        "O",
+        "N",
+        "H"
+      ],
+      "correctIndex": 0,
+      "explanation": "Klorun sembolü Cl'dir."
+    },
+    {
+      "id": "bilim_teknoloji_017",
+      "categoryId": "bilim_teknoloji",
+      "questionText": "İyodun kimyasal sembolü nedir?",
+      "options": [
+        "Fe",
+        "I",
+        "Pb",
+        "K"
+      ],
+      "correctIndex": 1,
+      "explanation": "İyodun sembolü I'dir."
+    },
+    {
+      "id": "bilim_teknoloji_018",
+      "categoryId": "bilim_teknoloji",
+      "questionText": "Kurşunun kimyasal sembolü nedir?",
+      "options": [
+        "Hg",
+        "Ca",
+        "Pb",
+        "Zn"
+      ],
+      "correctIndex": 2,
+      "explanation": "Kurşunun sembolü Pb'dir."
+    },
+    {
+      "id": "bilim_teknoloji_019",
+      "categoryId": "bilim_teknoloji",
+      "questionText": "Cıvanın kimyasal sembolü nedir?",
+      "options": [
+        "Hg",
+        "I",
+        "Cl",
+        "H"
+      ],
+      "correctIndex": 0,
+      "explanation": "Cıvanın sembolü Hg'dir."
+    },
+    {
+      "id": "bilim_teknoloji_020",
+      "categoryId": "bilim_teknoloji",
+      "questionText": "Çinko'nun kimyasal sembolü nedir?",
+      "options": [
+        "Hg",
+        "K",
+        "Zn",
+        "Cu"
+      ],
+      "correctIndex": 2,
+      "explanation": "Çinko'nun sembolü Zn'dir."
+    },
+    {
+      "id": "bilim_teknoloji_021",
+      "categoryId": "bilim_teknoloji",
+      "questionText": "Elektrik akımının birimi nedir?",
+      "options": [
+        "Amper",
+        "Watt",
+        "Hertz",
+        "Volt"
+      ],
+      "correctIndex": 0,
+      "explanation": "Akımın SI birimi amperdir."
+    },
+    {
+      "id": "bilim_teknoloji_022",
+      "categoryId": "bilim_teknoloji",
+      "questionText": "Gerilimin birimi nedir?",
+      "options": [
+        "Amper",
+        "Volt",
+        "Kelvin",
+        "Pascal"
+      ],
+      "correctIndex": 1,
+      "explanation": "Gerilimin SI birimi volttur."
+    },
+    {
+      "id": "bilim_teknoloji_023",
+      "categoryId": "bilim_teknoloji",
+      "questionText": "Direncin birimi nedir?",
+      "options": [
+        "Watt",
+        "Pascal",
+        "Ohm",
+        "Volt"
+      ],
+      "correctIndex": 2,
+      "explanation": "Direncin birimi ohm'dur."
+    },
+    {
+      "id": "bilim_teknoloji_024",
+      "categoryId": "bilim_teknoloji",
+      "questionText": "Gücün birimi nedir?",
+      "options": [
+        "Hertz",
+        "Watt",
+        "Joule",
+        "Volt"
+      ],
+      "correctIndex": 1,
+      "explanation": "Gücün birimi watt'tır."
+    },
+    {
+      "id": "bilim_teknoloji_025",
+      "categoryId": "bilim_teknoloji",
+      "questionText": "Enerjinin birimi nedir?",
+      "options": [
+        "Joule",
+        "Amper",
+        "Kelvin",
+        "Watt"
+      ],
+      "correctIndex": 0,
+      "explanation": "Enerjinin birimi joule'dür."
+    },
+    {
+      "id": "bilim_teknoloji_026",
+      "categoryId": "bilim_teknoloji",
+      "questionText": "Frekansın birimi nedir?",
+      "options": [
+        "Joule",
+        "Volt",
+        "Hertz",
+        "Kelvin"
+      ],
+      "correctIndex": 2,
+      "explanation": "Frekansın birimi hertz'dir."
+    },
+    {
+      "id": "bilim_teknoloji_027",
+      "categoryId": "bilim_teknoloji",
+      "questionText": "Basıncın birimi nedir?",
+      "options": [
+        "Pascal",
+        "Kelvin",
+        "Ohm",
+        "Watt"
+      ],
+      "correctIndex": 0,
+      "explanation": "Basıncın birimi pascal'dır."
+    },
+    {
+      "id": "bilim_teknoloji_028",
+      "categoryId": "bilim_teknoloji",
+      "questionText": "Sıcaklığın SI birimi nedir?",
+      "options": [
+        "Ohm",
+        "Hertz",
+        "Joule",
+        "Kelvin"
+      ],
+      "correctIndex": 3,
+      "explanation": "Sıcaklığın SI birimi kelvin'dir."
+    },
+    {
+      "id": "bilim_teknoloji_029",
+      "categoryId": "bilim_teknoloji",
+      "questionText": "Işık yılı neyi ölçer?",
+      "options": [
+        "Mesafe",
+        "Central Processing Unit",
+        "Deoksiribonükleik asit",
+        "Tek renkli ve yönlü"
+      ],
+      "correctIndex": 0,
+      "explanation": "Işık yılı bir mesafe birimidir."
+    },
+    {
+      "id": "bilim_teknoloji_030",
+      "categoryId": "bilim_teknoloji",
+      "questionText": "DNA'nın açılımı nedir?",
+      "options": [
+        "0 ve 1",
+        "Çekirdek",
+        "HyperText Markup Language",
+        "Deoksiribonükleik asit"
+      ],
+      "correctIndex": 3,
+      "explanation": "DNA: Deoksiribonükleik asit."
+    },
+    {
+      "id": "bilim_teknoloji_031",
+      "categoryId": "bilim_teknoloji",
+      "questionText": "Atomun merkezinde hangi yapı bulunur?",
+      "options": [
+        "Katmanlı nesneler",
+        "Çekirdek",
+        "Negatif",
+        "Mesafe"
+      ],
+      "correctIndex": 1,
+      "explanation": "Atomun merkezinde çekirdek vardır."
+    },
+    {
+      "id": "bilim_teknoloji_032",
+      "categoryId": "bilim_teknoloji",
+      "questionText": "Güneş Sistemi'ndeki en büyük gezegen hangisidir?",
+      "options": [
+        "Merkür",
+        "Jüpiter",
+        "Satürn",
+        "Mars"
+      ],
+      "correctIndex": 1,
+      "explanation": "En büyük gezegen Jüpiter'dir."
+    },
+    {
+      "id": "bilim_teknoloji_033",
+      "categoryId": "bilim_teknoloji",
+      "questionText": "Güneş Sistemi'ndeki en küçük gezegen hangisidir?",
+      "options": [
+        "Jüpiter",
+        "Mars",
+        "Merkür",
+        "Satürn"
+      ],
+      "correctIndex": 2,
+      "explanation": "En küçük gezegen Merkür'dür."
+    },
+    {
+      "id": "bilim_teknoloji_034",
+      "categoryId": "bilim_teknoloji",
+      "questionText": "Dünya Güneş'e yakınlık sıralamasında kaçıncı gezegendir?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "correctIndex": 1,
+      "explanation": "Dünya, Güneş'e uzaklık sıralamasında 3. gezegendir."
+    },
+    {
+      "id": "bilim_teknoloji_035",
+      "categoryId": "bilim_teknoloji",
+      "questionText": "Güneş Sistemi'ndeki kızıl gezegen hangisidir?",
+      "options": [
+        "Merkür",
+        "Jüpiter",
+        "Satürn",
+        "Mars"
+      ],
+      "correctIndex": 3,
+      "explanation": "Kızıl gezegen Mars'tır."
+    },
+    {
+      "id": "bilim_teknoloji_036",
+      "categoryId": "bilim_teknoloji",
+      "questionText": "Hangi gezegen halkalarıyla ünlüdür?",
+      "options": [
+        "Satürn",
+        "Merkür",
+        "Jüpiter",
+        "Mars"
+      ],
+      "correctIndex": 0,
+      "explanation": "Halkalarıyla Satürn ünlüdür."
+    },
+    {
+      "id": "bilim_teknoloji_037",
+      "categoryId": "bilim_teknoloji",
+      "questionText": "Bilgisayarlarda temel ikili sayı sistemi nedir?",
+      "options": [
+        "HyperText Markup Language",
+        "0 ve 1",
+        "Çekirdek",
+        "Mitokondri"
+      ],
+      "correctIndex": 1,
+      "explanation": "İkili sistem 0 ve 1'e dayanır."
+    },
+    {
+      "id": "bilim_teknoloji_038",
+      "categoryId": "bilim_teknoloji",
+      "questionText": "HTML açılımı nedir?",
+      "options": [
+        "Negatif",
+        "Geçici bellek",
+        "Central Processing Unit",
+        "HyperText Markup Language"
+      ],
+      "correctIndex": 3,
+      "explanation": "HTML: HyperText Markup Language."
+    },
+    {
+      "id": "bilim_teknoloji_039",
+      "categoryId": "bilim_teknoloji",
+      "questionText": "CPU'nun açılımı nedir?",
+      "options": [
+        "Asitlik-bazlık",
+        "Central Processing Unit",
+        "0 ve 1",
+        "HyperText Markup Language"
+      ],
+      "correctIndex": 1,
+      "explanation": "CPU: Merkezi işlem birimi."
+    },
+    {
+      "id": "bilim_teknoloji_040",
+      "categoryId": "bilim_teknoloji",
+      "questionText": "RAM neyi ifade eder?",
+      "options": [
+        "Tek renkli ve yönlü",
+        "Çekirdek",
+        "Katı",
+        "Geçici bellek"
+      ],
+      "correctIndex": 3,
+      "explanation": "RAM, geçici bellektir."
+    },
+    {
+      "id": "bilim_teknoloji_041",
+      "categoryId": "bilim_teknoloji",
+      "questionText": "İnternetin temel protokol ailesi hangisidir?",
+      "options": [
+        "Karbondioksit",
+        "Çekirdek",
+        "0 ve 1",
+        "TCP/IP"
+      ],
+      "correctIndex": 3,
+      "explanation": "İnternet TCP/IP üzerine kuruludur."
+    },
+    {
+      "id": "bilim_teknoloji_042",
+      "categoryId": "bilim_teknoloji",
+      "questionText": "Newton'un ikinci yasası genellikle hangi formülle yazılır?",
+      "options": [
+        "F=ma",
+        "NaCl",
+        "H2O",
+        "CO2"
+      ],
+      "correctIndex": 0,
+      "explanation": "Newton 2: F=ma."
+    },
+    {
+      "id": "bilim_teknoloji_043",
+      "categoryId": "bilim_teknoloji",
+      "questionText": "Işık hızı yaklaşık kaç km/s'dir?",
+      "options": [
+        "150000",
+        "300000",
+        "450000",
+        "600000"
+      ],
+      "correctIndex": 1,
+      "explanation": "Işık hızı yaklaşık 300.000 km/s'dir."
+    },
+    {
+      "id": "bilim_teknoloji_044",
+      "categoryId": "bilim_teknoloji",
+      "questionText": "pH değeri neyi gösterir?",
+      "options": [
+        "Asitlik-bazlık",
+        "Negatif",
+        "Mitokondri",
+        "Katmanlı nesneler"
+      ],
+      "correctIndex": 0,
+      "explanation": "pH asitlik/bazlık göstergesidir."
+    },
+    {
+      "id": "bilim_teknoloji_045",
+      "categoryId": "bilim_teknoloji",
+      "questionText": "Hücrenin enerji santrali olarak bilinen organel hangisidir?",
+      "options": [
+        "Katmanlı nesneler",
+        "TCP/IP",
+        "Mitokondri",
+        "Çekirdek"
+      ],
+      "correctIndex": 2,
+      "explanation": "Mitokondri enerji üretir."
+    },
+    {
+      "id": "bilim_teknoloji_046",
+      "categoryId": "bilim_teknoloji",
+      "questionText": "Elektronun yükü nasıldır?",
+      "options": [
+        "Central Processing Unit",
+        "Mitokondri",
+        "Negatif",
+        "Karbondioksit"
+      ],
+      "correctIndex": 2,
+      "explanation": "Elektron negatif yüklüdür."
+    },
+    {
+      "id": "bilim_teknoloji_047",
+      "categoryId": "bilim_teknoloji",
+      "questionText": "Ses en hızlı hangi ortamda yayılır?",
+      "options": [
+        "Karbondioksit",
+        "Tek renkli ve yönlü",
+        "Katı",
+        "Geçici bellek"
+      ],
+      "correctIndex": 2,
+      "explanation": "Ses katı ortamda daha hızlı yayılır."
+    },
+    {
+      "id": "bilim_teknoloji_048",
+      "categoryId": "bilim_teknoloji",
+      "questionText": "Lazer ışığı hangi özelliğiyle bilinir?",
+      "options": [
+        "Central Processing Unit",
+        "0 ve 1",
+        "Tek renkli ve yönlü",
+        "HyperText Markup Language"
+      ],
+      "correctIndex": 2,
+      "explanation": "Lazer tek renkli ve yönlüdür."
+    },
+    {
+      "id": "bilim_teknoloji_049",
+      "categoryId": "bilim_teknoloji",
+      "questionText": "3D yazıcılar genellikle ne üretir?",
+      "options": [
+        "Çekirdek",
+        "Geçici bellek",
+        "Asitlik-bazlık",
+        "Katmanlı nesneler"
+      ],
+      "correctIndex": 3,
+      "explanation": "3D yazıcılar katman katman nesne üretir."
+    },
+    {
+      "id": "bilim_teknoloji_050",
+      "categoryId": "bilim_teknoloji",
+      "questionText": "Fotosentez sırasında bitkiler hangi gazı kullanır?",
+      "options": [
+        "Asitlik-bazlık",
+        "Deoksiribonükleik asit",
+        "Geçici bellek",
+        "Karbondioksit"
+      ],
+      "correctIndex": 3,
+      "explanation": "Fotosentezde CO2 kullanılır."
+    },
+    {
+      "id": "edebiyat_001",
+      "categoryId": "edebiyat",
+      "questionText": "\"Çalıkuşu\" eserinin yazarı kimdir?",
+      "options": [
+        "Fyodor Dostoyevski",
+        "Miguel de Cervantes",
+        "Yaşar Kemal",
+        "Reşat Nuri Güntekin"
+      ],
+      "correctIndex": 3,
+      "explanation": "\"Çalıkuşu\" eserini Reşat Nuri Güntekin yazmıştır."
+    },
+    {
+      "id": "edebiyat_002",
+      "categoryId": "edebiyat",
+      "questionText": "\"Sefiller\" eserinin yazarı kimdir?",
+      "options": [
+        "Hüseyin Rahmi Gürpınar",
+        "Oğuz Atay",
+        "Samipaşazade Sezai",
+        "Victor Hugo"
+      ],
+      "correctIndex": 3,
+      "explanation": "\"Sefiller\" eserini Victor Hugo yazmıştır."
+    },
+    {
+      "id": "edebiyat_003",
+      "categoryId": "edebiyat",
+      "questionText": "\"Suç ve Ceza\" eserinin yazarı kimdir?",
+      "options": [
+        "John Steinbeck",
+        "Jane Austen",
+        "Fyodor Dostoyevski",
+        "Emily Brontë"
+      ],
+      "correctIndex": 2,
+      "explanation": "\"Suç ve Ceza\" eserini Fyodor Dostoyevski yazmıştır."
+    },
+    {
+      "id": "edebiyat_004",
+      "categoryId": "edebiyat",
+      "questionText": "\"Savaş ve Barış\" eserinin yazarı kimdir?",
+      "options": [
+        "Mehmet Akif Ersoy",
+        "Reşat Nuri Güntekin",
+        "Gustave Flaubert",
+        "Lev Tolstoy"
+      ],
+      "correctIndex": 3,
+      "explanation": "\"Savaş ve Barış\" eserini Lev Tolstoy yazmıştır."
+    },
+    {
+      "id": "edebiyat_005",
+      "categoryId": "edebiyat",
+      "questionText": "\"Don Kişot\" eserinin yazarı kimdir?",
+      "options": [
+        "Hüseyin Rahmi Gürpınar",
+        "Miguel de Cervantes",
+        "John Steinbeck",
+        "José Saramago"
+      ],
+      "correctIndex": 1,
+      "explanation": "\"Don Kişot\" eserini Miguel de Cervantes yazmıştır."
+    },
+    {
+      "id": "edebiyat_006",
+      "categoryId": "edebiyat",
+      "questionText": "\"Romeo ve Juliet\" eserinin yazarı kimdir?",
+      "options": [
+        "Lev Tolstoy",
+        "Franz Kafka",
+        "Necip Fazıl Kısakürek",
+        "William Shakespeare"
+      ],
+      "correctIndex": 3,
+      "explanation": "\"Romeo ve Juliet\" eserini William Shakespeare yazmıştır."
+    },
+    {
+      "id": "edebiyat_007",
+      "categoryId": "edebiyat",
+      "questionText": "\"Hamlet\" eserinin yazarı kimdir?",
+      "options": [
+        "Franz Kafka",
+        "William Shakespeare",
+        "Necip Fazıl Kısakürek",
+        "Cengiz Aytmatov"
+      ],
+      "correctIndex": 1,
+      "explanation": "\"Hamlet\" eserini William Shakespeare yazmıştır."
+    },
+    {
+      "id": "edebiyat_008",
+      "categoryId": "edebiyat",
+      "questionText": "\"İlahi Komedya\" eserinin yazarı kimdir?",
+      "options": [
+        "Necip Fazıl Kısakürek",
+        "Honoré de Balzac",
+        "Dante Alighieri",
+        "George Orwell"
+      ],
+      "correctIndex": 2,
+      "explanation": "\"İlahi Komedya\" eserini Dante Alighieri yazmıştır."
+    },
+    {
+      "id": "edebiyat_009",
+      "categoryId": "edebiyat",
+      "questionText": "\"Körlük\" eserinin yazarı kimdir?",
+      "options": [
+        "Oğuz Atay",
+        "José Saramago",
+        "Miguel de Cervantes",
+        "Honoré de Balzac"
+      ],
+      "correctIndex": 1,
+      "explanation": "\"Körlük\" eserini José Saramago yazmıştır."
+    },
+    {
+      "id": "edebiyat_010",
+      "categoryId": "edebiyat",
+      "questionText": "\"1984\" eserinin yazarı kimdir?",
+      "options": [
+        "Samipaşazade Sezai",
+        "George Orwell",
+        "John Steinbeck",
+        "Charles Dickens"
+      ],
+      "correctIndex": 1,
+      "explanation": "\"1984\" eserini George Orwell yazmıştır."
+    },
+    {
+      "id": "edebiyat_011",
+      "categoryId": "edebiyat",
+      "questionText": "\"Hayvan Çiftliği\" eserinin yazarı kimdir?",
+      "options": [
+        "Jane Austen",
+        "George Orwell",
+        "Victor Hugo",
+        "Yakup Kadri Karaosmanoğlu"
+      ],
+      "correctIndex": 1,
+      "explanation": "\"Hayvan Çiftliği\" eserini George Orwell yazmıştır."
+    },
+    {
+      "id": "edebiyat_012",
+      "categoryId": "edebiyat",
+      "questionText": "\"Küçük Prens\" eserinin yazarı kimdir?",
+      "options": [
+        "Halit Ziya Uşaklıgil",
+        "Sabahattin Ali",
+        "Antoine de Saint-Exupéry",
+        "Recaizade Mahmut Ekrem"
+      ],
+      "correctIndex": 2,
+      "explanation": "\"Küçük Prens\" eserini Antoine de Saint-Exupéry yazmıştır."
+    },
+    {
+      "id": "edebiyat_013",
+      "categoryId": "edebiyat",
+      "questionText": "\"Simyacı\" eserinin yazarı kimdir?",
+      "options": [
+        "Paulo Coelho",
+        "Recaizade Mahmut Ekrem",
+        "Miguel de Cervantes",
+        "John Steinbeck"
+      ],
+      "correctIndex": 0,
+      "explanation": "\"Simyacı\" eserini Paulo Coelho yazmıştır."
+    },
+    {
+      "id": "edebiyat_014",
+      "categoryId": "edebiyat",
+      "questionText": "\"Anna Karenina\" eserinin yazarı kimdir?",
+      "options": [
+        "Gustave Flaubert",
+        "George Orwell",
+        "Lev Tolstoy",
+        "Charles Dickens"
+      ],
+      "correctIndex": 2,
+      "explanation": "\"Anna Karenina\" eserini Lev Tolstoy yazmıştır."
+    },
+    {
+      "id": "edebiyat_015",
+      "categoryId": "edebiyat",
+      "questionText": "\"Madame Bovary\" eserinin yazarı kimdir?",
+      "options": [
+        "Paulo Coelho",
+        "Gustave Flaubert",
+        "Recaizade Mahmut Ekrem",
+        "Cengiz Aytmatov"
+      ],
+      "correctIndex": 1,
+      "explanation": "\"Madame Bovary\" eserini Gustave Flaubert yazmıştır."
+    },
+    {
+      "id": "edebiyat_016",
+      "categoryId": "edebiyat",
+      "questionText": "\"Dönüşüm\" eserinin yazarı kimdir?",
+      "options": [
+        "Mehmet Rauf",
+        "Halide Edip Adıvar",
+        "Franz Kafka",
+        "Samipaşazade Sezai"
+      ],
+      "correctIndex": 2,
+      "explanation": "\"Dönüşüm\" eserini Franz Kafka yazmıştır."
+    },
+    {
+      "id": "edebiyat_017",
+      "categoryId": "edebiyat",
+      "questionText": "\"Yabancı\" eserinin yazarı kimdir?",
+      "options": [
+        "Emily Brontë",
+        "Albert Camus",
+        "Antoine de Saint-Exupéry",
+        "Oğuz Atay"
+      ],
+      "correctIndex": 1,
+      "explanation": "\"Yabancı\" eserini Albert Camus yazmıştır."
+    },
+    {
+      "id": "edebiyat_018",
+      "categoryId": "edebiyat",
+      "questionText": "\"Gurur ve Önyargı\" eserinin yazarı kimdir?",
+      "options": [
+        "Jane Austen",
+        "Lev Tolstoy",
+        "Ahmet Mithat Efendi",
+        "Albert Camus"
+      ],
+      "correctIndex": 0,
+      "explanation": "\"Gurur ve Önyargı\" eserini Jane Austen yazmıştır."
+    },
+    {
+      "id": "edebiyat_019",
+      "categoryId": "edebiyat",
+      "questionText": "\"Uğultulu Tepeler\" eserinin yazarı kimdir?",
+      "options": [
+        "Emily Brontë",
+        "Mehmet Akif Ersoy",
+        "Cengiz Aytmatov",
+        "Antoine de Saint-Exupéry"
+      ],
+      "correctIndex": 0,
+      "explanation": "\"Uğultulu Tepeler\" eserini Emily Brontë yazmıştır."
+    },
+    {
+      "id": "edebiyat_020",
+      "categoryId": "edebiyat",
+      "questionText": "\"Oliver Twist\" eserinin yazarı kimdir?",
+      "options": [
+        "William Shakespeare",
+        "Yaşar Kemal",
+        "Halide Edip Adıvar",
+        "Charles Dickens"
+      ],
+      "correctIndex": 3,
+      "explanation": "\"Oliver Twist\" eserini Charles Dickens yazmıştır."
+    },
+    {
+      "id": "edebiyat_021",
+      "categoryId": "edebiyat",
+      "questionText": "\"İki Şehrin Hikâyesi\" eserinin yazarı kimdir?",
+      "options": [
+        "Charles Dickens",
+        "Honoré de Balzac",
+        "John Steinbeck",
+        "Jane Austen"
+      ],
+      "correctIndex": 0,
+      "explanation": "\"İki Şehrin Hikâyesi\" eserini Charles Dickens yazmıştır."
+    },
+    {
+      "id": "edebiyat_022",
+      "categoryId": "edebiyat",
+      "questionText": "\"Aşk-ı Memnu\" eserinin yazarı kimdir?",
+      "options": [
+        "Mehmet Rauf",
+        "Halit Ziya Uşaklıgil",
+        "Charles Dickens",
+        "Reşat Nuri Güntekin"
+      ],
+      "correctIndex": 1,
+      "explanation": "\"Aşk-ı Memnu\" eserini Halit Ziya Uşaklıgil yazmıştır."
+    },
+    {
+      "id": "edebiyat_023",
+      "categoryId": "edebiyat",
+      "questionText": "\"Mai ve Siyah\" eserinin yazarı kimdir?",
+      "options": [
+        "Yakup Kadri Karaosmanoğlu",
+        "Mehmet Akif Ersoy",
+        "Necip Fazıl Kısakürek",
+        "Halit Ziya Uşaklıgil"
+      ],
+      "correctIndex": 3,
+      "explanation": "\"Mai ve Siyah\" eserini Halit Ziya Uşaklıgil yazmıştır."
+    },
+    {
+      "id": "edebiyat_024",
+      "categoryId": "edebiyat",
+      "questionText": "\"Eylül\" eserinin yazarı kimdir?",
+      "options": [
+        "Reşat Nuri Güntekin",
+        "Yakup Kadri Karaosmanoğlu",
+        "Paulo Coelho",
+        "Mehmet Rauf"
+      ],
+      "correctIndex": 3,
+      "explanation": "\"Eylül\" eserini Mehmet Rauf yazmıştır."
+    },
+    {
+      "id": "edebiyat_025",
+      "categoryId": "edebiyat",
+      "questionText": "\"Kuyucaklı Yusuf\" eserinin yazarı kimdir?",
+      "options": [
+        "Sabahattin Ali",
+        "Fyodor Dostoyevski",
+        "Miguel de Cervantes",
+        "Ahmet Mithat Efendi"
+      ],
+      "correctIndex": 0,
+      "explanation": "\"Kuyucaklı Yusuf\" eserini Sabahattin Ali yazmıştır."
+    },
+    {
+      "id": "edebiyat_026",
+      "categoryId": "edebiyat",
+      "questionText": "\"Kürk Mantolu Madonna\" eserinin yazarı kimdir?",
+      "options": [
+        "George Orwell",
+        "Mehmet Akif Ersoy",
+        "Sabahattin Ali",
+        "Emily Brontë"
+      ],
+      "correctIndex": 2,
+      "explanation": "\"Kürk Mantolu Madonna\" eserini Sabahattin Ali yazmıştır."
+    },
+    {
+      "id": "edebiyat_027",
+      "categoryId": "edebiyat",
+      "questionText": "\"İnce Memed\" eserinin yazarı kimdir?",
+      "options": [
+        "Mehmet Akif Ersoy",
+        "Yaşar Kemal",
+        "José Saramago",
+        "John Steinbeck"
+      ],
+      "correctIndex": 1,
+      "explanation": "\"İnce Memed\" eserini Yaşar Kemal yazmıştır."
+    },
+    {
+      "id": "edebiyat_028",
+      "categoryId": "edebiyat",
+      "questionText": "\"Tutunamayanlar\" eserinin yazarı kimdir?",
+      "options": [
+        "Yaşar Kemal",
+        "Emily Brontë",
+        "Charles Dickens",
+        "Oğuz Atay"
+      ],
+      "correctIndex": 3,
+      "explanation": "\"Tutunamayanlar\" eserini Oğuz Atay yazmıştır."
+    },
+    {
+      "id": "edebiyat_029",
+      "categoryId": "edebiyat",
+      "questionText": "\"Saatleri Ayarlama Enstitüsü\" eserinin yazarı kimdir?",
+      "options": [
+        "Dante Alighieri",
+        "Mehmet Akif Ersoy",
+        "Ahmet Hamdi Tanpınar",
+        "Franz Kafka"
+      ],
+      "correctIndex": 2,
+      "explanation": "\"Saatleri Ayarlama Enstitüsü\" eserini Ahmet Hamdi Tanpınar yazmıştır."
+    },
+    {
+      "id": "edebiyat_030",
+      "categoryId": "edebiyat",
+      "questionText": "\"Huzur\" eserinin yazarı kimdir?",
+      "options": [
+        "Ahmet Hamdi Tanpınar",
+        "Halide Edip Adıvar",
+        "Mehmet Akif Ersoy",
+        "Yaşar Kemal"
+      ],
+      "correctIndex": 0,
+      "explanation": "\"Huzur\" eserini Ahmet Hamdi Tanpınar yazmıştır."
+    },
+    {
+      "id": "edebiyat_031",
+      "categoryId": "edebiyat",
+      "questionText": "\"Yaprak Dökümü\" eserinin yazarı kimdir?",
+      "options": [
+        "Victor Hugo",
+        "Reşat Nuri Güntekin",
+        "Samipaşazade Sezai",
+        "Mehmet Rauf"
+      ],
+      "correctIndex": 1,
+      "explanation": "\"Yaprak Dökümü\" eserini Reşat Nuri Güntekin yazmıştır."
+    },
+    {
+      "id": "edebiyat_032",
+      "categoryId": "edebiyat",
+      "questionText": "\"Yaban\" eserinin yazarı kimdir?",
+      "options": [
+        "Charles Dickens",
+        "Yakup Kadri Karaosmanoğlu",
+        "George Orwell",
+        "Samipaşazade Sezai"
+      ],
+      "correctIndex": 1,
+      "explanation": "\"Yaban\" eserini Yakup Kadri Karaosmanoğlu yazmıştır."
+    },
+    {
+      "id": "edebiyat_033",
+      "categoryId": "edebiyat",
+      "questionText": "\"Sinekli Bakkal\" eserinin yazarı kimdir?",
+      "options": [
+        "Emily Brontë",
+        "Lev Tolstoy",
+        "Halide Edip Adıvar",
+        "Antoine de Saint-Exupéry"
+      ],
+      "correctIndex": 2,
+      "explanation": "\"Sinekli Bakkal\" eserini Halide Edip Adıvar yazmıştır."
+    },
+    {
+      "id": "edebiyat_034",
+      "categoryId": "edebiyat",
+      "questionText": "\"Ateşten Gömlek\" eserinin yazarı kimdir?",
+      "options": [
+        "Halide Edip Adıvar",
+        "Yaşar Kemal",
+        "Jane Austen",
+        "George Orwell"
+      ],
+      "correctIndex": 0,
+      "explanation": "\"Ateşten Gömlek\" eserini Halide Edip Adıvar yazmıştır."
+    },
+    {
+      "id": "edebiyat_035",
+      "categoryId": "edebiyat",
+      "questionText": "\"Safahat\" eserinin yazarı kimdir?",
+      "options": [
+        "Samipaşazade Sezai",
+        "Mehmet Akif Ersoy",
+        "Gustave Flaubert",
+        "Charles Dickens"
+      ],
+      "correctIndex": 1,
+      "explanation": "\"Safahat\" eserini Mehmet Akif Ersoy yazmıştır."
+    },
+    {
+      "id": "edebiyat_036",
+      "categoryId": "edebiyat",
+      "questionText": "\"İstiklal Marşı\" eserinin yazarı kimdir?",
+      "options": [
+        "Samipaşazade Sezai",
+        "Mehmet Akif Ersoy",
+        "Gustave Flaubert",
+        "Ahmet Mithat Efendi"
+      ],
+      "correctIndex": 1,
+      "explanation": "\"İstiklal Marşı\" eserini Mehmet Akif Ersoy yazmıştır."
+    },
+    {
+      "id": "edebiyat_037",
+      "categoryId": "edebiyat",
+      "questionText": "\"Çile\" eserinin yazarı kimdir?",
+      "options": [
+        "Halit Ziya Uşaklıgil",
+        "Necip Fazıl Kısakürek",
+        "Recaizade Mahmut Ekrem",
+        "Honoré de Balzac"
+      ],
+      "correctIndex": 1,
+      "explanation": "\"Çile\" eserini Necip Fazıl Kısakürek yazmıştır."
+    },
+    {
+      "id": "edebiyat_038",
+      "categoryId": "edebiyat",
+      "questionText": "\"Sergüzeşt\" eserinin yazarı kimdir?",
+      "options": [
+        "Paulo Coelho",
+        "Samipaşazade Sezai",
+        "Hüseyin Rahmi Gürpınar",
+        "Lev Tolstoy"
+      ],
+      "correctIndex": 1,
+      "explanation": "\"Sergüzeşt\" eserini Samipaşazade Sezai yazmıştır."
+    },
+    {
+      "id": "edebiyat_039",
+      "categoryId": "edebiyat",
+      "questionText": "\"Araba Sevdası\" eserinin yazarı kimdir?",
+      "options": [
+        "Halide Edip Adıvar",
+        "Miguel de Cervantes",
+        "Recaizade Mahmut Ekrem",
+        "Franz Kafka"
+      ],
+      "correctIndex": 2,
+      "explanation": "\"Araba Sevdası\" eserini Recaizade Mahmut Ekrem yazmıştır."
+    },
+    {
+      "id": "edebiyat_040",
+      "categoryId": "edebiyat",
+      "questionText": "\"Felâtun Bey ile Râkım Efendi\" eserinin yazarı kimdir?",
+      "options": [
+        "Reşat Nuri Güntekin",
+        "John Steinbeck",
+        "Recaizade Mahmut Ekrem",
+        "Ahmet Mithat Efendi"
+      ],
+      "correctIndex": 3,
+      "explanation": "\"Felâtun Bey ile Râkım Efendi\" eserini Ahmet Mithat Efendi yazmıştır."
+    },
+    {
+      "id": "edebiyat_041",
+      "categoryId": "edebiyat",
+      "questionText": "\"Şık\" eserinin yazarı kimdir?",
+      "options": [
+        "Necip Fazıl Kısakürek",
+        "Oğuz Atay",
+        "Hüseyin Rahmi Gürpınar",
+        "Cengiz Aytmatov"
+      ],
+      "correctIndex": 2,
+      "explanation": "\"Şık\" eserini Hüseyin Rahmi Gürpınar yazmıştır."
+    },
+    {
+      "id": "edebiyat_042",
+      "categoryId": "edebiyat",
+      "questionText": "\"Beyaz Gemi\" eserinin yazarı kimdir?",
+      "options": [
+        "Jane Austen",
+        "Fyodor Dostoyevski",
+        "Necip Fazıl Kısakürek",
+        "Cengiz Aytmatov"
+      ],
+      "correctIndex": 3,
+      "explanation": "\"Beyaz Gemi\" eserini Cengiz Aytmatov yazmıştır."
+    },
+    {
+      "id": "edebiyat_043",
+      "categoryId": "edebiyat",
+      "questionText": "\"Selvi Boylum Al Yazmalım\" eserinin yazarı kimdir?",
+      "options": [
+        "Cengiz Aytmatov",
+        "Sabahattin Ali",
+        "Victor Hugo",
+        "Necip Fazıl Kısakürek"
+      ],
+      "correctIndex": 0,
+      "explanation": "\"Selvi Boylum Al Yazmalım\" eserini Cengiz Aytmatov yazmıştır."
+    },
+    {
+      "id": "edebiyat_044",
+      "categoryId": "edebiyat",
+      "questionText": "\"İnci\" eserinin yazarı kimdir?",
+      "options": [
+        "Sabahattin Ali",
+        "John Steinbeck",
+        "Lev Tolstoy",
+        "Jane Austen"
+      ],
+      "correctIndex": 1,
+      "explanation": "\"İnci\" eserini John Steinbeck yazmıştır."
+    },
+    {
+      "id": "edebiyat_045",
+      "categoryId": "edebiyat",
+      "questionText": "\"Gazap Üzümleri\" eserinin yazarı kimdir?",
+      "options": [
+        "Ahmet Hamdi Tanpınar",
+        "John Steinbeck",
+        "Miguel de Cervantes",
+        "Charles Dickens"
+      ],
+      "correctIndex": 1,
+      "explanation": "\"Gazap Üzümleri\" eserini John Steinbeck yazmıştır."
+    },
+    {
+      "id": "edebiyat_046",
+      "categoryId": "edebiyat",
+      "questionText": "\"Dava\" eserinin yazarı kimdir?",
+      "options": [
+        "Franz Kafka",
+        "Antoine de Saint-Exupéry",
+        "Honoré de Balzac",
+        "John Steinbeck"
+      ],
+      "correctIndex": 0,
+      "explanation": "\"Dava\" eserini Franz Kafka yazmıştır."
+    },
+    {
+      "id": "edebiyat_047",
+      "categoryId": "edebiyat",
+      "questionText": "\"Fareler ve İnsanlar\" eserinin yazarı kimdir?",
+      "options": [
+        "John Steinbeck",
+        "Sabahattin Ali",
+        "Reşat Nuri Güntekin",
+        "Emily Brontë"
+      ],
+      "correctIndex": 0,
+      "explanation": "\"Fareler ve İnsanlar\" eserini John Steinbeck yazmıştır."
+    },
+    {
+      "id": "edebiyat_048",
+      "categoryId": "edebiyat",
+      "questionText": "\"Karamazov Kardeşler\" eserinin yazarı kimdir?",
+      "options": [
+        "Fyodor Dostoyevski",
+        "Lev Tolstoy",
+        "Miguel de Cervantes",
+        "Halide Edip Adıvar"
+      ],
+      "correctIndex": 0,
+      "explanation": "\"Karamazov Kardeşler\" eserini Fyodor Dostoyevski yazmıştır."
+    },
+    {
+      "id": "edebiyat_049",
+      "categoryId": "edebiyat",
+      "questionText": "\"Vadideki Zambak\" eserinin yazarı kimdir?",
+      "options": [
+        "Honoré de Balzac",
+        "Necip Fazıl Kısakürek",
+        "Paulo Coelho",
+        "Gustave Flaubert"
+      ],
+      "correctIndex": 0,
+      "explanation": "\"Vadideki Zambak\" eserini Honoré de Balzac yazmıştır."
+    },
+    {
+      "id": "edebiyat_050",
+      "categoryId": "edebiyat",
+      "questionText": "\"Goriot Baba\" eserinin yazarı kimdir?",
+      "options": [
+        "Yakup Kadri Karaosmanoğlu",
+        "Samipaşazade Sezai",
+        "Necip Fazıl Kısakürek",
+        "Honoré de Balzac"
+      ],
+      "correctIndex": 3,
+      "explanation": "\"Goriot Baba\" eserini Honoré de Balzac yazmıştır."
+    },
+    {
+      "id": "sanat_001",
+      "categoryId": "sanat",
+      "questionText": "\"Mona Lisa\" eseri hangi sanatçıya aittir?",
+      "options": [
+        "Salvador Dalí",
+        "Leonardo da Vinci",
+        "Henri Rousseau",
+        "Auguste Rodin"
+      ],
+      "correctIndex": 1,
+      "explanation": "\"Mona Lisa\" eserinin sanatçısı Leonardo da Vinci'dır."
+    },
+    {
+      "id": "sanat_002",
+      "categoryId": "sanat",
+      "questionText": "\"Son Akşam Yemeği\" eseri hangi sanatçıya aittir?",
+      "options": [
+        "Edward Hopper",
+        "Jackson Pollock",
+        "Johannes Vermeer",
+        "Leonardo da Vinci"
+      ],
+      "correctIndex": 3,
+      "explanation": "\"Son Akşam Yemeği\" eserinin sanatçısı Leonardo da Vinci'dır."
+    },
+    {
+      "id": "sanat_003",
+      "categoryId": "sanat",
+      "questionText": "\"Vitruvius Adamı\" eseri hangi sanatçıya aittir?",
+      "options": [
+        "Georges Seurat",
+        "Salvador Dalí",
+        "Francisco Goya",
+        "Leonardo da Vinci"
+      ],
+      "correctIndex": 3,
+      "explanation": "\"Vitruvius Adamı\" eserinin sanatçısı Leonardo da Vinci'dır."
+    },
+    {
+      "id": "sanat_004",
+      "categoryId": "sanat",
+      "questionText": "\"Yıldızlı Gece\" eseri hangi sanatçıya aittir?",
+      "options": [
+        "Pablo Picasso",
+        "Jacques-Louis David",
+        "Vincent van Gogh",
+        "Jean-François Millet"
+      ],
+      "correctIndex": 2,
+      "explanation": "\"Yıldızlı Gece\" eserinin sanatçısı Vincent van Gogh'dır."
+    },
+    {
+      "id": "sanat_005",
+      "categoryId": "sanat",
+      "questionText": "\"Ayçiçekleri\" eseri hangi sanatçıya aittir?",
+      "options": [
+        "Jean-François Millet",
+        "Pierre-Auguste Renoir",
+        "Grant Wood",
+        "Vincent van Gogh"
+      ],
+      "correctIndex": 3,
+      "explanation": "\"Ayçiçekleri\" eserinin sanatçısı Vincent van Gogh'dır."
+    },
+    {
+      "id": "sanat_006",
+      "categoryId": "sanat",
+      "questionText": "\"Gece Kafe\" eseri hangi sanatçıya aittir?",
+      "options": [
+        "Gustav Klimt",
+        "James McNeill Whistler",
+        "Vincent van Gogh",
+        "Nicolas Poussin"
+      ],
+      "correctIndex": 2,
+      "explanation": "\"Gece Kafe\" eserinin sanatçısı Vincent van Gogh'dır."
+    },
+    {
+      "id": "sanat_007",
+      "categoryId": "sanat",
+      "questionText": "\"Kafe Terası (Gece)\" eseri hangi sanatçıya aittir?",
+      "options": [
+        "İvan Ayvazovski",
+        "Jean-François Millet",
+        "Vincent van Gogh",
+        "Diego Velázquez"
+      ],
+      "correctIndex": 2,
+      "explanation": "\"Kafe Terası (Gece)\" eserinin sanatçısı Vincent van Gogh'dır."
+    },
+    {
+      "id": "sanat_008",
+      "categoryId": "sanat",
+      "questionText": "\"Guernica\" eseri hangi sanatçıya aittir?",
+      "options": [
+        "Jacques-Louis David",
+        "Edward Hopper",
+        "Pablo Picasso",
+        "İvan Ayvazovski"
+      ],
+      "correctIndex": 2,
+      "explanation": "\"Guernica\" eserinin sanatçısı Pablo Picasso'dır."
+    },
+    {
+      "id": "sanat_009",
+      "categoryId": "sanat",
+      "questionText": "\"Avignonlu Kızlar\" eseri hangi sanatçıya aittir?",
+      "options": [
+        "Jean-Honoré Fragonard",
+        "James McNeill Whistler",
+        "Pablo Picasso",
+        "Michelangelo"
+      ],
+      "correctIndex": 2,
+      "explanation": "\"Avignonlu Kızlar\" eserinin sanatçısı Pablo Picasso'dır."
+    },
+    {
+      "id": "sanat_010",
+      "categoryId": "sanat",
+      "questionText": "\"Çığlık\" eseri hangi sanatçıya aittir?",
+      "options": [
+        "Wassily Kandinsky",
+        "Edvard Munch",
+        "René Magritte",
+        "Hieronymus Bosch"
+      ],
+      "correctIndex": 1,
+      "explanation": "\"Çığlık\" eserinin sanatçısı Edvard Munch'dır."
+    },
+    {
+      "id": "sanat_011",
+      "categoryId": "sanat",
+      "questionText": "\"İnci Küpeli Kız\" eseri hangi sanatçıya aittir?",
+      "options": [
+        "Johannes Vermeer",
+        "Salvador Dalí",
+        "Wassily Kandinsky",
+        "Francisco Goya"
+      ],
+      "correctIndex": 0,
+      "explanation": "\"İnci Küpeli Kız\" eserinin sanatçısı Johannes Vermeer'dır."
+    },
+    {
+      "id": "sanat_012",
+      "categoryId": "sanat",
+      "questionText": "\"Gece Devriyesi\" eseri hangi sanatçıya aittir?",
+      "options": [
+        "Salvador Dalí",
+        "Rembrandt",
+        "René Magritte",
+        "Jacques-Louis David"
+      ],
+      "correctIndex": 1,
+      "explanation": "\"Gece Devriyesi\" eserinin sanatçısı Rembrandt'dır."
+    },
+    {
+      "id": "sanat_013",
+      "categoryId": "sanat",
+      "questionText": "\"Savurgan Oğlun Dönüşü\" eseri hangi sanatçıya aittir?",
+      "options": [
+        "Pierre-Auguste Renoir",
+        "Rembrandt",
+        "Jacques-Louis David",
+        "Francisco Goya"
+      ],
+      "correctIndex": 1,
+      "explanation": "\"Savurgan Oğlun Dönüşü\" eserinin sanatçısı Rembrandt'dır."
+    },
+    {
+      "id": "sanat_014",
+      "categoryId": "sanat",
+      "questionText": "\"Belleğin Azmi\" eseri hangi sanatçıya aittir?",
+      "options": [
+        "Pablo Picasso",
+        "Gustav Klimt",
+        "Salvador Dalí",
+        "Wassily Kandinsky"
+      ],
+      "correctIndex": 2,
+      "explanation": "\"Belleğin Azmi\" eserinin sanatçısı Salvador Dalí'dır."
+    },
+    {
+      "id": "sanat_015",
+      "categoryId": "sanat",
+      "questionText": "\"Öpücük\" eseri hangi sanatçıya aittir?",
+      "options": [
+        "Wassily Kandinsky",
+        "Gustav Klimt",
+        "Salvador Dalí",
+        "Diego Velázquez"
+      ],
+      "correctIndex": 1,
+      "explanation": "\"Öpücük\" eserinin sanatçısı Gustav Klimt'dır."
+    },
+    {
+      "id": "sanat_016",
+      "categoryId": "sanat",
+      "questionText": "\"Amerikan Gotik\" eseri hangi sanatçıya aittir?",
+      "options": [
+        "Grant Wood",
+        "Paul Cézanne",
+        "Sandro Botticelli",
+        "Rembrandt"
+      ],
+      "correctIndex": 0,
+      "explanation": "\"Amerikan Gotik\" eserinin sanatçısı Grant Wood'dır."
+    },
+    {
+      "id": "sanat_017",
+      "categoryId": "sanat",
+      "questionText": "\"Venüs'ün Doğuşu\" eseri hangi sanatçıya aittir?",
+      "options": [
+        "Salvador Dalí",
+        "Rembrandt",
+        "Sandro Botticelli",
+        "Diego Velázquez"
+      ],
+      "correctIndex": 2,
+      "explanation": "\"Venüs'ün Doğuşu\" eserinin sanatçısı Sandro Botticelli'dır."
+    },
+    {
+      "id": "sanat_018",
+      "categoryId": "sanat",
+      "questionText": "\"Adem'in Yaratılışı\" eseri hangi sanatçıya aittir?",
+      "options": [
+        "Jan van Eyck",
+        "İvan Ayvazovski",
+        "Diego Velázquez",
+        "Michelangelo"
+      ],
+      "correctIndex": 3,
+      "explanation": "\"Adem'in Yaratılışı\" eserinin sanatçısı Michelangelo'dır."
+    },
+    {
+      "id": "sanat_019",
+      "categoryId": "sanat",
+      "questionText": "\"Davud (heykel)\" eseri hangi sanatçıya aittir?",
+      "options": [
+        "Théodore Géricault",
+        "Michelangelo",
+        "Édouard Manet",
+        "Edvard Munch"
+      ],
+      "correctIndex": 1,
+      "explanation": "\"Davud (heykel)\" eserinin sanatçısı Michelangelo'dır."
+    },
+    {
+      "id": "sanat_020",
+      "categoryId": "sanat",
+      "questionText": "\"Pieta (heykel)\" eseri hangi sanatçıya aittir?",
+      "options": [
+        "Eugène Delacroix",
+        "Pierre-Auguste Renoir",
+        "Michelangelo",
+        "Raphael"
+      ],
+      "correctIndex": 2,
+      "explanation": "\"Pieta (heykel)\" eserinin sanatçısı Michelangelo'dır."
+    },
+    {
+      "id": "sanat_021",
+      "categoryId": "sanat",
+      "questionText": "\"Düşünen Adam (heykel)\" eseri hangi sanatçıya aittir?",
+      "options": [
+        "Diego Velázquez",
+        "Jacques-Louis David",
+        "Auguste Rodin",
+        "Georges Seurat"
+      ],
+      "correctIndex": 2,
+      "explanation": "\"Düşünen Adam (heykel)\" eserinin sanatçısı Auguste Rodin'dır."
+    },
+    {
+      "id": "sanat_022",
+      "categoryId": "sanat",
+      "questionText": "\"Özgürlük Halka Yol Gösteriyor\" eseri hangi sanatçıya aittir?",
+      "options": [
+        "Raphael",
+        "Théodore Géricault",
+        "Eugène Delacroix",
+        "Pierre-Auguste Renoir"
+      ],
+      "correctIndex": 2,
+      "explanation": "\"Özgürlük Halka Yol Gösteriyor\" eserinin sanatçısı Eugène Delacroix'dır."
+    },
+    {
+      "id": "sanat_023",
+      "categoryId": "sanat",
+      "questionText": "\"Atina Okulu\" eseri hangi sanatçıya aittir?",
+      "options": [
+        "Jackson Pollock",
+        "Francisco Goya",
+        "Raphael",
+        "Edvard Munch"
+      ],
+      "correctIndex": 2,
+      "explanation": "\"Atina Okulu\" eserinin sanatçısı Raphael'dır."
+    },
+    {
+      "id": "sanat_024",
+      "categoryId": "sanat",
+      "questionText": "\"Büyük Dalga (Kanagawa Açıkları)\" eseri hangi sanatçıya aittir?",
+      "options": [
+        "Gustav Klimt",
+        "Michelangelo",
+        "Katsushika Hokusai",
+        "Édouard Manet"
+      ],
+      "correctIndex": 2,
+      "explanation": "\"Büyük Dalga (Kanagawa Açıkları)\" eserinin sanatçısı Katsushika Hokusai'dır."
+    },
+    {
+      "id": "sanat_025",
+      "categoryId": "sanat",
+      "questionText": "\"İnsanın Oğlu\" eseri hangi sanatçıya aittir?",
+      "options": [
+        "René Magritte",
+        "Wassily Kandinsky",
+        "Eugène Delacroix",
+        "Michelangelo"
+      ],
+      "correctIndex": 0,
+      "explanation": "\"İnsanın Oğlu\" eserinin sanatçısı René Magritte'dır."
+    },
+    {
+      "id": "sanat_026",
+      "categoryId": "sanat",
+      "questionText": "\"İmgelerin İhaneti\" eseri hangi sanatçıya aittir?",
+      "options": [
+        "Sandro Botticelli",
+        "René Magritte",
+        "James McNeill Whistler",
+        "Nicolas Poussin"
+      ],
+      "correctIndex": 1,
+      "explanation": "\"İmgelerin İhaneti\" eserinin sanatçısı René Magritte'dır."
+    },
+    {
+      "id": "sanat_027",
+      "categoryId": "sanat",
+      "questionText": "\"Nighthawks\" eseri hangi sanatçıya aittir?",
+      "options": [
+        "Edward Hopper",
+        "Salvador Dalí",
+        "Eugène Delacroix",
+        "Gustav Klimt"
+      ],
+      "correctIndex": 0,
+      "explanation": "\"Nighthawks\" eserinin sanatçısı Edward Hopper'dır."
+    },
+    {
+      "id": "sanat_028",
+      "categoryId": "sanat",
+      "questionText": "\"Dünyevi Zevkler Bahçesi\" eseri hangi sanatçıya aittir?",
+      "options": [
+        "Hieronymus Bosch",
+        "Osman Hamdi Bey",
+        "Jean-François Millet",
+        "Edvard Munch"
+      ],
+      "correctIndex": 0,
+      "explanation": "\"Dünyevi Zevkler Bahçesi\" eserinin sanatçısı Hieronymus Bosch'dır."
+    },
+    {
+      "id": "sanat_029",
+      "categoryId": "sanat",
+      "questionText": "\"Las Meninas\" eseri hangi sanatçıya aittir?",
+      "options": [
+        "Katsushika Hokusai",
+        "Diego Velázquez",
+        "Théodore Géricault",
+        "Raphael"
+      ],
+      "correctIndex": 1,
+      "explanation": "\"Las Meninas\" eserinin sanatçısı Diego Velázquez'dır."
+    },
+    {
+      "id": "sanat_030",
+      "categoryId": "sanat",
+      "questionText": "\"Üçüncü Mayıs 1808\" eseri hangi sanatçıya aittir?",
+      "options": [
+        "Wassily Kandinsky",
+        "Théodore Géricault",
+        "Francisco Goya",
+        "Pierre-Auguste Renoir"
+      ],
+      "correctIndex": 2,
+      "explanation": "\"Üçüncü Mayıs 1808\" eserinin sanatçısı Francisco Goya'dır."
+    },
+    {
+      "id": "sanat_031",
+      "categoryId": "sanat",
+      "questionText": "\"Whistler'ın Annesi\" eseri hangi sanatçıya aittir?",
+      "options": [
+        "Georges Seurat",
+        "Wassily Kandinsky",
+        "Leonardo da Vinci",
+        "James McNeill Whistler"
+      ],
+      "correctIndex": 3,
+      "explanation": "\"Whistler'ın Annesi\" eserinin sanatçısı James McNeill Whistler'dır."
+    },
+    {
+      "id": "sanat_032",
+      "categoryId": "sanat",
+      "questionText": "\"Salıncak\" eseri hangi sanatçıya aittir?",
+      "options": [
+        "Francisco Goya",
+        "Jacques-Louis David",
+        "Jean-Honoré Fragonard",
+        "İvan Ayvazovski"
+      ],
+      "correctIndex": 2,
+      "explanation": "\"Salıncak\" eserinin sanatçısı Jean-Honoré Fragonard'dır."
+    },
+    {
+      "id": "sanat_033",
+      "categoryId": "sanat",
+      "questionText": "\"La Grande Jatte Adasında Bir Pazar Öğleden Sonrası\" eseri hangi sanatçıya aittir?",
+      "options": [
+        "René Magritte",
+        "Eugène Delacroix",
+        "Katsushika Hokusai",
+        "Georges Seurat"
+      ],
+      "correctIndex": 3,
+      "explanation": "\"La Grande Jatte Adasında Bir Pazar Öğleden Sonrası\" eserinin sanatçısı Georges Seurat'dır."
+    },
+    {
+      "id": "sanat_034",
+      "categoryId": "sanat",
+      "questionText": "\"Patates Yiyenler\" eseri hangi sanatçıya aittir?",
+      "options": [
+        "Pablo Picasso",
+        "Vincent van Gogh",
+        "İvan Ayvazovski",
+        "Jean-François Millet"
+      ],
+      "correctIndex": 1,
+      "explanation": "\"Patates Yiyenler\" eserinin sanatçısı Vincent van Gogh'dır."
+    },
+    {
+      "id": "sanat_035",
+      "categoryId": "sanat",
+      "questionText": "\"Başak Toplayanlar\" eseri hangi sanatçıya aittir?",
+      "options": [
+        "Andy Warhol",
+        "Raphael",
+        "Jean-François Millet",
+        "Jackson Pollock"
+      ],
+      "correctIndex": 2,
+      "explanation": "\"Başak Toplayanlar\" eserinin sanatçısı Jean-François Millet'dır."
+    },
+    {
+      "id": "sanat_036",
+      "categoryId": "sanat",
+      "questionText": "\"Uyuyan Çingene\" eseri hangi sanatçıya aittir?",
+      "options": [
+        "Théodore Géricault",
+        "Hieronymus Bosch",
+        "Paul Cézanne",
+        "Henri Rousseau"
+      ],
+      "correctIndex": 3,
+      "explanation": "\"Uyuyan Çingene\" eserinin sanatçısı Henri Rousseau'dır."
+    },
+    {
+      "id": "sanat_037",
+      "categoryId": "sanat",
+      "questionText": "\"Kart Oyuncuları\" eseri hangi sanatçıya aittir?",
+      "options": [
+        "İvan Ayvazovski",
+        "Leonardo da Vinci",
+        "Paul Cézanne",
+        "Hieronymus Bosch"
+      ],
+      "correctIndex": 2,
+      "explanation": "\"Kart Oyuncuları\" eserinin sanatçısı Paul Cézanne'dır."
+    },
+    {
+      "id": "sanat_038",
+      "categoryId": "sanat",
+      "questionText": "\"Tekne Gezintisi Öğle Yemeği\" eseri hangi sanatçıya aittir?",
+      "options": [
+        "Pierre-Auguste Renoir",
+        "Henri Rousseau",
+        "Salvador Dalí",
+        "Wassily Kandinsky"
+      ],
+      "correctIndex": 0,
+      "explanation": "\"Tekne Gezintisi Öğle Yemeği\" eserinin sanatçısı Pierre-Auguste Renoir'dır."
+    },
+    {
+      "id": "sanat_039",
+      "categoryId": "sanat",
+      "questionText": "\"Moulin de la Galette'de Dans\" eseri hangi sanatçıya aittir?",
+      "options": [
+        "Johannes Vermeer",
+        "Jan van Eyck",
+        "Salvador Dalí",
+        "Pierre-Auguste Renoir"
+      ],
+      "correctIndex": 3,
+      "explanation": "\"Moulin de la Galette'de Dans\" eserinin sanatçısı Pierre-Auguste Renoir'dır."
+    },
+    {
+      "id": "sanat_040",
+      "categoryId": "sanat",
+      "questionText": "\"Olympia\" eseri hangi sanatçıya aittir?",
+      "options": [
+        "Édouard Manet",
+        "Sandro Botticelli",
+        "Jean-Honoré Fragonard",
+        "Andy Warhol"
+      ],
+      "correctIndex": 0,
+      "explanation": "\"Olympia\" eserinin sanatçısı Édouard Manet'dır."
+    },
+    {
+      "id": "sanat_041",
+      "categoryId": "sanat",
+      "questionText": "\"Medusa'nın Salı\" eseri hangi sanatçıya aittir?",
+      "options": [
+        "Pablo Picasso",
+        "Wassily Kandinsky",
+        "Théodore Géricault",
+        "İvan Ayvazovski"
+      ],
+      "correctIndex": 2,
+      "explanation": "\"Medusa'nın Salı\" eserinin sanatçısı Théodore Géricault'dır."
+    },
+    {
+      "id": "sanat_042",
+      "categoryId": "sanat",
+      "questionText": "\"Marat'nın Ölümü\" eseri hangi sanatçıya aittir?",
+      "options": [
+        "Jacques-Louis David",
+        "Nicolas Poussin",
+        "Jan van Eyck",
+        "Wassily Kandinsky"
+      ],
+      "correctIndex": 0,
+      "explanation": "\"Marat'nın Ölümü\" eserinin sanatçısı Jacques-Louis David'dır."
+    },
+    {
+      "id": "sanat_043",
+      "categoryId": "sanat",
+      "questionText": "\"Campbell's Soup Cans\" eseri hangi sanatçıya aittir?",
+      "options": [
+        "Raphael",
+        "Andy Warhol",
+        "Michelangelo",
+        "Jean-Honoré Fragonard"
+      ],
+      "correctIndex": 1,
+      "explanation": "\"Campbell's Soup Cans\" eserinin sanatçısı Andy Warhol'dır."
+    },
+    {
+      "id": "sanat_044",
+      "categoryId": "sanat",
+      "questionText": "\"No. 5, 1948\" eseri hangi sanatçıya aittir?",
+      "options": [
+        "Jackson Pollock",
+        "Raphael",
+        "Diego Velázquez",
+        "James McNeill Whistler"
+      ],
+      "correctIndex": 0,
+      "explanation": "\"No. 5, 1948\" eserinin sanatçısı Jackson Pollock'dır."
+    },
+    {
+      "id": "sanat_045",
+      "categoryId": "sanat",
+      "questionText": "\"Composition VIII\" eseri hangi sanatçıya aittir?",
+      "options": [
+        "Wassily Kandinsky",
+        "Salvador Dalí",
+        "Johannes Vermeer",
+        "Nicolas Poussin"
+      ],
+      "correctIndex": 0,
+      "explanation": "\"Composition VIII\" eserinin sanatçısı Wassily Kandinsky'dır."
+    },
+    {
+      "id": "sanat_046",
+      "categoryId": "sanat",
+      "questionText": "\"Kaplumbağa Terbiyecisi\" eseri hangi sanatçıya aittir?",
+      "options": [
+        "İvan Ayvazovski",
+        "Hieronymus Bosch",
+        "Raphael",
+        "Osman Hamdi Bey"
+      ],
+      "correctIndex": 3,
+      "explanation": "\"Kaplumbağa Terbiyecisi\" eserinin sanatçısı Osman Hamdi Bey'dır."
+    },
+    {
+      "id": "sanat_047",
+      "categoryId": "sanat",
+      "questionText": "\"Silah Taciri\" eseri hangi sanatçıya aittir?",
+      "options": [
+        "Nicolas Poussin",
+        "Osman Hamdi Bey",
+        "Leonardo da Vinci",
+        "Hieronymus Bosch"
+      ],
+      "correctIndex": 1,
+      "explanation": "\"Silah Taciri\" eserinin sanatçısı Osman Hamdi Bey'dır."
+    },
+    {
+      "id": "sanat_048",
+      "categoryId": "sanat",
+      "questionText": "\"Dokuzuncu Dalga\" eseri hangi sanatçıya aittir?",
+      "options": [
+        "İvan Ayvazovski",
+        "Vincent van Gogh",
+        "Jean-Honoré Fragonard",
+        "Rembrandt"
+      ],
+      "correctIndex": 0,
+      "explanation": "\"Dokuzuncu Dalga\" eserinin sanatçısı İvan Ayvazovski'dır."
+    },
+    {
+      "id": "sanat_049",
+      "categoryId": "sanat",
+      "questionText": "\"Arnolfini Portresi\" eseri hangi sanatçıya aittir?",
+      "options": [
+        "Jacques-Louis David",
+        "Diego Velázquez",
+        "Francisco Goya",
+        "Jan van Eyck"
+      ],
+      "correctIndex": 3,
+      "explanation": "\"Arnolfini Portresi\" eserinin sanatçısı Jan van Eyck'dır."
+    },
+    {
+      "id": "sanat_050",
+      "categoryId": "sanat",
+      "questionText": "\"Çobanlar Arkadyada (Et in Arcadia ego)\" eseri hangi sanatçıya aittir?",
+      "options": [
+        "Nicolas Poussin",
+        "Sandro Botticelli",
+        "Jean-Honoré Fragonard",
+        "Georges Seurat"
+      ],
+      "correctIndex": 0,
+      "explanation": "\"Çobanlar Arkadyada (Et in Arcadia ego)\" eserinin sanatçısı Nicolas Poussin'dır."
+    },
+    {
+      "id": "muzik_001",
+      "categoryId": "muzik",
+      "questionText": "\"Bohemian Rhapsody\" şarkısı hangi gruba aittir?",
+      "options": [
+        "Queen",
+        "Nirvana",
+        "Metallica",
+        "AC/DC"
+      ],
+      "correctIndex": 0,
+      "explanation": "Bohemian Rhapsody, Queen'in şarkısıdır."
+    },
+    {
+      "id": "muzik_002",
+      "categoryId": "muzik",
+      "questionText": "\"Thriller\" albümü hangi sanatçıya aittir?",
+      "options": [
+        "Led Zeppelin",
+        "Beyoncé",
+        "Michael Jackson",
+        "Britney Spears"
+      ],
+      "correctIndex": 2,
+      "explanation": "Thriller, Michael Jackson albümüdür."
+    },
+    {
+      "id": "muzik_003",
+      "categoryId": "muzik",
+      "questionText": "\"Imagine\" şarkısını kim seslendirmiştir?",
+      "options": [
+        "Shakira",
+        "Queen",
+        "John Lennon",
+        "Aretha Franklin"
+      ],
+      "correctIndex": 2,
+      "explanation": "Imagine, John Lennon ile özdeşleşir."
+    },
+    {
+      "id": "muzik_004",
+      "categoryId": "muzik",
+      "questionText": "\"Hey Jude\" şarkısı hangi gruba aittir?",
+      "options": [
+        "Eminem",
+        "Nirvana",
+        "The Beatles",
+        "Leonard Cohen"
+      ],
+      "correctIndex": 2,
+      "explanation": "Hey Jude, The Beatles şarkısıdır."
+    },
+    {
+      "id": "muzik_005",
+      "categoryId": "muzik",
+      "questionText": "\"Smells Like Teen Spirit\" hangi grubun şarkısıdır?",
+      "options": [
+        "Luis Fonsi",
+        "Britney Spears",
+        "Nirvana",
+        "Aretha Franklin"
+      ],
+      "correctIndex": 2,
+      "explanation": "Şarkı Nirvana'ya aittir."
+    },
+    {
+      "id": "muzik_006",
+      "categoryId": "muzik",
+      "questionText": "Klasik müzikte \"Dört Mevsim\" eserinin bestecisi kimdir?",
+      "options": [
+        "Pyotr Ilyich Tchaikovsky",
+        "Antonio Vivaldi",
+        "Ludwig van Beethoven",
+        "Maurice Ravel"
+      ],
+      "correctIndex": 1,
+      "explanation": "Dört Mevsim Vivaldi'nindir."
+    },
+    {
+      "id": "muzik_007",
+      "categoryId": "muzik",
+      "questionText": "\"Ay Işığı Sonatı\" kimin eseridir?",
+      "options": [
+        "Ludwig van Beethoven",
+        "Pyotr Ilyich Tchaikovsky",
+        "Maurice Ravel",
+        "Wolfgang Amadeus Mozart"
+      ],
+      "correctIndex": 0,
+      "explanation": "Ay Işığı Sonatı Beethoven'a aittir."
+    },
+    {
+      "id": "muzik_008",
+      "categoryId": "muzik",
+      "questionText": "\"Eine kleine Nachtmusik\" kimin eseridir?",
+      "options": [
+        "Antonio Vivaldi",
+        "Wolfgang Amadeus Mozart",
+        "Georges Bizet",
+        "Pyotr Ilyich Tchaikovsky"
+      ],
+      "correctIndex": 1,
+      "explanation": "Eser Mozart'a aittir."
+    },
+    {
+      "id": "muzik_009",
+      "categoryId": "muzik",
+      "questionText": "\"Türk Marşı\" hangi besteciyle ilişkilidir?",
+      "options": [
+        "Wolfgang Amadeus Mozart",
+        "Antonio Vivaldi",
+        "Maurice Ravel",
+        "Pyotr Ilyich Tchaikovsky"
+      ],
+      "correctIndex": 0,
+      "explanation": "Türk Marşı Mozart'ın eseridir."
+    },
+    {
+      "id": "muzik_010",
+      "categoryId": "muzik",
+      "questionText": "\"Bolero\" eserinin bestecisi kimdir?",
+      "options": [
+        "Maurice Ravel",
+        "Pyotr Ilyich Tchaikovsky",
+        "Georges Bizet",
+        "Antonio Vivaldi"
+      ],
+      "correctIndex": 0,
+      "explanation": "Bolero Ravel'e aittir."
+    },
+    {
+      "id": "muzik_011",
+      "categoryId": "muzik",
+      "questionText": "\"Swan Lake (Kuğu Gölü)\" balesinin bestecisi kimdir?",
+      "options": [
+        "Antonio Vivaldi",
+        "Wolfgang Amadeus Mozart",
+        "Pyotr Ilyich Tchaikovsky",
+        "Georges Bizet"
+      ],
+      "correctIndex": 2,
+      "explanation": "Kuğu Gölü Çaykovski'nindir."
+    },
+    {
+      "id": "muzik_012",
+      "categoryId": "muzik",
+      "questionText": "\"Carmen\" operasının bestecisi kimdir?",
+      "options": [
+        "Wolfgang Amadeus Mozart",
+        "Maurice Ravel",
+        "Georges Bizet",
+        "Pyotr Ilyich Tchaikovsky"
+      ],
+      "correctIndex": 2,
+      "explanation": "Carmen operası Bizet'nin eseridir."
+    },
+    {
+      "id": "muzik_013",
+      "categoryId": "muzik",
+      "questionText": "\"The Four Seasons\" (Vivaldi) kaç bölümden oluşur?",
+      "options": [
+        "4",
+        "6",
+        "88",
+        "8"
+      ],
+      "correctIndex": 0,
+      "explanation": "Dört Mevsim dört konçertodan oluşur."
+    },
+    {
+      "id": "muzik_014",
+      "categoryId": "muzik",
+      "questionText": "Standart bir piyanoda kaç tuş bulunur?",
+      "options": [
+        "6",
+        "88",
+        "8",
+        "4"
+      ],
+      "correctIndex": 1,
+      "explanation": "Standart piyanoda 88 tuş vardır."
+    },
+    {
+      "id": "muzik_015",
+      "categoryId": "muzik",
+      "questionText": "Müzikte tempo için kullanılan \"BPM\" neyi ifade eder?",
+      "options": [
+        "Halk müziği",
+        "Şef",
+        "Dakikadaki vuruş sayısı",
+        "Ritimli konuşma"
+      ],
+      "correctIndex": 2,
+      "explanation": "BPM: beats per minute."
+    },
+    {
+      "id": "muzik_016",
+      "categoryId": "muzik",
+      "questionText": "Müzikte \"oktav\" genellikle kaç nota aralığını kapsar?",
+      "options": [
+        "4",
+        "6",
+        "8",
+        "88"
+      ],
+      "correctIndex": 2,
+      "explanation": "Oktav 8 nota aralığıdır."
+    },
+    {
+      "id": "muzik_017",
+      "categoryId": "muzik",
+      "questionText": "Elektro gitarın yaygın tel sayısı kaçtır?",
+      "options": [
+        "8",
+        "6",
+        "4",
+        "88"
+      ],
+      "correctIndex": 1,
+      "explanation": "Elektro gitar genelde 6 tellidir."
+    },
+    {
+      "id": "muzik_018",
+      "categoryId": "muzik",
+      "questionText": "Keman hangi enstrüman ailesindendir?",
+      "options": [
+        "The Beatles",
+        "Yaylı",
+        "Antonio Vivaldi",
+        "Dakikadaki vuruş sayısı"
+      ],
+      "correctIndex": 1,
+      "explanation": "Keman yaylı bir çalgıdır."
+    },
+    {
+      "id": "muzik_019",
+      "categoryId": "muzik",
+      "questionText": "Davul hangi enstrüman ailesindendir?",
+      "options": [
+        "Vurmalı (Perküsyon)",
+        "Telli",
+        "Üflemeli",
+        "Tuşlu"
+      ],
+      "correctIndex": 0,
+      "explanation": "Ritim enstrümanları genellikle vurmalı (perküsyon) grubunda değerlendirilir."
+    },
+    {
+      "id": "muzik_020",
+      "categoryId": "muzik",
+      "questionText": "Flüt hangi enstrüman ailesindendir?",
+      "options": [
+        "Nefesli",
+        "Yaylı",
+        "Ed Sheeran",
+        "PSY"
+      ],
+      "correctIndex": 0,
+      "explanation": "Flüt nefesli çalgıdır."
+    },
+    {
+      "id": "muzik_021",
+      "categoryId": "muzik",
+      "questionText": "\"Rap\" müzik hangi ögeyle öne çıkar?",
+      "options": [
+        "Müzik ve tiyatro",
+        "Ses yüksekliği ve süre",
+        "Dakikadaki vuruş sayısı",
+        "Ritimli konuşma"
+      ],
+      "correctIndex": 3,
+      "explanation": "Rap ritimli konuşma üzerine kuruludur."
+    },
+    {
+      "id": "muzik_022",
+      "categoryId": "muzik",
+      "questionText": "\"Opera\" hangi sanatı birleştirir?",
+      "options": [
+        "Müzik ve tiyatro",
+        "Ses yüksekliği ve süre",
+        "Halk müziği",
+        "Şef"
+      ],
+      "correctIndex": 0,
+      "explanation": "Opera müzik ve tiyatroyu birleştirir."
+    },
+    {
+      "id": "muzik_023",
+      "categoryId": "muzik",
+      "questionText": "\"Sahne adı\" ile bilinen Lady Gaga'nın gerçek adı nedir?",
+      "options": [
+        "The Beatles",
+        "Eminem",
+        "Adele",
+        "Stefani Germanotta"
+      ],
+      "correctIndex": 3,
+      "explanation": "Lady Gaga'nın adı Stefani'dir."
+    },
+    {
+      "id": "muzik_024",
+      "categoryId": "muzik",
+      "questionText": "\"Shape of You\" şarkısını kim seslendirir?",
+      "options": [
+        "Leonard Cohen",
+        "Nirvana",
+        "The Beatles",
+        "Ed Sheeran"
+      ],
+      "correctIndex": 3,
+      "explanation": "Şarkı Ed Sheeran'a aittir."
+    },
+    {
+      "id": "muzik_025",
+      "categoryId": "muzik",
+      "questionText": "\"Rolling in the Deep\" şarkısını kim seslendirir?",
+      "options": [
+        "Nirvana",
+        "Adele",
+        "The Beatles",
+        "Queen"
+      ],
+      "correctIndex": 1,
+      "explanation": "Şarkı Adele ile bilinir."
+    },
+    {
+      "id": "muzik_026",
+      "categoryId": "muzik",
+      "questionText": "\"Hallelujah\" şarkısının bestecisi/yaratıcısı kimdir?",
+      "options": [
+        "Michael Jackson",
+        "Eminem",
+        "PSY",
+        "Leonard Cohen"
+      ],
+      "correctIndex": 3,
+      "explanation": "Şarkının yazarı Leonard Cohen'dir."
+    },
+    {
+      "id": "muzik_027",
+      "categoryId": "muzik",
+      "questionText": "\"Billie Jean\" hangi sanatçının şarkısıdır?",
+      "options": [
+        "Michael Jackson",
+        "Oasis",
+        "Whitney Houston",
+        "The Beatles"
+      ],
+      "correctIndex": 0,
+      "explanation": "Billie Jean MJ'nin şarkısıdır."
+    },
+    {
+      "id": "muzik_028",
+      "categoryId": "muzik",
+      "questionText": "\"Like a Prayer\" hangi sanatçıyla özdeşleşir?",
+      "options": [
+        "Madonna",
+        "Luis Fonsi",
+        "Leonard Cohen",
+        "AC/DC"
+      ],
+      "correctIndex": 0,
+      "explanation": "Şarkı Madonna'ya aittir."
+    },
+    {
+      "id": "muzik_029",
+      "categoryId": "muzik",
+      "questionText": "\"Respect\" şarkısıyla ünlü sanatçı kimdir?",
+      "options": [
+        "Whitney Houston",
+        "a-ha",
+        "Leonard Cohen",
+        "Aretha Franklin"
+      ],
+      "correctIndex": 3,
+      "explanation": "Respect Aretha Franklin ile bilinir."
+    },
+    {
+      "id": "muzik_030",
+      "categoryId": "muzik",
+      "questionText": "\"Hotel California\" hangi grubun şarkısıdır?",
+      "options": [
+        "Eagles",
+        "Aretha Franklin",
+        "a-ha",
+        "Nirvana"
+      ],
+      "correctIndex": 0,
+      "explanation": "Hotel California Eagles'a aittir."
+    },
+    {
+      "id": "muzik_031",
+      "categoryId": "muzik",
+      "questionText": "\"Stairway to Heaven\" hangi grubun şarkısıdır?",
+      "options": [
+        "Whitney Houston",
+        "Linkin Park",
+        "a-ha",
+        "Led Zeppelin"
+      ],
+      "correctIndex": 3,
+      "explanation": "Şarkı Led Zeppelin'e aittir."
+    },
+    {
+      "id": "muzik_032",
+      "categoryId": "muzik",
+      "questionText": "\"Nothing Else Matters\" hangi grubun şarkısıdır?",
+      "options": [
+        "Metallica",
+        "Aretha Franklin",
+        "Oasis",
+        "The Weeknd"
+      ],
+      "correctIndex": 0,
+      "explanation": "Şarkı Metallica'ya aittir."
+    },
+    {
+      "id": "muzik_033",
+      "categoryId": "muzik",
+      "questionText": "\"Wonderwall\" hangi grubun şarkısıdır?",
+      "options": [
+        "PSY",
+        "Oasis",
+        "AC/DC",
+        "Luis Fonsi"
+      ],
+      "correctIndex": 1,
+      "explanation": "Wonderwall Oasis'in şarkısıdır."
+    },
+    {
+      "id": "muzik_034",
+      "categoryId": "muzik",
+      "questionText": "\"Lose Yourself\" hangi rapçiye aittir?",
+      "options": [
+        "AC/DC",
+        "Stefani Germanotta",
+        "Michael Jackson",
+        "Eminem"
+      ],
+      "correctIndex": 3,
+      "explanation": "Lose Yourself Eminem'inkidir."
+    },
+    {
+      "id": "muzik_035",
+      "categoryId": "muzik",
+      "questionText": "\"Bad Guy\" şarkısını kim seslendirir?",
+      "options": [
+        "Metallica",
+        "Leonard Cohen",
+        "Billie Eilish",
+        "Luis Fonsi"
+      ],
+      "correctIndex": 2,
+      "explanation": "Bad Guy Billie Eilish'tir."
+    },
+    {
+      "id": "muzik_036",
+      "categoryId": "muzik",
+      "questionText": "\"Gangnam Style\" şarkısını kim seslendirir?",
+      "options": [
+        "Madonna",
+        "Aretha Franklin",
+        "Ed Sheeran",
+        "PSY"
+      ],
+      "correctIndex": 3,
+      "explanation": "Gangnam Style PSY'a aittir."
+    },
+    {
+      "id": "muzik_037",
+      "categoryId": "muzik",
+      "questionText": "\"Despacito\" şarkısının ana sanatçısı kimdir?",
+      "options": [
+        "Adele",
+        "Luis Fonsi",
+        "Oasis",
+        "Eagles"
+      ],
+      "correctIndex": 1,
+      "explanation": "Despacito Luis Fonsi ile bilinir."
+    },
+    {
+      "id": "muzik_038",
+      "categoryId": "muzik",
+      "questionText": "\"Uptown Funk\" şarkısında öne çıkan isim kimdir?",
+      "options": [
+        "a-ha",
+        "Bruno Mars",
+        "Eminem",
+        "PSY"
+      ],
+      "correctIndex": 1,
+      "explanation": "Uptown Funk Bruno Mars ile bilinir."
+    },
+    {
+      "id": "muzik_039",
+      "categoryId": "muzik",
+      "questionText": "\"Blinding Lights\" şarkısını kim seslendirir?",
+      "options": [
+        "Bruno Mars",
+        "Britney Spears",
+        "The Beatles",
+        "The Weeknd"
+      ],
+      "correctIndex": 3,
+      "explanation": "Blinding Lights The Weeknd'edir."
+    },
+    {
+      "id": "muzik_040",
+      "categoryId": "muzik",
+      "questionText": "\"Toxic\" şarkısını kim seslendirir?",
+      "options": [
+        "Billie Eilish",
+        "PSY",
+        "Britney Spears",
+        "a-ha"
+      ],
+      "correctIndex": 2,
+      "explanation": "Toxic Britney Spears'tır."
+    },
+    {
+      "id": "muzik_041",
+      "categoryId": "muzik",
+      "questionText": "\"Single Ladies\" şarkısını kim seslendirir?",
+      "options": [
+        "Madonna",
+        "John Lennon",
+        "Beyoncé",
+        "Ed Sheeran"
+      ],
+      "correctIndex": 2,
+      "explanation": "Single Ladies Beyoncé'ye aittir."
+    },
+    {
+      "id": "muzik_042",
+      "categoryId": "muzik",
+      "questionText": "\"Numb\" şarkısı hangi grubundur?",
+      "options": [
+        "Guns N' Roses",
+        "Bruno Mars",
+        "Linkin Park",
+        "Luis Fonsi"
+      ],
+      "correctIndex": 2,
+      "explanation": "Numb Linkin Park'a aittir."
+    },
+    {
+      "id": "muzik_043",
+      "categoryId": "muzik",
+      "questionText": "\"Back in Black\" albümü hangi grubundur?",
+      "options": [
+        "AC/DC",
+        "Billie Eilish",
+        "Madonna",
+        "Shakira"
+      ],
+      "correctIndex": 0,
+      "explanation": "Albüm AC/DC'nindir."
+    },
+    {
+      "id": "muzik_044",
+      "categoryId": "muzik",
+      "questionText": "\"Take On Me\" şarkısı hangi grubundur?",
+      "options": [
+        "a-ha",
+        "Eminem",
+        "Guns N' Roses",
+        "Led Zeppelin"
+      ],
+      "correctIndex": 0,
+      "explanation": "Take On Me a-ha'nındır."
+    },
+    {
+      "id": "muzik_045",
+      "categoryId": "muzik",
+      "questionText": "\"Sweet Child o' Mine\" hangi grubundur?",
+      "options": [
+        "Shakira",
+        "John Lennon",
+        "Adele",
+        "Guns N' Roses"
+      ],
+      "correctIndex": 3,
+      "explanation": "Şarkı Guns N' Roses'a aittir."
+    },
+    {
+      "id": "muzik_046",
+      "categoryId": "muzik",
+      "questionText": "\"I Will Always Love You\" ile ünlü yorumcu kimdir?",
+      "options": [
+        "Britney Spears",
+        "Whitney Houston",
+        "Led Zeppelin",
+        "Beyoncé"
+      ],
+      "correctIndex": 1,
+      "explanation": "Şarkıyla Whitney özdeşleşir."
+    },
+    {
+      "id": "muzik_047",
+      "categoryId": "muzik",
+      "questionText": "\"Hips Don't Lie\" şarkısını kim seslendirir?",
+      "options": [
+        "Beyoncé",
+        "Michael Jackson",
+        "Shakira",
+        "The Beatles"
+      ],
+      "correctIndex": 2,
+      "explanation": "Hips Don't Lie Shakira ile bilinir."
+    },
+    {
+      "id": "muzik_048",
+      "categoryId": "muzik",
+      "questionText": "Türkiye'nin popüler halk çalgılarından \"bağlama\" hangi tür müzikte sık kullanılır?",
+      "options": [
+        "Şef",
+        "Halk müziği",
+        "Ses yüksekliği ve süre",
+        "Ritimli konuşma"
+      ],
+      "correctIndex": 1,
+      "explanation": "Bağlama halk müziğinde yaygındır."
+    },
+    {
+      "id": "muzik_049",
+      "categoryId": "muzik",
+      "questionText": "Müzikte \"nota\" temel olarak neyi gösterir?",
+      "options": [
+        "Şef",
+        "Ses yüksekliği ve süre",
+        "Dakikadaki vuruş sayısı",
+        "Ritimli konuşma"
+      ],
+      "correctIndex": 1,
+      "explanation": "Nota ses ve süreyi ifade eder."
+    },
+    {
+      "id": "muzik_050",
+      "categoryId": "muzik",
+      "questionText": "Orkestrayı yöneten kişiye ne denir?",
+      "options": [
+        "Şef",
+        "Dakikadaki vuruş sayısı",
+        "Müzik ve tiyatro",
+        "Ritimli konuşma"
+      ],
+      "correctIndex": 0,
+      "explanation": "Orkestrayı şef yönetir."
+    },
+    {
+      "id": "film_dizi_001",
+      "categoryId": "film_dizi",
+      "questionText": "\"Titanic\" filminin yönetmeni kimdir?",
+      "options": [
+        "James Cameron",
+        "Peter Jackson",
+        "Wes Anderson",
+        "Hayao Miyazaki"
+      ],
+      "correctIndex": 0,
+      "explanation": "\"Titanic\" filminin yönetmeni James Cameron'dır."
+    },
+    {
+      "id": "film_dizi_002",
+      "categoryId": "film_dizi",
+      "questionText": "\"Avatar\" filminin yönetmeni kimdir?",
+      "options": [
+        "Ridley Scott",
+        "James Cameron",
+        "Steven Spielberg",
+        "David Fincher"
+      ],
+      "correctIndex": 1,
+      "explanation": "\"Avatar\" filminin yönetmeni James Cameron'dır."
+    },
+    {
+      "id": "film_dizi_003",
+      "categoryId": "film_dizi",
+      "questionText": "\"Terminator 2: Judgment Day\" filminin yönetmeni kimdir?",
+      "options": [
+        "Jonathan Demme",
+        "George Miller",
+        "James Cameron",
+        "Bong Joon-ho"
+      ],
+      "correctIndex": 2,
+      "explanation": "\"Terminator 2: Judgment Day\" filminin yönetmeni James Cameron'dır."
+    },
+    {
+      "id": "film_dizi_004",
+      "categoryId": "film_dizi",
+      "questionText": "\"Inception\" filminin yönetmeni kimdir?",
+      "options": [
+        "Hayao Miyazaki",
+        "Frank Darabont",
+        "Martin Scorsese",
+        "Christopher Nolan"
+      ],
+      "correctIndex": 3,
+      "explanation": "\"Inception\" filminin yönetmeni Christopher Nolan'dır."
+    },
+    {
+      "id": "film_dizi_005",
+      "categoryId": "film_dizi",
+      "questionText": "\"The Dark Knight\" filminin yönetmeni kimdir?",
+      "options": [
+        "Lana Wachowski & Lilly Wachowski",
+        "Hayao Miyazaki",
+        "Christopher Nolan",
+        "George Miller"
+      ],
+      "correctIndex": 2,
+      "explanation": "\"The Dark Knight\" filminin yönetmeni Christopher Nolan'dır."
+    },
+    {
+      "id": "film_dizi_006",
+      "categoryId": "film_dizi",
+      "questionText": "\"Interstellar\" filminin yönetmeni kimdir?",
+      "options": [
+        "James Cameron",
+        "Wes Anderson",
+        "Fernando Meirelles",
+        "Christopher Nolan"
+      ],
+      "correctIndex": 3,
+      "explanation": "\"Interstellar\" filminin yönetmeni Christopher Nolan'dır."
+    },
+    {
+      "id": "film_dizi_007",
+      "categoryId": "film_dizi",
+      "questionText": "\"Pulp Fiction\" filminin yönetmeni kimdir?",
+      "options": [
+        "Francis Ford Coppola",
+        "Ridley Scott",
+        "James Cameron",
+        "Quentin Tarantino"
+      ],
+      "correctIndex": 3,
+      "explanation": "\"Pulp Fiction\" filminin yönetmeni Quentin Tarantino'dır."
+    },
+    {
+      "id": "film_dizi_008",
+      "categoryId": "film_dizi",
+      "questionText": "\"Kill Bill\" filminin yönetmeni kimdir?",
+      "options": [
+        "Park Chan-wook",
+        "Francis Ford Coppola",
+        "Quentin Tarantino",
+        "Lana Wachowski & Lilly Wachowski"
+      ],
+      "correctIndex": 2,
+      "explanation": "\"Kill Bill\" filminin yönetmeni Quentin Tarantino'dır."
+    },
+    {
+      "id": "film_dizi_009",
+      "categoryId": "film_dizi",
+      "questionText": "\"The Godfather\" filminin yönetmeni kimdir?",
+      "options": [
+        "Francis Ford Coppola",
+        "David Fincher",
+        "Christopher Nolan",
+        "Alfred Hitchcock"
+      ],
+      "correctIndex": 0,
+      "explanation": "\"The Godfather\" filminin yönetmeni Francis Ford Coppola'dır."
+    },
+    {
+      "id": "film_dizi_010",
+      "categoryId": "film_dizi",
+      "questionText": "\"The Godfather Part II\" filminin yönetmeni kimdir?",
+      "options": [
+        "Francis Ford Coppola",
+        "Ron Howard",
+        "Hayao Miyazaki",
+        "Damien Chazelle"
+      ],
+      "correctIndex": 0,
+      "explanation": "\"The Godfather Part II\" filminin yönetmeni Francis Ford Coppola'dır."
+    },
+    {
+      "id": "film_dizi_011",
+      "categoryId": "film_dizi",
+      "questionText": "\"Schindler's List\" filminin yönetmeni kimdir?",
+      "options": [
+        "Park Chan-wook",
+        "Wes Anderson",
+        "Steven Spielberg",
+        "Bong Joon-ho"
+      ],
+      "correctIndex": 2,
+      "explanation": "\"Schindler's List\" filminin yönetmeni Steven Spielberg'dır."
+    },
+    {
+      "id": "film_dizi_012",
+      "categoryId": "film_dizi",
+      "questionText": "\"Jurassic Park\" filminin yönetmeni kimdir?",
+      "options": [
+        "Steven Spielberg",
+        "Mel Gibson",
+        "Alfred Hitchcock",
+        "Francis Ford Coppola"
+      ],
+      "correctIndex": 0,
+      "explanation": "\"Jurassic Park\" filminin yönetmeni Steven Spielberg'dır."
+    },
+    {
+      "id": "film_dizi_013",
+      "categoryId": "film_dizi",
+      "questionText": "\"E.T.\" filminin yönetmeni kimdir?",
+      "options": [
+        "Christopher Nolan",
+        "Jean-Pierre Jeunet",
+        "Bong Joon-ho",
+        "Steven Spielberg"
+      ],
+      "correctIndex": 3,
+      "explanation": "\"E.T.\" filminin yönetmeni Steven Spielberg'dır."
+    },
+    {
+      "id": "film_dizi_014",
+      "categoryId": "film_dizi",
+      "questionText": "\"The Lord of the Rings: The Fellowship of the Ring\" filminin yönetmeni kimdir?",
+      "options": [
+        "Ridley Scott",
+        "Quentin Tarantino",
+        "Christopher Nolan",
+        "Peter Jackson"
+      ],
+      "correctIndex": 3,
+      "explanation": "\"The Lord of the Rings: The Fellowship of the Ring\" filminin yönetmeni Peter Jackson'dır."
+    },
+    {
+      "id": "film_dizi_015",
+      "categoryId": "film_dizi",
+      "questionText": "\"The Lord of the Rings: The Return of the King\" filminin yönetmeni kimdir?",
+      "options": [
+        "Peter Jackson",
+        "Jean-Pierre Jeunet",
+        "Pete Docter",
+        "Mel Gibson"
+      ],
+      "correctIndex": 0,
+      "explanation": "\"The Lord of the Rings: The Return of the King\" filminin yönetmeni Peter Jackson'dır."
+    },
+    {
+      "id": "film_dizi_016",
+      "categoryId": "film_dizi",
+      "questionText": "\"The Matrix\" filminin yönetmeni kimdir?",
+      "options": [
+        "Roger Allers & Rob Minkoff",
+        "Francis Ford Coppola",
+        "Lana Wachowski & Lilly Wachowski",
+        "Robert Zemeckis"
+      ],
+      "correctIndex": 2,
+      "explanation": "\"The Matrix\" filminin yönetmeni Lana Wachowski & Lilly Wachowski'dır."
+    },
+    {
+      "id": "film_dizi_017",
+      "categoryId": "film_dizi",
+      "questionText": "\"Fight Club\" filminin yönetmeni kimdir?",
+      "options": [
+        "Peter Weir",
+        "Martin Scorsese",
+        "David Fincher",
+        "Roman Polanski"
+      ],
+      "correctIndex": 2,
+      "explanation": "\"Fight Club\" filminin yönetmeni David Fincher'dır."
+    },
+    {
+      "id": "film_dizi_018",
+      "categoryId": "film_dizi",
+      "questionText": "\"Se7en\" filminin yönetmeni kimdir?",
+      "options": [
+        "Pete Docter",
+        "Wes Anderson",
+        "Ron Howard",
+        "David Fincher"
+      ],
+      "correctIndex": 3,
+      "explanation": "\"Se7en\" filminin yönetmeni David Fincher'dır."
+    },
+    {
+      "id": "film_dizi_019",
+      "categoryId": "film_dizi",
+      "questionText": "\"Forrest Gump\" filminin yönetmeni kimdir?",
+      "options": [
+        "Christopher Nolan",
+        "Roman Polanski",
+        "Robert Zemeckis",
+        "Bong Joon-ho"
+      ],
+      "correctIndex": 2,
+      "explanation": "\"Forrest Gump\" filminin yönetmeni Robert Zemeckis'dır."
+    },
+    {
+      "id": "film_dizi_020",
+      "categoryId": "film_dizi",
+      "questionText": "\"Back to the Future\" filminin yönetmeni kimdir?",
+      "options": [
+        "Robert Zemeckis",
+        "Hayao Miyazaki",
+        "Peter Weir",
+        "Ridley Scott"
+      ],
+      "correctIndex": 0,
+      "explanation": "\"Back to the Future\" filminin yönetmeni Robert Zemeckis'dır."
+    },
+    {
+      "id": "film_dizi_021",
+      "categoryId": "film_dizi",
+      "questionText": "\"Gladiator\" filminin yönetmeni kimdir?",
+      "options": [
+        "Roman Polanski",
+        "Peter Weir",
+        "Ridley Scott",
+        "Fernando Meirelles"
+      ],
+      "correctIndex": 2,
+      "explanation": "\"Gladiator\" filminin yönetmeni Ridley Scott'dır."
+    },
+    {
+      "id": "film_dizi_022",
+      "categoryId": "film_dizi",
+      "questionText": "\"Alien\" filminin yönetmeni kimdir?",
+      "options": [
+        "Ridley Scott",
+        "Steven Spielberg",
+        "Park Chan-wook",
+        "Peter Weir"
+      ],
+      "correctIndex": 0,
+      "explanation": "\"Alien\" filminin yönetmeni Ridley Scott'dır."
+    },
+    {
+      "id": "film_dizi_023",
+      "categoryId": "film_dizi",
+      "questionText": "\"Blade Runner\" filminin yönetmeni kimdir?",
+      "options": [
+        "Frank Darabont",
+        "Ridley Scott",
+        "Bong Joon-ho",
+        "Mel Gibson"
+      ],
+      "correctIndex": 1,
+      "explanation": "\"Blade Runner\" filminin yönetmeni Ridley Scott'dır."
+    },
+    {
+      "id": "film_dizi_024",
+      "categoryId": "film_dizi",
+      "questionText": "\"The Shawshank Redemption\" filminin yönetmeni kimdir?",
+      "options": [
+        "Quentin Tarantino",
+        "Ridley Scott",
+        "Frank Darabont",
+        "Mel Gibson"
+      ],
+      "correctIndex": 2,
+      "explanation": "\"The Shawshank Redemption\" filminin yönetmeni Frank Darabont'dır."
+    },
+    {
+      "id": "film_dizi_025",
+      "categoryId": "film_dizi",
+      "questionText": "\"The Green Mile\" filminin yönetmeni kimdir?",
+      "options": [
+        "Peter Jackson",
+        "Christopher Nolan",
+        "Mel Gibson",
+        "Frank Darabont"
+      ],
+      "correctIndex": 3,
+      "explanation": "\"The Green Mile\" filminin yönetmeni Frank Darabont'dır."
+    },
+    {
+      "id": "film_dizi_026",
+      "categoryId": "film_dizi",
+      "questionText": "\"Spirited Away\" filminin yönetmeni kimdir?",
+      "options": [
+        "Fernando Meirelles",
+        "Hayao Miyazaki",
+        "Bong Joon-ho",
+        "Roberto Benigni"
+      ],
+      "correctIndex": 1,
+      "explanation": "\"Spirited Away\" filminin yönetmeni Hayao Miyazaki'dır."
+    },
+    {
+      "id": "film_dizi_027",
+      "categoryId": "film_dizi",
+      "questionText": "\"My Neighbor Totoro\" filminin yönetmeni kimdir?",
+      "options": [
+        "Ridley Scott",
+        "Robert Zemeckis",
+        "Damien Chazelle",
+        "Hayao Miyazaki"
+      ],
+      "correctIndex": 3,
+      "explanation": "\"My Neighbor Totoro\" filminin yönetmeni Hayao Miyazaki'dır."
+    },
+    {
+      "id": "film_dizi_028",
+      "categoryId": "film_dizi",
+      "questionText": "\"Psycho\" filminin yönetmeni kimdir?",
+      "options": [
+        "John Lasseter",
+        "Steven Spielberg",
+        "Roberto Benigni",
+        "Alfred Hitchcock"
+      ],
+      "correctIndex": 3,
+      "explanation": "\"Psycho\" filminin yönetmeni Alfred Hitchcock'dır."
+    },
+    {
+      "id": "film_dizi_029",
+      "categoryId": "film_dizi",
+      "questionText": "\"Rear Window\" filminin yönetmeni kimdir?",
+      "options": [
+        "Bong Joon-ho",
+        "Damien Chazelle",
+        "Alfred Hitchcock",
+        "James Cameron"
+      ],
+      "correctIndex": 2,
+      "explanation": "\"Rear Window\" filminin yönetmeni Alfred Hitchcock'dır."
+    },
+    {
+      "id": "film_dizi_030",
+      "categoryId": "film_dizi",
+      "questionText": "\"The Grand Budapest Hotel\" filminin yönetmeni kimdir?",
+      "options": [
+        "Roman Polanski",
+        "Wes Anderson",
+        "Ron Howard",
+        "Peter Jackson"
+      ],
+      "correctIndex": 1,
+      "explanation": "\"The Grand Budapest Hotel\" filminin yönetmeni Wes Anderson'dır."
+    },
+    {
+      "id": "film_dizi_031",
+      "categoryId": "film_dizi",
+      "questionText": "\"Parasite\" filminin yönetmeni kimdir?",
+      "options": [
+        "Alfred Hitchcock",
+        "Robert Zemeckis",
+        "Bong Joon-ho",
+        "Roberto Benigni"
+      ],
+      "correctIndex": 2,
+      "explanation": "\"Parasite\" filminin yönetmeni Bong Joon-ho'dır."
+    },
+    {
+      "id": "film_dizi_032",
+      "categoryId": "film_dizi",
+      "questionText": "\"Oldboy\" filminin yönetmeni kimdir?",
+      "options": [
+        "James Cameron",
+        "Roman Polanski",
+        "Park Chan-wook",
+        "Roberto Benigni"
+      ],
+      "correctIndex": 2,
+      "explanation": "\"Oldboy\" filminin yönetmeni Park Chan-wook'dır."
+    },
+    {
+      "id": "film_dizi_033",
+      "categoryId": "film_dizi",
+      "questionText": "\"Amélie\" filminin yönetmeni kimdir?",
+      "options": [
+        "Lana Wachowski & Lilly Wachowski",
+        "Jean-Pierre Jeunet",
+        "David Fincher",
+        "James Cameron"
+      ],
+      "correctIndex": 1,
+      "explanation": "\"Amélie\" filminin yönetmeni Jean-Pierre Jeunet'dır."
+    },
+    {
+      "id": "film_dizi_034",
+      "categoryId": "film_dizi",
+      "questionText": "\"La La Land\" filminin yönetmeni kimdir?",
+      "options": [
+        "Wes Anderson",
+        "David Fincher",
+        "Damien Chazelle",
+        "John Lasseter"
+      ],
+      "correctIndex": 2,
+      "explanation": "\"La La Land\" filminin yönetmeni Damien Chazelle'dır."
+    },
+    {
+      "id": "film_dizi_035",
+      "categoryId": "film_dizi",
+      "questionText": "\"Whiplash\" filminin yönetmeni kimdir?",
+      "options": [
+        "Park Chan-wook",
+        "Damien Chazelle",
+        "Steven Spielberg",
+        "Ron Howard"
+      ],
+      "correctIndex": 1,
+      "explanation": "\"Whiplash\" filminin yönetmeni Damien Chazelle'dır."
+    },
+    {
+      "id": "film_dizi_036",
+      "categoryId": "film_dizi",
+      "questionText": "\"The Silence of the Lambs\" filminin yönetmeni kimdir?",
+      "options": [
+        "Jonathan Demme",
+        "Ron Howard",
+        "Frank Darabont",
+        "Roberto Benigni"
+      ],
+      "correctIndex": 0,
+      "explanation": "\"The Silence of the Lambs\" filminin yönetmeni Jonathan Demme'dır."
+    },
+    {
+      "id": "film_dizi_037",
+      "categoryId": "film_dizi",
+      "questionText": "\"Braveheart\" filminin yönetmeni kimdir?",
+      "options": [
+        "Fernando Meirelles",
+        "Jean-Pierre Jeunet",
+        "Mel Gibson",
+        "Wes Anderson"
+      ],
+      "correctIndex": 2,
+      "explanation": "\"Braveheart\" filminin yönetmeni Mel Gibson'dır."
+    },
+    {
+      "id": "film_dizi_038",
+      "categoryId": "film_dizi",
+      "questionText": "\"Goodfellas\" filminin yönetmeni kimdir?",
+      "options": [
+        "Fernando Meirelles",
+        "Christopher Nolan",
+        "Francis Ford Coppola",
+        "Martin Scorsese"
+      ],
+      "correctIndex": 3,
+      "explanation": "\"Goodfellas\" filminin yönetmeni Martin Scorsese'dır."
+    },
+    {
+      "id": "film_dizi_039",
+      "categoryId": "film_dizi",
+      "questionText": "\"Taxi Driver\" filminin yönetmeni kimdir?",
+      "options": [
+        "Roger Allers & Rob Minkoff",
+        "Roman Polanski",
+        "Martin Scorsese",
+        "Robert Zemeckis"
+      ],
+      "correctIndex": 2,
+      "explanation": "\"Taxi Driver\" filminin yönetmeni Martin Scorsese'dır."
+    },
+    {
+      "id": "film_dizi_040",
+      "categoryId": "film_dizi",
+      "questionText": "\"The Wolf of Wall Street\" filminin yönetmeni kimdir?",
+      "options": [
+        "Park Chan-wook",
+        "Bong Joon-ho",
+        "Roger Allers & Rob Minkoff",
+        "Martin Scorsese"
+      ],
+      "correctIndex": 3,
+      "explanation": "\"The Wolf of Wall Street\" filminin yönetmeni Martin Scorsese'dır."
+    },
+    {
+      "id": "film_dizi_041",
+      "categoryId": "film_dizi",
+      "questionText": "\"The Pianist\" filminin yönetmeni kimdir?",
+      "options": [
+        "Jean-Pierre Jeunet",
+        "Roman Polanski",
+        "Roger Allers & Rob Minkoff",
+        "Damien Chazelle"
+      ],
+      "correctIndex": 1,
+      "explanation": "\"The Pianist\" filminin yönetmeni Roman Polanski'dır."
+    },
+    {
+      "id": "film_dizi_042",
+      "categoryId": "film_dizi",
+      "questionText": "\"Life Is Beautiful\" filminin yönetmeni kimdir?",
+      "options": [
+        "Peter Weir",
+        "John Lasseter",
+        "Roberto Benigni",
+        "Park Chan-wook"
+      ],
+      "correctIndex": 2,
+      "explanation": "\"Life Is Beautiful\" filminin yönetmeni Roberto Benigni'dır."
+    },
+    {
+      "id": "film_dizi_043",
+      "categoryId": "film_dizi",
+      "questionText": "\"City of God\" filminin yönetmeni kimdir?",
+      "options": [
+        "Ridley Scott",
+        "Roman Polanski",
+        "Fernando Meirelles",
+        "Peter Weir"
+      ],
+      "correctIndex": 2,
+      "explanation": "\"City of God\" filminin yönetmeni Fernando Meirelles'dır."
+    },
+    {
+      "id": "film_dizi_044",
+      "categoryId": "film_dizi",
+      "questionText": "\"The Truman Show\" filminin yönetmeni kimdir?",
+      "options": [
+        "Ron Howard",
+        "George Miller",
+        "Quentin Tarantino",
+        "Peter Weir"
+      ],
+      "correctIndex": 3,
+      "explanation": "\"The Truman Show\" filminin yönetmeni Peter Weir'dır."
+    },
+    {
+      "id": "film_dizi_045",
+      "categoryId": "film_dizi",
+      "questionText": "\"A Beautiful Mind\" filminin yönetmeni kimdir?",
+      "options": [
+        "Fernando Meirelles",
+        "Mel Gibson",
+        "Ron Howard",
+        "David Fincher"
+      ],
+      "correctIndex": 2,
+      "explanation": "\"A Beautiful Mind\" filminin yönetmeni Ron Howard'dır."
+    },
+    {
+      "id": "film_dizi_046",
+      "categoryId": "film_dizi",
+      "questionText": "\"The Social Network\" filminin yönetmeni kimdir?",
+      "options": [
+        "Alfred Hitchcock",
+        "David Fincher",
+        "Roberto Benigni",
+        "Christopher Nolan"
+      ],
+      "correctIndex": 1,
+      "explanation": "\"The Social Network\" filminin yönetmeni David Fincher'dır."
+    },
+    {
+      "id": "film_dizi_047",
+      "categoryId": "film_dizi",
+      "questionText": "\"Mad Max: Fury Road\" filminin yönetmeni kimdir?",
+      "options": [
+        "Ridley Scott",
+        "George Miller",
+        "Fernando Meirelles",
+        "Lana Wachowski & Lilly Wachowski"
+      ],
+      "correctIndex": 1,
+      "explanation": "\"Mad Max: Fury Road\" filminin yönetmeni George Miller'dır."
+    },
+    {
+      "id": "film_dizi_048",
+      "categoryId": "film_dizi",
+      "questionText": "\"The Lion King (1994)\" filminin yönetmeni kimdir?",
+      "options": [
+        "Damien Chazelle",
+        "Mel Gibson",
+        "Roger Allers & Rob Minkoff",
+        "Ron Howard"
+      ],
+      "correctIndex": 2,
+      "explanation": "\"The Lion King (1994)\" filminin yönetmeni Roger Allers & Rob Minkoff'dır."
+    },
+    {
+      "id": "film_dizi_049",
+      "categoryId": "film_dizi",
+      "questionText": "\"Toy Story\" filminin yönetmeni kimdir?",
+      "options": [
+        "Robert Zemeckis",
+        "Quentin Tarantino",
+        "Martin Scorsese",
+        "John Lasseter"
+      ],
+      "correctIndex": 3,
+      "explanation": "\"Toy Story\" filminin yönetmeni John Lasseter'dır."
+    },
+    {
+      "id": "film_dizi_050",
+      "categoryId": "film_dizi",
+      "questionText": "\"Up\" filminin yönetmeni kimdir?",
+      "options": [
+        "David Fincher",
+        "Roger Allers & Rob Minkoff",
+        "Pete Docter",
+        "Damien Chazelle"
+      ],
+      "correctIndex": 2,
+      "explanation": "\"Up\" filminin yönetmeni Pete Docter'dır."
+    },
+    {
+      "id": "spor_001",
+      "categoryId": "spor",
+      "questionText": "Futbolda bir takım sahada kaç oyuncuyla yer alır?",
+      "options": [
+        "9",
+        "15",
+        "11",
+        "45"
+      ],
+      "correctIndex": 2,
+      "explanation": "Futbolda 11 oyuncu sahadadır."
+    },
+    {
+      "id": "spor_002",
+      "categoryId": "spor",
+      "questionText": "Basketbolda bir takım sahada kaç oyuncuyla oynar?",
+      "options": [
+        "5",
+        "9",
+        "90",
+        "11"
+      ],
+      "correctIndex": 0,
+      "explanation": "Basketbolda 5 oyuncu sahadadır."
+    },
+    {
+      "id": "spor_003",
+      "categoryId": "spor",
+      "questionText": "Voleybolda bir takım sahada kaç oyuncuyla oynar?",
+      "options": [
+        "11",
+        "2",
+        "3",
+        "6"
+      ],
+      "correctIndex": 3,
+      "explanation": "Voleybolda 6 oyuncu sahadadır."
+    },
+    {
+      "id": "spor_004",
+      "categoryId": "spor",
+      "questionText": "Hentbolda bir takım sahada kaç oyuncuyla oynar?",
+      "options": [
+        "90",
+        "11",
+        "6",
+        "7"
+      ],
+      "correctIndex": 3,
+      "explanation": "Hentbolda 7 oyuncu sahadadır."
+    },
+    {
+      "id": "spor_005",
+      "categoryId": "spor",
+      "questionText": "Futbolda normal maç süresi kaç dakikadır?",
+      "options": [
+        "11",
+        "7",
+        "90",
+        "3"
+      ],
+      "correctIndex": 2,
+      "explanation": "Futbol 90 dakika oynanır."
+    },
+    {
+      "id": "spor_006",
+      "categoryId": "spor",
+      "questionText": "Futbolda bir devre kaç dakikadır?",
+      "options": [
+        "45",
+        "6",
+        "15",
+        "11"
+      ],
+      "correctIndex": 0,
+      "explanation": "Bir devre 45 dakikadır."
+    },
+    {
+      "id": "spor_007",
+      "categoryId": "spor",
+      "questionText": "Futbolda penaltı kaç metreden kullanılır?",
+      "options": [
+        "11",
+        "1",
+        "3",
+        "9"
+      ],
+      "correctIndex": 0,
+      "explanation": "Penaltı noktası 11 metredir."
+    },
+    {
+      "id": "spor_008",
+      "categoryId": "spor",
+      "questionText": "Futbolda kırmızı kart ne anlama gelir?",
+      "options": [
+        "Koşu",
+        "Aut",
+        "Oyundan atılma",
+        "Kaçış yok"
+      ],
+      "correctIndex": 2,
+      "explanation": "Kırmızı kart oyundan atılmadır."
+    },
+    {
+      "id": "spor_009",
+      "categoryId": "spor",
+      "questionText": "Futbolda sarı kart ne anlama gelir?",
+      "options": [
+        "Bullseye",
+        "Topla yürümek",
+        "Uyarı",
+        "Oval"
+      ],
+      "correctIndex": 2,
+      "explanation": "Sarı kart uyarıdır."
+    },
+    {
+      "id": "spor_010",
+      "categoryId": "spor",
+      "questionText": "Futbolda korner nereden kullanılır?",
+      "options": [
+        "Servis",
+        "Oyun dışı",
+        "Köşe",
+        "Sırtın yere gelmesi"
+      ],
+      "correctIndex": 2,
+      "explanation": "Korner köşe noktasından kullanılır."
+    },
+    {
+      "id": "spor_011",
+      "categoryId": "spor",
+      "questionText": "Basketbolda serbest atış kaç puandır?",
+      "options": [
+        "90",
+        "9",
+        "1",
+        "5"
+      ],
+      "correctIndex": 2,
+      "explanation": "Serbest atış 1 puandır."
+    },
+    {
+      "id": "spor_012",
+      "categoryId": "spor",
+      "questionText": "Basketbolda üçlük atış kaç puandır?",
+      "options": [
+        "25",
+        "5",
+        "45",
+        "3"
+      ],
+      "correctIndex": 3,
+      "explanation": "Üç sayı çizgisi dışından 3 puandır."
+    },
+    {
+      "id": "spor_013",
+      "categoryId": "spor",
+      "questionText": "Basketbolda bir maç kaç periyottur (FIBA/NBA genel)?",
+      "options": [
+        "1",
+        "7",
+        "4",
+        "90"
+      ],
+      "correctIndex": 2,
+      "explanation": "Basketbol 4 periyottur."
+    },
+    {
+      "id": "spor_014",
+      "categoryId": "spor",
+      "questionText": "NBA'de hücum süresi kaç saniyedir?",
+      "options": [
+        "2",
+        "42.195",
+        "9",
+        "24"
+      ],
+      "correctIndex": 3,
+      "explanation": "NBA'de hücum süresi 24 saniyedir."
+    },
+    {
+      "id": "spor_015",
+      "categoryId": "spor",
+      "questionText": "Basketbolda 'steps' (adım) ihlali neyle ilgilidir?",
+      "options": [
+        "Topla yürümek",
+        "40-40",
+        "Sırtın yere gelmesi",
+        "Karşılanmayan servis"
+      ],
+      "correctIndex": 0,
+      "explanation": "Adım ihlali, top taşıma/yürümedir."
+    },
+    {
+      "id": "spor_016",
+      "categoryId": "spor",
+      "questionText": "Voleybolda bir takım topa en fazla kaç kez temas edebilir?",
+      "options": [
+        "9",
+        "4",
+        "3",
+        "42.195"
+      ],
+      "correctIndex": 2,
+      "explanation": "Voleybolda 3 temas hakkı vardır."
+    },
+    {
+      "id": "spor_017",
+      "categoryId": "spor",
+      "questionText": "Voleybolda setler genelde kaç sayıda biter?",
+      "options": [
+        "25",
+        "24",
+        "45",
+        "3"
+      ],
+      "correctIndex": 0,
+      "explanation": "Setler genelde 25 sayıda biter."
+    },
+    {
+      "id": "spor_018",
+      "categoryId": "spor",
+      "questionText": "Voleybolda 5. set (tie-break) genelde kaç sayıda biter?",
+      "options": [
+        "1",
+        "6",
+        "15",
+        "25"
+      ],
+      "correctIndex": 2,
+      "explanation": "Karar seti 15 sayıdır."
+    },
+    {
+      "id": "spor_019",
+      "categoryId": "spor",
+      "questionText": "Teniste bir seti kazanmak için en az kaç game gerekir?",
+      "options": [
+        "42.195",
+        "24",
+        "11",
+        "6"
+      ],
+      "correctIndex": 3,
+      "explanation": "Set için en az 6 game gerekir."
+    },
+    {
+      "id": "spor_020",
+      "categoryId": "spor",
+      "questionText": "Teniste 'deuce' neyi ifade eder?",
+      "options": [
+        "Evet",
+        "40-40",
+        "Video hakem",
+        "Kelebek"
+      ],
+      "correctIndex": 1,
+      "explanation": "Deuce 40-40 beraberliktir."
+    },
+    {
+      "id": "spor_021",
+      "categoryId": "spor",
+      "questionText": "Teniste 'ace' ne demektir?",
+      "options": [
+        "Karşılanmayan servis",
+        "En az vuruş",
+        "Sıralama",
+        "Sırtın yere gelmesi"
+      ],
+      "correctIndex": 0,
+      "explanation": "Ace, karşılanmayan servistir."
+    },
+    {
+      "id": "spor_022",
+      "categoryId": "spor",
+      "questionText": "Grand Slam tenis turnuvaları yılda kaç tanedir?",
+      "options": [
+        "4",
+        "45",
+        "25",
+        "6"
+      ],
+      "correctIndex": 0,
+      "explanation": "Grand Slam 4 turnuvadır."
+    },
+    {
+      "id": "spor_023",
+      "categoryId": "spor",
+      "questionText": "Maraton mesafesi kaç km'dir?",
+      "options": [
+        "42.195",
+        "9",
+        "45",
+        "5"
+      ],
+      "correctIndex": 0,
+      "explanation": "Maraton 42.195 km'dir."
+    },
+    {
+      "id": "spor_024",
+      "categoryId": "spor",
+      "questionText": "Atletizmde 100 metre hangi branştandır?",
+      "options": [
+        "Krol",
+        "Servis",
+        "Koşu",
+        "Sıralama"
+      ],
+      "correctIndex": 2,
+      "explanation": "100 metre sprint bir koşudur."
+    },
+    {
+      "id": "spor_025",
+      "categoryId": "spor",
+      "questionText": "Satrançta oyuna hangi renk başlar?",
+      "options": [
+        "Kelebek",
+        "Koşu",
+        "Beyaz",
+        "Aut"
+      ],
+      "correctIndex": 2,
+      "explanation": "Satrançta beyaz başlar."
+    },
+    {
+      "id": "spor_026",
+      "categoryId": "spor",
+      "questionText": "Satrançta 'şah mat' ne demektir?",
+      "options": [
+        "Kaçış yok",
+        "En az vuruş",
+        "Video hakem",
+        "Oval"
+      ],
+      "correctIndex": 0,
+      "explanation": "Şahın kaçacak hamlesi yoksa mattır."
+    },
+    {
+      "id": "spor_027",
+      "categoryId": "spor",
+      "questionText": "Olimpiyat sembolünde kaç halka bulunur?",
+      "options": [
+        "5",
+        "25",
+        "90",
+        "45"
+      ],
+      "correctIndex": 0,
+      "explanation": "Olimpiyat halkası 5 tanedir."
+    },
+    {
+      "id": "spor_028",
+      "categoryId": "spor",
+      "questionText": "Boksta ringde aynı anda kaç sporcu bulunur?",
+      "options": [
+        "25",
+        "45",
+        "2",
+        "3"
+      ],
+      "correctIndex": 2,
+      "explanation": "Boks iki sporcu ile yapılır."
+    },
+    {
+      "id": "spor_029",
+      "categoryId": "spor",
+      "questionText": "Yüzmede serbest stilin yaygın adı nedir?",
+      "options": [
+        "Topla yürümek",
+        "Kaçış yok",
+        "Krol",
+        "Evet"
+      ],
+      "correctIndex": 2,
+      "explanation": "Serbest stil çoğunlukla krol'dür."
+    },
+    {
+      "id": "spor_030",
+      "categoryId": "spor",
+      "questionText": "Badmintonda kullanılan tüylü topun adı nedir?",
+      "options": [
+        "Shuttlecock",
+        "Uyarı",
+        "40-40",
+        "Kaçış yok"
+      ],
+      "correctIndex": 0,
+      "explanation": "Badminton topu shuttlecock'tur."
+    },
+    {
+      "id": "spor_031",
+      "categoryId": "spor",
+      "questionText": "Ragbi topunun şekli nasıldır?",
+      "options": [
+        "40-40",
+        "Uyarı",
+        "Karşılanmayan servis",
+        "Oval"
+      ],
+      "correctIndex": 3,
+      "explanation": "Ragbi topu ovâldir."
+    },
+    {
+      "id": "spor_032",
+      "categoryId": "spor",
+      "questionText": "Beyzbolda savunmada sahada kaç oyuncu olur?",
+      "options": [
+        "9",
+        "90",
+        "2",
+        "7"
+      ],
+      "correctIndex": 0,
+      "explanation": "Beyzbolda savunmada 9 oyuncu vardır."
+    },
+    {
+      "id": "spor_033",
+      "categoryId": "spor",
+      "questionText": "Buz hokeyinde maç kaç periyottur?",
+      "options": [
+        "4",
+        "3",
+        "7",
+        "11"
+      ],
+      "correctIndex": 1,
+      "explanation": "Buz hokeyi 3 periyottur."
+    },
+    {
+      "id": "spor_034",
+      "categoryId": "spor",
+      "questionText": "Masa tenisinde bir set kaç sayıda biter?",
+      "options": [
+        "11",
+        "25",
+        "7",
+        "2"
+      ],
+      "correctIndex": 0,
+      "explanation": "Masa tenisinde set 11 sayıdır."
+    },
+    {
+      "id": "spor_035",
+      "categoryId": "spor",
+      "questionText": "Dartta merkeze ne denir?",
+      "options": [
+        "Servis",
+        "Bullseye",
+        "Kaçış yok",
+        "40-40"
+      ],
+      "correctIndex": 1,
+      "explanation": "Dart merkezine bullseye denir."
+    },
+    {
+      "id": "spor_036",
+      "categoryId": "spor",
+      "questionText": "Formula 1'de yarışa başlangıç dizilimini belirleyen seanslara ne denir?",
+      "options": [
+        "Sıralama",
+        "Beyaz",
+        "Uyarı",
+        "Bullseye"
+      ],
+      "correctIndex": 0,
+      "explanation": "Grid sıralama turlarıyla belirlenir."
+    },
+    {
+      "id": "spor_037",
+      "categoryId": "spor",
+      "questionText": "Judo hangi ülke kökenlidir?",
+      "options": [
+        "3.05",
+        "2.44",
+        "2.85",
+        "3.50"
+      ],
+      "correctIndex": 0,
+      "explanation": "Basketbol potası yerden yaklaşık 3,05 metre yüksekliktedir."
+    },
+    {
+      "id": "spor_038",
+      "categoryId": "spor",
+      "questionText": "Teniste bir seti kazanmak için (tie-break hariç) en az kaç oyun alınır?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "correctIndex": 1,
+      "explanation": "Teniste bir seti kazanmak için genellikle en az 6 oyun gerekir (en az 2 oyun fark şartıyla)."
+    },
+    {
+      "id": "spor_039",
+      "categoryId": "spor",
+      "questionText": "Karate hangi ülke kökenlidir?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "correctIndex": 2,
+      "explanation": "FIFA Dünya Kupası 4 yılda bir düzenlenir."
+    },
+    {
+      "id": "spor_040",
+      "categoryId": "spor",
+      "questionText": "Golfte amaç nedir?",
+      "options": [
+        "En az vuruş",
+        "Evet",
+        "Oyun dışı",
+        "Uyarı"
+      ],
+      "correctIndex": 0,
+      "explanation": "Golfte amaç en az vuruşla bitirmektir."
+    },
+    {
+      "id": "spor_041",
+      "categoryId": "spor",
+      "questionText": "Bisiklet yarışlarında 'peloton' ne demektir?",
+      "options": [
+        "Ana grup",
+        "Aut",
+        "Koşu",
+        "FIFA Dünya Kupası"
+      ],
+      "correctIndex": 0,
+      "explanation": "Peloton ana gruptur."
+    },
+    {
+      "id": "spor_042",
+      "categoryId": "spor",
+      "questionText": "Güreşte 'tuş' neyi ifade eder?",
+      "options": [
+        "Sırtın yere gelmesi",
+        "40-40",
+        "FIFA Dünya Kupası",
+        "Uyarı"
+      ],
+      "correctIndex": 0,
+      "explanation": "Rakibin sırtını yere getirmektir."
+    },
+    {
+      "id": "spor_043",
+      "categoryId": "spor",
+      "questionText": "Voleybolda servis çizgisinin arkasından atışa ne denir?",
+      "options": [
+        "FIFA Dünya Kupası",
+        "Karşılanmayan servis",
+        "Servis",
+        "Sırtın yere gelmesi"
+      ],
+      "correctIndex": 2,
+      "explanation": "Oyun servisle başlar."
+    },
+    {
+      "id": "spor_044",
+      "categoryId": "spor",
+      "questionText": "Futbolda 'var' sistemi ne içindir?",
+      "options": [
+        "Koşu",
+        "Video hakem",
+        "Topla yürümek",
+        "Oval"
+      ],
+      "correctIndex": 1,
+      "explanation": "VAR video yardımcı hakemdir."
+    },
+    {
+      "id": "spor_045",
+      "categoryId": "spor",
+      "questionText": "Basketbolda saha çizgisi dışına çıkan topa ne denir?",
+      "options": [
+        "Beyaz",
+        "Video hakem",
+        "Koşu",
+        "Aut"
+      ],
+      "correctIndex": 3,
+      "explanation": "Top dışarı çıkarsa aut olur."
+    },
+    {
+      "id": "spor_046",
+      "categoryId": "spor",
+      "questionText": "Futbolda top tamamen çizgiyi geçerse ne olur?",
+      "options": [
+        "Uyarı",
+        "Oyun dışı",
+        "Servis",
+        "Sırtın yere gelmesi"
+      ],
+      "correctIndex": 1,
+      "explanation": "Top çizgiyi tamamen geçerse oyun dışıdır."
+    },
+    {
+      "id": "spor_047",
+      "categoryId": "spor",
+      "questionText": "Yüzmede dört ana stil hangisinde kelebek vardır?",
+      "options": [
+        "Kelebek",
+        "Sırtın yere gelmesi",
+        "Oval",
+        "Krol"
+      ],
+      "correctIndex": 0,
+      "explanation": "Bir stilin adı doğrudan kelebektir."
+    },
+    {
+      "id": "spor_048",
+      "categoryId": "spor",
+      "questionText": "Voleybolda blok temasından sonra takımın kaç temas hakkı kalır?",
+      "options": [
+        "2",
+        "42.195",
+        "3",
+        "11"
+      ],
+      "correctIndex": 2,
+      "explanation": "Blok teması ayrı sayılır; yine 3 temas hakkı vardır."
+    },
+    {
+      "id": "spor_049",
+      "categoryId": "spor",
+      "questionText": "Futbolda kaleci ceza sahası içinde topu elle oynayabilir mi?",
+      "options": [
+        "Beyaz",
+        "Evet",
+        "Krol",
+        "Kelebek"
+      ],
+      "correctIndex": 1,
+      "explanation": "Kaleci ceza sahasında elle oynayabilir."
+    },
+    {
+      "id": "spor_050",
+      "categoryId": "spor",
+      "questionText": "Futbolda milli takımlar düzeyindeki en prestijli turnuva hangisidir?",
+      "options": [
+        "Sıralama",
+        "FIFA Dünya Kupası",
+        "Topla yürümek",
+        "Oyun dışı"
+      ],
+      "correctIndex": 1,
+      "explanation": "Milli takımların en prestijli turnuvası Dünya Kupasıdır."
+    },
+    {
+      "id": "pop_kultur_001",
+      "categoryId": "pop_kultur",
+      "questionText": "Harry Potter serisinin yazarı kimdir?",
+      "options": [
+        "J.K. Rowling",
+        "George Lucas",
+        "J.R.R. Tolkien",
+        "Arthur Conan Doyle"
+      ],
+      "correctIndex": 0,
+      "explanation": "Seriyi J.K. Rowling yazmıştır."
+    },
+    {
+      "id": "pop_kultur_002",
+      "categoryId": "pop_kultur",
+      "questionText": "Yüzüklerin Efendisi kitaplarının yazarı kimdir?",
+      "options": [
+        "J.K. Rowling",
+        "George Lucas",
+        "J.R.R. Tolkien",
+        "Arthur Conan Doyle"
+      ],
+      "correctIndex": 2,
+      "explanation": "Eser Tolkien'e aittir."
+    },
+    {
+      "id": "pop_kultur_003",
+      "categoryId": "pop_kultur",
+      "questionText": "Sherlock Holmes karakterini kim yaratmıştır?",
+      "options": [
+        "Arthur Conan Doyle",
+        "J.R.R. Tolkien",
+        "J.K. Rowling",
+        "George R.R. Martin"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sherlock Holmes Doyle'ındır."
+    },
+    {
+      "id": "pop_kultur_004",
+      "categoryId": "pop_kultur",
+      "questionText": "Star Wars serisinin yaratıcısı kimdir?",
+      "options": [
+        "Arthur Conan Doyle",
+        "George Lucas",
+        "J.R.R. Tolkien",
+        "George R.R. Martin"
+      ],
+      "correctIndex": 1,
+      "explanation": "Star Wars George Lucas'tır."
+    },
+    {
+      "id": "pop_kultur_005",
+      "categoryId": "pop_kultur",
+      "questionText": "Marvel evreninde Örümcek-Adam'ın adı nedir?",
+      "options": [
+        "Peter Parker",
+        "Walter White",
+        "Voldemort",
+        "Bruce Banner"
+      ],
+      "correctIndex": 0,
+      "explanation": "Örümcek-Adam Peter Parker'dır."
+    },
+    {
+      "id": "pop_kultur_006",
+      "categoryId": "pop_kultur",
+      "questionText": "Batman karakterinin asıl adı nedir?",
+      "options": [
+        "Steve Rogers",
+        "Link",
+        "Bruce Wayne",
+        "Clark Kent"
+      ],
+      "correctIndex": 2,
+      "explanation": "Batman'in adı Bruce Wayne'dir."
+    },
+    {
+      "id": "pop_kultur_007",
+      "categoryId": "pop_kultur",
+      "questionText": "Superman'in gerçek adı (Dünya'daki) nedir?",
+      "options": [
+        "Geralt",
+        "Clark Kent",
+        "Pikachu",
+        "Bruce Banner"
+      ],
+      "correctIndex": 1,
+      "explanation": "Superman Clark Kent'tir."
+    },
+    {
+      "id": "pop_kultur_008",
+      "categoryId": "pop_kultur",
+      "questionText": "James Bond karakteri hangi ajan numarasıyla bilinir?",
+      "options": [
+        "007",
+        "006",
+        "008",
+        "009"
+      ],
+      "correctIndex": 0,
+      "explanation": "James Bond, 007 kod numarasıyla bilinen bir ajandır."
+    },
+    {
+      "id": "pop_kultur_009",
+      "categoryId": "pop_kultur",
+      "questionText": "Minecraft hangi tür oyun olarak bilinir?",
+      "options": [
+        "Büyücülük okulu",
+        "Sandbox",
+        "Dijital yayın",
+        "Işık tarafı savaşçıları"
+      ],
+      "correctIndex": 1,
+      "explanation": "Minecraft sandbox türündedir."
+    },
+    {
+      "id": "pop_kultur_010",
+      "categoryId": "pop_kultur",
+      "questionText": "LEGO hangi ülkenin markasıdır?",
+      "options": [
+        "Japonya",
+        "Kirpi",
+        "Danimarka",
+        "J.K. Rowling"
+      ],
+      "correctIndex": 2,
+      "explanation": "LEGO Danimarka kökenlidir."
+    },
+    {
+      "id": "pop_kultur_011",
+      "categoryId": "pop_kultur",
+      "questionText": "Nintendo hangi ülke merkezlidir?",
+      "options": [
+        "Kirpi",
+        "Japonya",
+        "Gotham",
+        "Robert Downey Jr."
+      ],
+      "correctIndex": 1,
+      "explanation": "Nintendo Japonya merkezlidir."
+    },
+    {
+      "id": "pop_kultur_012",
+      "categoryId": "pop_kultur",
+      "questionText": "PlayStation markası hangi şirkete aittir?",
+      "options": [
+        "Apple",
+        "Netflix",
+        "Microsoft",
+        "Sony"
+      ],
+      "correctIndex": 3,
+      "explanation": "PlayStation Sony markasıdır."
+    },
+    {
+      "id": "pop_kultur_013",
+      "categoryId": "pop_kultur",
+      "questionText": "Xbox markası hangi şirkete aittir?",
+      "options": [
+        "Microsoft",
+        "DC",
+        "Sony",
+        "Apple"
+      ],
+      "correctIndex": 0,
+      "explanation": "Xbox Microsoft markasıdır."
+    },
+    {
+      "id": "pop_kultur_014",
+      "categoryId": "pop_kultur",
+      "questionText": "iPhone markası hangi şirkete aittir?",
+      "options": [
+        "Sony",
+        "Apple",
+        "DC",
+        "Marvel"
+      ],
+      "correctIndex": 1,
+      "explanation": "iPhone Apple ürünüdür."
+    },
+    {
+      "id": "pop_kultur_015",
+      "categoryId": "pop_kultur",
+      "questionText": "Google'ın ana şirketi (holding) hangisidir?",
+      "options": [
+        "Sony",
+        "Netflix",
+        "Alphabet",
+        "Apple"
+      ],
+      "correctIndex": 2,
+      "explanation": "Google Alphabet'in altındadır."
+    },
+    {
+      "id": "pop_kultur_016",
+      "categoryId": "pop_kultur",
+      "questionText": "YouTube'un ana işlevi nedir?",
+      "options": [
+        "Büyücülük okulu",
+        "Video paylaşımı",
+        "Kafe",
+        "Mjölnir"
+      ],
+      "correctIndex": 1,
+      "explanation": "YouTube video paylaşım platformudur."
+    },
+    {
+      "id": "pop_kultur_017",
+      "categoryId": "pop_kultur",
+      "questionText": "Netflix'in temel hizmeti nedir?",
+      "options": [
+        "Büyücü olmayan",
+        "Dijital yayın",
+        "Sandbox",
+        "Video paylaşımı"
+      ],
+      "correctIndex": 1,
+      "explanation": "Netflix dijital yayın platformudur."
+    },
+    {
+      "id": "pop_kultur_018",
+      "categoryId": "pop_kultur",
+      "questionText": "Marvel'da 'Iron Man' karakterini canlandıran aktör kimdir?",
+      "options": [
+        "Robert Downey Jr.",
+        "Alphabet",
+        "George R.R. Martin",
+        "Birleşik Krallık"
+      ],
+      "correctIndex": 0,
+      "explanation": "Iron Man'i RDJ canlandırır."
+    },
+    {
+      "id": "pop_kultur_019",
+      "categoryId": "pop_kultur",
+      "questionText": "Doctor Who dizisi hangi ülke yapımıdır?",
+      "options": [
+        "Birleşik Krallık",
+        "Anakin Skywalker",
+        "Blokları yerleştirme",
+        "Sony"
+      ],
+      "correctIndex": 0,
+      "explanation": "Doctor Who İngiltere yapımıdır."
+    },
+    {
+      "id": "pop_kultur_020",
+      "categoryId": "pop_kultur",
+      "questionText": "Friends dizisinde Central Perk ne tür bir mekândır?",
+      "options": [
+        "Büyücü olmayan",
+        "Blokları yerleştirme",
+        "Büyücülük okulu",
+        "Kafe"
+      ],
+      "correctIndex": 3,
+      "explanation": "Central Perk bir kafedir."
+    },
+    {
+      "id": "pop_kultur_021",
+      "categoryId": "pop_kultur",
+      "questionText": "Stranger Things dizisi hangi platformla özdeşleşir?",
+      "options": [
+        "Apple",
+        "Netflix",
+        "Microsoft",
+        "Marvel"
+      ],
+      "correctIndex": 1,
+      "explanation": "Stranger Things Netflix dizisidir."
+    },
+    {
+      "id": "pop_kultur_022",
+      "categoryId": "pop_kultur",
+      "questionText": "Simpsonlar'ın yaşadığı kasabanın adı nedir?",
+      "options": [
+        "Pamuk Prenses ve Yedi Cüceler",
+        "Yenilmezler",
+        "George R.R. Martin",
+        "Springfield"
+      ],
+      "correctIndex": 3,
+      "explanation": "Aile Springfield'da yaşar."
+    },
+    {
+      "id": "pop_kultur_023",
+      "categoryId": "pop_kultur",
+      "questionText": "Harry Potter evreninde Hogwarts nedir?",
+      "options": [
+        "Mjölnir",
+        "Büyücülük okulu",
+        "Tesisatçı",
+        "Yenilmezler"
+      ],
+      "correctIndex": 1,
+      "explanation": "Hogwarts bir büyücülük okuludur."
+    },
+    {
+      "id": "pop_kultur_024",
+      "categoryId": "pop_kultur",
+      "questionText": "Star Trek'te 'Enterprise' neyi ifade eder?",
+      "options": [
+        "Dijital yayın",
+        "Uzay gemisi",
+        "Büyücülük okulu",
+        "Mürettebat ve sahtekâr"
+      ],
+      "correctIndex": 1,
+      "explanation": "Enterprise bir uzay gemisidir."
+    },
+    {
+      "id": "pop_kultur_025",
+      "categoryId": "pop_kultur",
+      "questionText": "Marvel'da 'Avengers' Türkçe karşılığı hangisine yakındır?",
+      "options": [
+        "Tesisatçı",
+        "Video paylaşımı",
+        "Mürettebat ve sahtekâr",
+        "Yenilmezler"
+      ],
+      "correctIndex": 3,
+      "explanation": "Avengers = Yenilmezler."
+    },
+    {
+      "id": "pop_kultur_026",
+      "categoryId": "pop_kultur",
+      "questionText": "DC evreninde Batman hangi şehirle özdeşleşir?",
+      "options": [
+        "Gotham City",
+        "Metropolis",
+        "Star City",
+        "Central City"
+      ],
+      "correctIndex": 0,
+      "explanation": "Batman hikâyelerinde Batman'in şehri Gotham City'dir."
+    },
+    {
+      "id": "pop_kultur_027",
+      "categoryId": "pop_kultur",
+      "questionText": "DC evreninde Superman hangi şehirle özdeşleşir?",
+      "options": [
+        "George R.R. Martin",
+        "Mürettebat ve sahtekâr",
+        "Metropolis",
+        "George Lucas"
+      ],
+      "correctIndex": 2,
+      "explanation": "Superman Metropolis'tedir."
+    },
+    {
+      "id": "pop_kultur_028",
+      "categoryId": "pop_kultur",
+      "questionText": "Disney'in ilk uzun metraj animasyonu hangisidir?",
+      "options": [
+        "1927",
+        "1937",
+        "1947",
+        "1957"
+      ],
+      "correctIndex": 1,
+      "explanation": "Pamuk Prenses ve Yedi Cüceler 1937 yılında yayınlanmıştır."
+    },
+    {
+      "id": "pop_kultur_029",
+      "categoryId": "pop_kultur",
+      "questionText": "Studio Ghibli hangi ülkeden çıkmıştır?",
+      "options": [
+        "Metropolis",
+        "Anakin Skywalker",
+        "Tesisatçı",
+        "Japonya"
+      ],
+      "correctIndex": 3,
+      "explanation": "Ghibli Japonya stüdyosudur."
+    },
+    {
+      "id": "pop_kultur_030",
+      "categoryId": "pop_kultur",
+      "questionText": "\"Game of Thrones\" hangi yazarın eserlerinden uyarlanmıştır?",
+      "options": [
+        "J.K. Rowling",
+        "Arthur Conan Doyle",
+        "George R.R. Martin",
+        "J.R.R. Tolkien"
+      ],
+      "correctIndex": 2,
+      "explanation": "Uyarlama Martin'in eseridir."
+    },
+    {
+      "id": "pop_kultur_031",
+      "categoryId": "pop_kultur",
+      "questionText": "GoT evreninde \"Winter is coming\" hangi hanenin mottosudur?",
+      "options": [
+        "Tesisatçı",
+        "Stark",
+        "Blokları yerleştirme",
+        "J.K. Rowling"
+      ],
+      "correctIndex": 1,
+      "explanation": "Söz Stark hanesine aittir."
+    },
+    {
+      "id": "pop_kultur_032",
+      "categoryId": "pop_kultur",
+      "questionText": "Marvel'da Thor'un çekicinin adı nedir?",
+      "options": [
+        "Sandbox",
+        "Battle Royale",
+        "Uzay gemisi",
+        "Mjölnir"
+      ],
+      "correctIndex": 3,
+      "explanation": "Thor'un çekici Mjölnir'dir."
+    },
+    {
+      "id": "pop_kultur_033",
+      "categoryId": "pop_kultur",
+      "questionText": "Harry Potter evreninde 'Muggle' ne demektir?",
+      "options": [
+        "Sandbox",
+        "Tesisatçı",
+        "Kirpi",
+        "Büyücü olmayan"
+      ],
+      "correctIndex": 3,
+      "explanation": "Muggle büyücü olmayan kişidir."
+    },
+    {
+      "id": "pop_kultur_034",
+      "categoryId": "pop_kultur",
+      "questionText": "Star Wars'ta 'Jedi' neyi ifade eder?",
+      "options": [
+        "Dijital yayın",
+        "Büyücü olmayan",
+        "Işık tarafı savaşçıları",
+        "Tesisatçı"
+      ],
+      "correctIndex": 2,
+      "explanation": "Jedi ışık tarafındadır."
+    },
+    {
+      "id": "pop_kultur_035",
+      "categoryId": "pop_kultur",
+      "questionText": "\"The Legend of Zelda\" serisinin ana kahramanı kimdir?",
+      "options": [
+        "Clark Kent",
+        "Bruce Wayne",
+        "Anakin Skywalker",
+        "Link"
+      ],
+      "correctIndex": 3,
+      "explanation": "Serinin kahramanı Link'tir."
+    },
+    {
+      "id": "pop_kultur_036",
+      "categoryId": "pop_kultur",
+      "questionText": "Sonic karakteri hangi hayvandır?",
+      "options": [
+        "Kafe",
+        "Kirpi",
+        "Işık tarafı savaşçıları",
+        "Tesisatçı"
+      ],
+      "correctIndex": 1,
+      "explanation": "Sonic bir kirpidir."
+    },
+    {
+      "id": "pop_kultur_037",
+      "categoryId": "pop_kultur",
+      "questionText": "Mario karakteri mesleğiyle nasıl bilinir?",
+      "options": [
+        "Büyücü olmayan",
+        "Battle Royale",
+        "Büyücülük okulu",
+        "Tesisatçı"
+      ],
+      "correctIndex": 3,
+      "explanation": "Mario tesisatçı olarak bilinir."
+    },
+    {
+      "id": "pop_kultur_038",
+      "categoryId": "pop_kultur",
+      "questionText": "Tetris oyununun ana mekaniği nedir?",
+      "options": [
+        "Kirpi",
+        "Işık tarafı savaşçıları",
+        "Mürettebat ve sahtekâr",
+        "Blokları yerleştirme"
+      ],
+      "correctIndex": 3,
+      "explanation": "Tetris blok yerleştirme oyunudur."
+    },
+    {
+      "id": "pop_kultur_039",
+      "categoryId": "pop_kultur",
+      "questionText": "Fortnite hangi tür oyunla bilinir?",
+      "options": [
+        "Battle Royale",
+        "Blokları yerleştirme",
+        "Video paylaşımı",
+        "Uzay gemisi"
+      ],
+      "correctIndex": 0,
+      "explanation": "Fortnite battle royale türündedir."
+    },
+    {
+      "id": "pop_kultur_040",
+      "categoryId": "pop_kultur",
+      "questionText": "Among Us oyununda ana roller nelerdir?",
+      "options": [
+        "Battle Royale",
+        "Mürettebat ve sahtekâr",
+        "Büyücü olmayan",
+        "Tesisatçı"
+      ],
+      "correctIndex": 1,
+      "explanation": "Crewmate ve impostor vardır."
+    },
+    {
+      "id": "pop_kultur_041",
+      "categoryId": "pop_kultur",
+      "questionText": "Breaking Bad dizisinin ana karakteri kimdir?",
+      "options": [
+        "Clark Kent",
+        "Pikachu",
+        "Walter White",
+        "Geralt"
+      ],
+      "correctIndex": 2,
+      "explanation": "Ana karakter Walter White'tır."
+    },
+    {
+      "id": "pop_kultur_042",
+      "categoryId": "pop_kultur",
+      "questionText": "The Witcher evrenindeki ana karakter kimdir?",
+      "options": [
+        "Voldemort",
+        "Link",
+        "Clark Kent",
+        "Geralt"
+      ],
+      "correctIndex": 3,
+      "explanation": "Ana karakter Geralt'tır."
+    },
+    {
+      "id": "pop_kultur_043",
+      "categoryId": "pop_kultur",
+      "questionText": "Avatar: The Last Airbender'da ana element sayısı kaçtır?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "correctIndex": 1,
+      "explanation": "Avatar evreninde 4 ana element vardır: su, toprak, ateş ve hava."
+    },
+    {
+      "id": "pop_kultur_044",
+      "categoryId": "pop_kultur",
+      "questionText": "Marvel evreninde 'Captain America'nın gerçek adı nedir?",
+      "options": [
+        "Voldemort",
+        "Clark Kent",
+        "Link",
+        "Steve Rogers"
+      ],
+      "correctIndex": 3,
+      "explanation": "Captain America Steve Rogers'tır."
+    },
+    {
+      "id": "pop_kultur_045",
+      "categoryId": "pop_kultur",
+      "questionText": "Marvel'da 'Hulk' karakterinin gerçek adı nedir?",
+      "options": [
+        "Steve Rogers",
+        "Bruce Wayne",
+        "Walter White",
+        "Bruce Banner"
+      ],
+      "correctIndex": 3,
+      "explanation": "Hulk Bruce Banner'dır."
+    },
+    {
+      "id": "pop_kultur_046",
+      "categoryId": "pop_kultur",
+      "questionText": "Star Wars'ta 'Darth Vader'ın gerçek adı nedir?",
+      "options": [
+        "Steve Rogers",
+        "Geralt",
+        "Bruce Banner",
+        "Anakin Skywalker"
+      ],
+      "correctIndex": 3,
+      "explanation": "Darth Vader Anakin'dir."
+    },
+    {
+      "id": "pop_kultur_047",
+      "categoryId": "pop_kultur",
+      "questionText": "Harry Potter'da ana kötü karakterin adı nedir?",
+      "options": [
+        "Peter Parker",
+        "Bruce Banner",
+        "Voldemort",
+        "Pikachu"
+      ],
+      "correctIndex": 2,
+      "explanation": "Ana kötü Voldemort'tur."
+    },
+    {
+      "id": "pop_kultur_048",
+      "categoryId": "pop_kultur",
+      "questionText": "Pokemon'un en bilinen maskotu hangisidir?",
+      "options": [
+        "Walter White",
+        "Pikachu",
+        "Link",
+        "Bruce Wayne"
+      ],
+      "correctIndex": 1,
+      "explanation": "Maskot Pikachu'dur."
+    },
+    {
+      "id": "pop_kultur_049",
+      "categoryId": "pop_kultur",
+      "questionText": "Spider-Man hangi evrende yer alır?",
+      "options": [
+        "Netflix",
+        "Marvel",
+        "Apple",
+        "Microsoft"
+      ],
+      "correctIndex": 1,
+      "explanation": "Spider-Man Marvel evrenindedir."
+    },
+    {
+      "id": "pop_kultur_050",
+      "categoryId": "pop_kultur",
+      "questionText": "Batman hangi evrende yer alır?",
+      "options": [
+        "Microsoft",
+        "Netflix",
+        "Marvel",
+        "DC"
+      ],
+      "correctIndex": 3,
+      "explanation": "Batman DC evrenindedir."
+    },
+    {
+      "id": "genel_kultur_001",
+      "categoryId": "genel_kultur",
+      "questionText": "Dünyanın en büyük okyanusu hangisidir?",
+      "options": [
+        "Pasifik Okyanusu",
+        "Asya",
+        "Ankara",
+        "Van Gölü"
+      ],
+      "correctIndex": 0,
+      "explanation": "En büyük okyanus Pasifik'tir."
+    },
+    {
+      "id": "genel_kultur_002",
+      "categoryId": "genel_kultur",
+      "questionText": "Dünyanın en yüksek dağı hangisidir?",
+      "options": [
+        "Everest",
+        "Sahra",
+        "Van Gölü",
+        "İstanbul"
+      ],
+      "correctIndex": 0,
+      "explanation": "En yüksek dağ Everest'tir."
+    },
+    {
+      "id": "genel_kultur_003",
+      "categoryId": "genel_kultur",
+      "questionText": "Dünyanın uydusu hangisidir?",
+      "options": [
+        "Ay",
+        "Mars",
+        "Venüs",
+        "Güneş"
+      ],
+      "correctIndex": 0,
+      "explanation": "Dünya'nın doğal uydusu Ay'dır."
+    },
+    {
+      "id": "genel_kultur_004",
+      "categoryId": "genel_kultur",
+      "questionText": "Güneş Sistemi'nin merkezi hangisidir?",
+      "options": [
+        "Retina",
+        "Nikola Tesla",
+        "Güneş",
+        "Sahra"
+      ],
+      "correctIndex": 2,
+      "explanation": "Merkez Güneş'tir."
+    },
+    {
+      "id": "genel_kultur_005",
+      "categoryId": "genel_kultur",
+      "questionText": "Bir yıl kaç aydır?",
+      "options": [
+        "100",
+        "60",
+        "12",
+        "180"
+      ],
+      "correctIndex": 2,
+      "explanation": "Bir yıl 12 aydır."
+    },
+    {
+      "id": "genel_kultur_006",
+      "categoryId": "genel_kultur",
+      "questionText": "Bir gün kaç saattir?",
+      "options": [
+        "46",
+        "1",
+        "24",
+        "60"
+      ],
+      "correctIndex": 2,
+      "explanation": "Bir gün 24 saattir."
+    },
+    {
+      "id": "genel_kultur_007",
+      "categoryId": "genel_kultur",
+      "questionText": "Bir saatte kaç dakika vardır?",
+      "options": [
+        "12",
+        "180",
+        "300000",
+        "60"
+      ],
+      "correctIndex": 3,
+      "explanation": "1 saat 60 dakikadır."
+    },
+    {
+      "id": "genel_kultur_008",
+      "categoryId": "genel_kultur",
+      "questionText": "Bir metrede kaç santimetre vardır?",
+      "options": [
+        "1",
+        "100",
+        "46",
+        "24"
+      ],
+      "correctIndex": 1,
+      "explanation": "1 m = 100 cm."
+    },
+    {
+      "id": "genel_kultur_009",
+      "categoryId": "genel_kultur",
+      "questionText": "Türkiye'nin başkenti neresidir?",
+      "options": [
+        "Pasifik Okyanusu",
+        "Ankara",
+        "Sahra",
+        "Nil"
+      ],
+      "correctIndex": 1,
+      "explanation": "Başkent Ankara'dır."
+    },
+    {
+      "id": "genel_kultur_010",
+      "categoryId": "genel_kultur",
+      "questionText": "Türkiye'nin en kalabalık şehri hangisidir?",
+      "options": [
+        "Van Gölü",
+        "Ankara",
+        "İstanbul",
+        "Pasifik Okyanusu"
+      ],
+      "correctIndex": 2,
+      "explanation": "En kalabalık şehir İstanbul'dur."
+    },
+    {
+      "id": "genel_kultur_011",
+      "categoryId": "genel_kultur",
+      "questionText": "Türkiye'nin para birimi hangisidir?",
+      "options": [
+        "Gece ve gündüz",
+        "π",
+        "Türkçe",
+        "Türk lirası"
+      ],
+      "correctIndex": 3,
+      "explanation": "Para birimi TL'dir."
+    },
+    {
+      "id": "genel_kultur_012",
+      "categoryId": "genel_kultur",
+      "questionText": "Japonya'nın para birimi hangisidir?",
+      "options": [
+        "Yen",
+        "Bal",
+        "Meteoroloji",
+        "π"
+      ],
+      "correctIndex": 0,
+      "explanation": "Japonya'da yen kullanılır."
+    },
+    {
+      "id": "genel_kultur_013",
+      "categoryId": "genel_kultur",
+      "questionText": "Birleşmiş Milletler'in kısaltması nedir?",
+      "options": [
+        "BM",
+        "World Wide Web",
+        "WHO",
+        "Portable Document Format"
+      ],
+      "correctIndex": 0,
+      "explanation": "Birleşmiş Milletler BM'dir."
+    },
+    {
+      "id": "genel_kultur_014",
+      "categoryId": "genel_kultur",
+      "questionText": "Dünya Sağlık Örgütü'nün kısaltması nedir?",
+      "options": [
+        "Universal Serial Bus",
+        "World Wide Web",
+        "Portable Document Format",
+        "WHO"
+      ],
+      "correctIndex": 3,
+      "explanation": "Dünya Sağlık Örgütü: WHO."
+    },
+    {
+      "id": "genel_kultur_015",
+      "categoryId": "genel_kultur",
+      "questionText": "\"WWW\" kısaltması ne anlama gelir?",
+      "options": [
+        "Portable Document Format",
+        "WHO",
+        "Universal Serial Bus",
+        "World Wide Web"
+      ],
+      "correctIndex": 3,
+      "explanation": "WWW: World Wide Web."
+    },
+    {
+      "id": "genel_kultur_016",
+      "categoryId": "genel_kultur",
+      "questionText": "\"PDF\" kısaltması ne anlama gelir?",
+      "options": [
+        "WHO",
+        "Universal Serial Bus",
+        "Portable Document Format",
+        "World Wide Web"
+      ],
+      "correctIndex": 2,
+      "explanation": "PDF: Portable Document Format."
+    },
+    {
+      "id": "genel_kultur_017",
+      "categoryId": "genel_kultur",
+      "questionText": "\"USB\" kısaltması ne anlama gelir?",
+      "options": [
+        "Universal Serial Bus",
+        "WHO",
+        "BM",
+        "Portable Document Format"
+      ],
+      "correctIndex": 0,
+      "explanation": "USB: Universal Serial Bus."
+    },
+    {
+      "id": "genel_kultur_018",
+      "categoryId": "genel_kultur",
+      "questionText": "İnsan vücudundaki en büyük organ hangisidir?",
+      "options": [
+        "Koklea",
+        "Kalp",
+        "Retina",
+        "Deri"
+      ],
+      "correctIndex": 3,
+      "explanation": "En büyük organ deridir."
+    },
+    {
+      "id": "genel_kultur_019",
+      "categoryId": "genel_kultur",
+      "questionText": "İnsan vücudunda kanı pompalayan organ hangisidir?",
+      "options": [
+        "Mavi balina",
+        "Retina",
+        "Kalp",
+        "Deri"
+      ],
+      "correctIndex": 2,
+      "explanation": "Kanı kalp pompalar."
+    },
+    {
+      "id": "genel_kultur_020",
+      "categoryId": "genel_kultur",
+      "questionText": "İnsanda kaç kromozom bulunur?",
+      "options": [
+        "46",
+        "300000",
+        "12",
+        "24"
+      ],
+      "correctIndex": 0,
+      "explanation": "İnsanda 46 kromozom vardır."
+    },
+    {
+      "id": "genel_kultur_021",
+      "categoryId": "genel_kultur",
+      "questionText": "Bir üçgenin iç açıları toplamı kaç derecedir?",
+      "options": [
+        "100",
+        "180",
+        "1",
+        "300000"
+      ],
+      "correctIndex": 1,
+      "explanation": "Üçgenin iç açıları 180°'dir."
+    },
+    {
+      "id": "genel_kultur_022",
+      "categoryId": "genel_kultur",
+      "questionText": "0'ın faktöriyeli kaçtır?",
+      "options": [
+        "46",
+        "24",
+        "1",
+        "100"
+      ],
+      "correctIndex": 2,
+      "explanation": "0! = 1'dir."
+    },
+    {
+      "id": "genel_kultur_023",
+      "categoryId": "genel_kultur",
+      "questionText": "Dairenin çevresinde kullanılan sabit hangisidir?",
+      "options": [
+        "Gece ve gündüz",
+        "HTTP",
+        "Yen",
+        "π"
+      ],
+      "correctIndex": 3,
+      "explanation": "Pi sayısı kullanılır."
+    },
+    {
+      "id": "genel_kultur_024",
+      "categoryId": "genel_kultur",
+      "questionText": "Dünyayı saran gaz tabakasına ne denir?",
+      "options": [
+        "Atmosfer",
+        "Biyosfer",
+        "Hidrosfer",
+        "Litosfer"
+      ],
+      "correctIndex": 0,
+      "explanation": "Dünya'yı saran gaz tabakasına atmosfer denir."
+    },
+    {
+      "id": "genel_kultur_025",
+      "categoryId": "genel_kultur",
+      "questionText": "Hava olaylarını inceleyen bilim dalı hangisidir?",
+      "options": [
+        "TRY",
+        "USD",
+        "EUR",
+        "GBP"
+      ],
+      "correctIndex": 0,
+      "explanation": "Türk lirasının ISO para kodu TRY'dir."
+    },
+    {
+      "id": "genel_kultur_026",
+      "categoryId": "genel_kultur",
+      "questionText": "Canlıları sınıflandıran bilim dalı hangisidir?",
+      "options": [
+        "12",
+        "10",
+        "13",
+        "14"
+      ],
+      "correctIndex": 0,
+      "explanation": "Bir yıl 12 aydan oluşur."
+    },
+    {
+      "id": "genel_kultur_027",
+      "categoryId": "genel_kultur",
+      "questionText": "Dünya'nın kendi ekseni etrafında dönmesi neyi oluşturur?",
+      "options": [
+        "Mesafe",
+        "Zaman",
+        "Sıcaklık",
+        "Basınç"
+      ],
+      "correctIndex": 0,
+      "explanation": "Işık yılı, astronomide mesafeyi ifade etmek için kullanılır."
+    },
+    {
+      "id": "genel_kultur_028",
+      "categoryId": "genel_kultur",
+      "questionText": "Dünya'nın Güneş etrafında dolanması neyi oluşturur?",
+      "options": [
+        "Mevsimler",
+        "Atmosfer",
+        "HTTP",
+        "Yen"
+      ],
+      "correctIndex": 0,
+      "explanation": "Dolanma mevsimleri oluşturur."
+    },
+    {
+      "id": "genel_kultur_029",
+      "categoryId": "genel_kultur",
+      "questionText": "Türkiye'nin en uzun nehri hangisidir?",
+      "options": [
+        "Asya",
+        "Sahra",
+        "Avrupa ve Asya",
+        "Kızılırmak"
+      ],
+      "correctIndex": 3,
+      "explanation": "En uzun nehir Kızılırmak'tır."
+    },
+    {
+      "id": "genel_kultur_030",
+      "categoryId": "genel_kultur",
+      "questionText": "Türkiye'nin en büyük gölü hangisidir?",
+      "options": [
+        "İstanbul",
+        "Van Gölü",
+        "Ankara",
+        "Sahra"
+      ],
+      "correctIndex": 1,
+      "explanation": "En büyük göl Van Gölü'dür."
+    },
+    {
+      "id": "genel_kultur_031",
+      "categoryId": "genel_kultur",
+      "questionText": "Sıcak çöllerin en büyüğü hangisidir?",
+      "options": [
+        "Van Gölü",
+        "Ankara",
+        "Sahra",
+        "Antarktika"
+      ],
+      "correctIndex": 2,
+      "explanation": "En büyük sıcak çöl Sahra'dır."
+    },
+    {
+      "id": "genel_kultur_032",
+      "categoryId": "genel_kultur",
+      "questionText": "Toplam alanı en büyük çöl hangisidir?",
+      "options": [
+        "Antarktika",
+        "Nil",
+        "Sahra",
+        "Avrupa ve Asya"
+      ],
+      "correctIndex": 0,
+      "explanation": "Toplamda en büyük çöl Antarktika'dır."
+    },
+    {
+      "id": "genel_kultur_033",
+      "categoryId": "genel_kultur",
+      "questionText": "Dünyanın en uzun nehri hangisidir (genel kabul)?",
+      "options": [
+        "Asya",
+        "Nil",
+        "Sahra",
+        "Antarktika"
+      ],
+      "correctIndex": 1,
+      "explanation": "Sıkça en uzun nehir Nil kabul edilir."
+    },
+    {
+      "id": "genel_kultur_034",
+      "categoryId": "genel_kultur",
+      "questionText": "Işığın bir saniyede aldığı yol yaklaşık kaç km'dir?",
+      "options": [
+        "46",
+        "100",
+        "60",
+        "300000"
+      ],
+      "correctIndex": 3,
+      "explanation": "Işık ~300.000 km/s hızla gider."
+    },
+    {
+      "id": "genel_kultur_035",
+      "categoryId": "genel_kultur",
+      "questionText": "Türkiye'nin resmi dili hangisidir?",
+      "options": [
+        "Mevsimler",
+        "Türk lirası",
+        "Türkçe",
+        "π"
+      ],
+      "correctIndex": 2,
+      "explanation": "Resmi dil Türkçe'dir."
+    },
+    {
+      "id": "genel_kultur_036",
+      "categoryId": "genel_kultur",
+      "questionText": "İstiklal Marşı'nın şairi kimdir?",
+      "options": [
+        "Albert Einstein",
+        "Nikola Tesla",
+        "Mehmet Akif Ersoy",
+        "Isaac Newton"
+      ],
+      "correctIndex": 2,
+      "explanation": "Şair Mehmet Akif Ersoy'dur."
+    },
+    {
+      "id": "genel_kultur_037",
+      "categoryId": "genel_kultur",
+      "questionText": "Türkiye'nin milli marşı hangisidir?",
+      "options": [
+        "Deri",
+        "Karaciğer",
+        "Beyin",
+        "Kalp"
+      ],
+      "correctIndex": 0,
+      "explanation": "İnsan vücudundaki en büyük organ deridir."
+    },
+    {
+      "id": "genel_kultur_038",
+      "categoryId": "genel_kultur",
+      "questionText": "\"E=mc²\" formülü hangi bilim insanıyla ilişkilidir?",
+      "options": [
+        "Alexander Graham Bell",
+        "Isaac Newton",
+        "Nikola Tesla",
+        "Albert Einstein"
+      ],
+      "correctIndex": 3,
+      "explanation": "Einstein ile bilinir."
+    },
+    {
+      "id": "genel_kultur_039",
+      "categoryId": "genel_kultur",
+      "questionText": "Yer çekimi kanunlarıyla bilinen bilim insanı kimdir?",
+      "options": [
+        "Alexander Graham Bell",
+        "Mehmet Akif Ersoy",
+        "Isaac Newton",
+        "Nikola Tesla"
+      ],
+      "correctIndex": 2,
+      "explanation": "Yer çekimi Newton ile anılır."
+    },
+    {
+      "id": "genel_kultur_040",
+      "categoryId": "genel_kultur",
+      "questionText": "Telefonun icadıyla anılan kişi kimdir?",
+      "options": [
+        "Albert Einstein",
+        "Alexander Graham Bell",
+        "Isaac Newton",
+        "Mehmet Akif Ersoy"
+      ],
+      "correctIndex": 1,
+      "explanation": "Telefon Bell ile anılır."
+    },
+    {
+      "id": "genel_kultur_041",
+      "categoryId": "genel_kultur",
+      "questionText": "Elektriğin alternatif akım sistemleriyle anılan kişi kimdir?",
+      "options": [
+        "Mehmet Akif Ersoy",
+        "Alexander Graham Bell",
+        "Nikola Tesla",
+        "Albert Einstein"
+      ],
+      "correctIndex": 2,
+      "explanation": "AC sistemleri Tesla ile anılır."
+    },
+    {
+      "id": "genel_kultur_042",
+      "categoryId": "genel_kultur",
+      "questionText": "İnternetin en yaygın web protokolü hangisidir?",
+      "options": [
+        "Deoksiribonükleik asit",
+        "Ribonükleik asit",
+        "Deoksiriboz",
+        "Amino asit"
+      ],
+      "correctIndex": 0,
+      "explanation": "DNA'nın açılımı Deoksiribonükleik Asit'tir."
+    },
+    {
+      "id": "genel_kultur_043",
+      "categoryId": "genel_kultur",
+      "questionText": "Türkiye hangi iki kıtada topraklara sahiptir?",
+      "options": [
+        "Nil",
+        "İstanbul",
+        "Avrupa ve Asya",
+        "Antarktika"
+      ],
+      "correctIndex": 2,
+      "explanation": "Türkiye iki kıtadadır."
+    },
+    {
+      "id": "genel_kultur_044",
+      "categoryId": "genel_kultur",
+      "questionText": "Kıtalar arasında en büyük yüzölçüme sahip olan hangisidir?",
+      "options": [
+        "Van Gölü",
+        "Kızılırmak",
+        "Asya",
+        "Sahra"
+      ],
+      "correctIndex": 2,
+      "explanation": "En büyük kıta Asya'dır."
+    },
+    {
+      "id": "genel_kultur_045",
+      "categoryId": "genel_kultur",
+      "questionText": "Dünyanın en büyük memelisi hangisidir?",
+      "options": [
+        "Deri",
+        "Kalp",
+        "Mavi balina",
+        "Koklea"
+      ],
+      "correctIndex": 2,
+      "explanation": "En büyük memeli mavi balinadır."
+    },
+    {
+      "id": "genel_kultur_046",
+      "categoryId": "genel_kultur",
+      "questionText": "Arıların ürettiği temel ürün hangisidir?",
+      "options": [
+        "π",
+        "Meteoroloji",
+        "Yen",
+        "Bal"
+      ],
+      "correctIndex": 3,
+      "explanation": "Arılar bal üretir."
+    },
+    {
+      "id": "genel_kultur_047",
+      "categoryId": "genel_kultur",
+      "questionText": "İnsan gözünde ışığı algılayan yapı hangisidir?",
+      "options": [
+        "Kalp",
+        "Retina",
+        "Mavi balina",
+        "Koklea"
+      ],
+      "correctIndex": 1,
+      "explanation": "Retina ışığı algılar."
+    },
+    {
+      "id": "genel_kultur_048",
+      "categoryId": "genel_kultur",
+      "questionText": "İnsan kulağında işitmeden sorumlu temel yapı hangisidir?",
+      "options": [
+        "Koklea",
+        "Mavi balina",
+        "Kalp",
+        "Deri"
+      ],
+      "correctIndex": 0,
+      "explanation": "Koklea işitmede görev alır."
+    },
+    {
+      "id": "genel_kultur_049",
+      "categoryId": "genel_kultur",
+      "questionText": "Bir düzinede kaç tane vardır?",
+      "options": [
+        "60",
+        "46",
+        "12",
+        "300000"
+      ],
+      "correctIndex": 2,
+      "explanation": "Düzine 12'dir."
+    },
+    {
+      "id": "genel_kultur_050",
+      "categoryId": "genel_kultur",
+      "questionText": "Türkiye'nin resmi bayramlarından biri hangisidir?",
+      "options": [
+        "Dünya",
+        "Mars",
+        "Jüpiter",
+        "Satürn"
+      ],
+      "correctIndex": 0,
+      "explanation": "Ay, Dünya'nın doğal uydusudur."
+    }
+  ]
+}

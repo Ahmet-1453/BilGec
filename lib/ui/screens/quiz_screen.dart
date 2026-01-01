@@ -56,7 +56,6 @@ class _QuizScreenState extends State<QuizScreen> {
                             ),
                           ),
                         ),
-                        
                         ...List.generate(4, (index) => Padding(
                           padding: const EdgeInsets.only(bottom: 10),
                           child: ElevatedButton(
@@ -69,9 +68,7 @@ class _QuizScreenState extends State<QuizScreen> {
                               shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10), side: BorderSide(color: Colors.indigo)),
                             ),
                             onPressed: () {
-                              
                               controller.checkAnswer(index);
-                              
                               cardKey.currentState?.toggleCard();
                             },
                             child: Text("${String.fromCharCode(65 + index)}) ${currentQuestion.options[index]}"),
@@ -81,7 +78,6 @@ class _QuizScreenState extends State<QuizScreen> {
                     ),
                   ),
                 ),
-                
                 back: Card(
                   color: controller.isLastAnswerCorrect ? Colors.green.shade50 : Colors.red.shade50,
                   elevation: 8,
@@ -115,16 +111,13 @@ class _QuizScreenState extends State<QuizScreen> {
                         const Spacer(),
                         ElevatedButton(
                           style: ElevatedButton.styleFrom(
-                            backgroundColor: Colors.redAccent, // Dikkat çekmesi için Kırmızı yaptım
+                            backgroundColor: Colors.redAccent, 
                             foregroundColor: Colors.white, 
                             minimumSize: const Size(double.infinity, 50)
                           ),
                           onPressed: () {
                             if (controller.currentIndex < 9) {
-                              // Önce kartı ön yüze çevir
                               cardKey.currentState?.toggleCard();
-                              
-                              // Kart dönerken soruyu değiştir (küçük bir gecikme ile)
                               Future.delayed(const Duration(milliseconds: 200), () {
                                 controller.nextQuestion();
                               });

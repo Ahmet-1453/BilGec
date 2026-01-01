@@ -1,35 +1,40 @@
 class QuestionModel {
+  final String id;
+  final String categoryId;
   final String questionText;
   final List<String> options;
   final int correctIndex;
   final String explanation;
-  final String categoryId;
 
   QuestionModel({
+    this.id = '',
+    required this.categoryId,
     required this.questionText,
     required this.options,
     required this.correctIndex,
     required this.explanation,
-    required this.categoryId,
   });
 
-  factory QuestionModel.fromMap(Map<String, dynamic> map) {
+  // JSON'dan Model üretme
+  factory QuestionModel.fromJson(Map<String, dynamic> json) {
     return QuestionModel(
-      questionText: map['question'] ?? '',
-      options: List<String>.from(map['options'] ?? []),
-      correctIndex: map['answer_index'] ?? 0,
-      explanation: map['explanation'] ?? '',
-      categoryId: map['category_id'] ?? 'diger',
+      id: json['id'] ?? '',
+      categoryId: json['categoryId'] ?? 'diger',
+      questionText: json['questionText'] ?? '',
+      options: List<String>.from(json['options'] ?? []),
+      correctIndex: json['correctIndex'] ?? 0,
+      explanation: json['explanation'] ?? '',
     );
   }
 
-  Map<String, dynamic> toMap() {
+  Map<String, dynamic> toJson() {
     return {
-      'question': questionText,
+      'id': id,
+      'categoryId': categoryId,
+      'questionText': questionText,
       'options': options,
-      'answer_index': correctIndex,
+      'correctIndex': correctIndex,
       'explanation': explanation,
-      'category_id': categoryId,
     };
   }
 }
