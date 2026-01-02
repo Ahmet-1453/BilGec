@@ -1,11 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'core/theme/app_theme.dart';
 import 'state/quiz_controller.dart';
 import 'ui/screens/home_screen.dart';
 
 void main() {
-  WidgetsFlutterBinding.ensureInitialized();
   runApp(const BilGecApp());
 }
 
@@ -17,13 +15,18 @@ class BilGecApp extends StatelessWidget {
     return MultiProvider(
       providers: [
         ChangeNotifierProvider(
-          create: (_) => QuizController()..initReadyQuestions(),
+          create: (_) => QuizController(), 
         ),
       ],
       child: MaterialApp(
         title: 'BilGeç MVP',
         debugShowCheckedModeBanner: false,
-        theme: AppTheme.lightTheme,
+        theme: ThemeData(
+          primarySwatch: Colors.indigo,
+          useMaterial3: true,
+          scaffoldBackgroundColor: const Color(0xFFF8F9FA),
+          fontFamily: 'Roboto', 
+        ),
         home: HomeScreen(),
       ),
     );

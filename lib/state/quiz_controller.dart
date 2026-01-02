@@ -1,30 +1,39 @@
+import 'dart:convert';
+import 'package:flutter/services.dart';
 import 'package:flutter/material.dart';
 import '../models/category_model.dart';
 import '../models/question_model.dart';
-import '../services/question_loader.dart';
+import '../services/gemini_service.dart';
 
 class QuizController extends ChangeNotifier {
-  final QuestionLoader _loader = QuestionLoader();
-  List<QuestionModel> _allReadyQuestions = []; 
+  final GeminiService _geminiService = GeminiService();
 
-  CategoryModel? selectedCategory;
+  List<QuestionModel> _allLocalQuestions = [];
   List<QuestionModel> questions = [];
+  CategoryModel? selectedCategory;
+  
   int currentIndex = 0;
   int score = 0;
   bool isLoading = false;
-  bool isQuestionsLoaded = false;
   String errorMessage = '';
   bool isLastAnswerCorrect = false;
 
-  Future<void> initReadyQuestions() async {
-    if (isQuestionsLoaded) return;
-    isLoading = true;
-    notifyListeners();
+  QuizController() {
+    _loadLocalJson();
+  }
 
-    _allReadyQuestions = await _loader.loadQuestionsFromAssets();
-    isQuestionsLoaded = true;
-    isLoading = false;
-    notifyListeners();
+  Future<void> _loadLocalJson() async {
+    try {
+      final String response = await rootBundle.loadString('assets/questions.json');
+      final data = json.decode(response);
+      if (data['questions'] != null) {
+        _allLocalQuestions = (data['questions'] as List)
+            .map((q) => QuestionModel.fromJson(q))
+            .toList();
+      }
+    } catch (e) {
+      debugPrint("JSON Yükleme Hatası: $e");
+    }
   }
 
   void selectCategory(CategoryModel category) {
@@ -32,71 +41,57 @@ class QuizController extends ChangeNotifier {
     notifyListeners();
   }
 
-
-  Future<void> startReadyQuiz() async {
+  void startReadyQuiz() {
     isLoading = true;
+    errorMessage = '';
+    score = 0;
+    currentIndex = 0;
+    
+    if (selectedCategory != null) {
+      List<QuestionModel> categoryQuestions = _allLocalQuestions
+          .where((q) => q.categoryId == selectedCategory!.id)
+          .toList();
+      
+      categoryQuestions.shuffle();
+
+      questions = categoryQuestions.take(10).toList();
+          
+      if (questions.isEmpty) {
+        errorMessage = "Bu kategoride henüz hazır soru bulunmuyor.";
+      }
+    } else {
+      questions = [];
+    }
+    
+    isLoading = false;
+    notifyListeners();
+  }
+
+  Future<bool> startAiQuiz(String topic) async {
+    isLoading = true;
+    errorMessage = '';
     score = 0;
     currentIndex = 0;
     questions = [];
     notifyListeners();
 
-
-    if (!isQuestionsLoaded || _allReadyQuestions.isEmpty) {
-      await initReadyQuestions();
+    try {
+      String currentCatName = selectedCategory?.name ?? "Genel Kültür";
+      questions = await _geminiService.generateQuestions(topic, currentCatName);
+      isLoading = false;
+      notifyListeners();
+      return true;
+    } catch (e) {
+      errorMessage = e.toString().replaceAll('Exception:', '').trim();
+      isLoading = false;
+      notifyListeners();
+      return false;
     }
-
-    if (selectedCategory != null) {
-
-      List<QuestionModel> pool = _allReadyQuestions
-          .where((q) => q.categoryId == selectedCategory!.id)
-          .toList();
-
-
-      if (pool.isEmpty) {
-        pool.add(QuestionModel(
-          categoryId: selectedCategory!.id,
-          questionText: "${selectedCategory!.name} için soru bulunamadı.",
-          options: ["-", "-", "-", "-"],
-          correctIndex: 0,
-          explanation: "Yöneticiye bildir.",
-        ));
-      }
-
-
-      List<QuestionModel> finalQuestions = [];
-      if (pool.isNotEmpty) {
-        while (finalQuestions.length < 10) {
-          pool.shuffle();
-          finalQuestions.addAll(pool);
-        }
-        questions = finalQuestions.sublist(0, 10);
-      }
-    }
-
-    isLoading = false;
-    notifyListeners();
-  }
-
- 
-  Future<void> startAiQuizPlaceholder(String topic) async {
-    isLoading = true;
-    score = 0;
-    currentIndex = 0;
-    notifyListeners();
-    await Future.delayed(const Duration(seconds: 2));
-    questions = List.generate(10, (index) => QuestionModel(
-      categoryId: 'ai',
-      questionText: '$topic hakkında AI sorusu #${index + 1}',
-      options: ['A', 'B', 'C', 'D'],
-      correctIndex: 0,
-      explanation: 'AI entegrasyonu sonraki adımda.',
-    ));
-    isLoading = false;
-    notifyListeners();
   }
 
   void checkAnswer(int selectedIndex) {
     if (questions.isEmpty) return;
+    
     if (selectedIndex == questions[currentIndex].correctIndex) {
       score += 10;
       isLastAnswerCorrect = true;
@@ -114,10 +109,12 @@ class QuizController extends ChangeNotifier {
   }
 
   void resetQuiz() {
-    currentIndex = 0;
     score = 0;
+    currentIndex = 0;
+    isLastAnswerCorrect = false;
     questions = [];
-    isLoading = false;
+    errorMessage = '';
+    selectedCategory = null; 
     notifyListeners();
   }
 }
