@@ -7,7 +7,7 @@ class QuestionModel {
   final String explanation;
 
   QuestionModel({
-    this.id = '',
+    required this.id,
     required this.categoryId,
     required this.questionText,
     required this.options,
@@ -18,7 +18,7 @@ class QuestionModel {
   factory QuestionModel.fromJson(Map<String, dynamic> json) {
     return QuestionModel(
       id: json['id'] ?? '',
-      categoryId: json['categoryId'] ?? 'diger',
+      categoryId: json['categoryId'] ?? '',
       questionText: json['questionText'] ?? '',
       options: List<String>.from(json['options'] ?? []),
       correctIndex: json['correctIndex'] ?? 0,
@@ -26,14 +26,13 @@ class QuestionModel {
     );
   }
 
-  Map<String, dynamic> toJson() {
+  Map<String, dynamic> toMap() {
     return {
-      'id': id,
-      'categoryId': categoryId,
       'questionText': questionText,
       'options': options,
       'correctIndex': correctIndex,
       'explanation': explanation,
+      'categoryId': categoryId,
     };
   }
 }

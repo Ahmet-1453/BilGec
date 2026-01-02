@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "566553741296",
+    "project_id": "bilgec-a908e",
+    "storage_bucket": "bilgec-a908e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:566553741296:android:2f840c8cd5cbf4c565bf35",
+        "android_client_info": {
+          "package_name": "com.example.bilgec"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQosp1cEKHd1lbK08U6RfEQUGbKXAHlTw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,18 +1,15 @@
 import 'dart:convert';
 import 'package:google_generative_ai/google_generative_ai.dart';
 import '../models/question_model.dart';
+import '../api_key.dart';
 
 class GeminiService {
-  static const String _apiKey = String.fromEnvironment('GEMINI_API_KEY');
 
   Future<List<QuestionModel>> generateQuestions(String topic, String categoryName) async {
-    if (_apiKey.isEmpty) {
-      throw Exception("API Key bulunamadı.");
-    }
 
     final model = GenerativeModel(
-      model: 'gemini-2.5-flash',
-      apiKey: _apiKey,
+      model: 'gemini-2.5-flash', 
+      apiKey: ApiKey.gemini,      
       generationConfig: GenerationConfig(
         temperature: 0.7,
       ),
