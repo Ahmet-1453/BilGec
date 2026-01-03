@@ -48,7 +48,7 @@ class AuthService {
 
         await _auth.signOut();
         
-        throw Exception("Kayıt Başarılı! Güvenlik gereği, giriş yapmadan önce lütfen $email adresine gönderdiğimiz linki onaylayın.");
+        throw Exception("Kayıt Başarılı! Lütfen mail adresinize gönderilen doğrulama linkini onaylayıp giriş yapın.");
       }
       return null;
     } on FirebaseAuthException catch (e) {
