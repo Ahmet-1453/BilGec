@@ -1,70 +1,13 @@
-# 🧠 BilGeç - Hibrit Genel Kültür Quiz Uygulaması
+# 🎓 BilGeç
 
-**BilGeç**, Flutter ile geliştirilmiş; hem yerel veri tabanından (JSON) hazır sorular sunan hem de Yapay Zeka (AI) destekli dinamik içerik üretebilen modern bir bilgi yarışması uygulamasıdır. Temiz mimari prensipleri ve kullanıcı dostu arayüz akışı ile tasarlanmıştır.
+> **BilGeç**, merak ettiğin her konuda senin için anlık testler hazırlayan akıllı bir bilgi yarışması uygulamasıdır.
 
----
-
-### 🚀 Özellikler
-
-* **Hibrit Soru Motoru:** İnternet yokken `JSON` tabanlı hazır sorular, internet varken **AI (Gemini)** destekli sınırsız soru üretimi.
-* **Dinamik İçerik:** Kullanıcının girdiği herhangi bir konuda (Örn: "Türk Tarihi") anında 10 soruluk özgün test oluşturma.
-* **Güvenli Giriş:** Firebase Authentication ile e-posta/şifre tabanlı giriş ve mail doğrulama zorunluluğu.
-* **Bulut Kayıt:** Çözülen AI testlerinin ve kazanılan skorların **Firestore** üzerinde kullanıcıya özel saklanması.
-* **İnteraktif UI:** `flip_card` animasyonları ile oyunlaştırılmış soru cevaplama deneyimi.
-* **Profil Analizi:** Toplam puan ve çözülen test istatistiklerinin takibi.
-
----
-
-### 🛠 Kullanılan Teknolojiler
-
-* **Framework:** Flutter (Dart)
-* **State Management:** Provider
-* **Backend:** Firebase (Authentication, Firestore)
-* **Yapay Zeka:** Google Gemini API
-* **Veri Kaynağı:** Yerel JSON Assets & Cloud Firestore
-
----
-
-### 📂 Proje ve Klasör Yapısı
-
-Proje, okunabilirliği artırmak için modüler bir yapıda düzenlenmiştir:
-
-* `lib/data/`: Yerel JSON veri okuma işlemleri.
-* `lib/models/`: Veri modelleri (`QuestionModel`, `CategoryModel`).
-* `lib/services/`: Dış servisler (`AuthService`, `FirestoreService`, `GeminiService`).
-* `lib/state/`: Uygulama durumu ve mantığı (`QuizController`).
-* `lib/ui/`: Tüm ekranlar ve görsel bileşenler.
-* `assets/`: Hazır soru havuzu (`questions.json`).
-
----
-
-### ⚙️ Kurulum ve Çalıştırma
-
-Projeyi yerel ortamınızda çalıştırmak için terminalde şu komutları uygulayın:
-
-1.  **Bağımlılıkları Yükleyin:**
-    ```bash
-    flutter pub get
-    ```
-
-2.  **Uygulamayı Başlatın:**
-    ```bash
-    flutter run
-    ```
-
----
+İnternetin yokken hazır sorularla keyifli vakit geçirebilir, internetin varken **Yapay Zeka** desteğiyle dilediğin her başlıkta (ister *'Türk Tarihi'* ister *'Uzay Bilimi'*) kendine özel, sınırsız sayıda soru üretebilirsin. Ezber bozan yapısıyla bilgiye ulaşmanın en eğlenceli ve en hızlı yoludur.
 
 ### 📸 Ekran Görüntüleri
 
-| Giriş Ekranı | Ana Menü | Quiz Ekranı |
-| :---: | :---: | :---: |
-| ![Ekran Görüntüsü](screenshots/giris.png) | ![Ekran Görüntüsü](screenshots/ana_menu.png) | ![Ekran Görüntüsü](screenshots/quiz.png) |
+### 📸 Ekran Görüntüleri
 
----
-
-### ⚠️ Önemli Notlar
-
-Güvenlik prensipleri gereği;
-* Firebase yapılandırma dosyası (`google-services.json`),
-* Yapay Zeka servisi için kullanılan **API Key** bilgileri repoya **eklenmemiştir.**
-* Uygulamanın çalışması için bu dosyaların ilgili dizinlere eklenmesi gerekmektedir.
+| Giriş Ekranı | Ana Menü | Yapay Zeka Modu | Quiz Ekranı |
+| :---: | :---: | :---: | :---: |
+| ![Giriş](screenshots/giris.png) | ![Menü](screenshots/ana_menu.png) | ![AI Modu](screenshots/ai_modu.png) | ![Quiz](screenshots/quiz.png) |

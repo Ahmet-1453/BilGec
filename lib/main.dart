@@ -58,7 +58,7 @@ class AuthWrapper extends StatelessWidget {
           );
         }
 
-        if (snapshot.hasData) {
+        if (snapshot.hasData && (snapshot.data?.emailVerified ?? false)) {
           return const HomeScreen();
         }
 

@@ -21,8 +21,9 @@ class AuthService {
       return result.user;
     } on FirebaseAuthException catch (e) {
       String message = "Giriş başarısız.";
-      if (e.code == 'user-not-found') message = "Bu e-posta ile kayıtlı kullanıcı bulunamadı.";
-      else if (e.code == 'wrong-password') message = "Şifre hatalı.";
+      if (e.code == 'user-not-found') {
+        message = "Bu e-posta ile kayıtlı kullanıcı bulunamadı.";
+      } else if (e.code == 'wrong-password') message = "Şifre hatalı.";
       else if (e.code == 'invalid-email') message = "Geçersiz e-posta formatı.";
       else if (e.code == 'user-disabled') message = "Kullanıcı hesabı engellenmiş.";
       
@@ -53,8 +54,9 @@ class AuthService {
       return null;
     } on FirebaseAuthException catch (e) {
       String message = "Kayıt başarısız.";
-      if (e.code == 'email-already-in-use') message = "Bu e-posta zaten kullanımda.";
-      else if (e.code == 'weak-password') message = "Şifre çok zayıf (En az 6 karakter).";
+      if (e.code == 'email-already-in-use') {
+        message = "Bu e-posta zaten kullanımda.";
+      } else if (e.code == 'weak-password') message = "Şifre çok zayıf (En az 6 karakter).";
       else if (e.code == 'invalid-email') message = "Geçersiz e-posta formatı.";
       
       debugPrint("Kayıt Hatası: ${e.code}");
