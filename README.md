@@ -4,7 +4,6 @@
 
 İnternetin yokken hazır sorularla keyifli vakit geçirebilir, internetin varken **Yapay Zeka** desteğiyle dilediğin her başlıkta (ister *'Türk Tarihi'* ister *'Uzay Bilimi'*) kendine özel, sınırsız sayıda soru üretebilirsin. Ezber bozan yapısıyla bilgiye ulaşmanın en eğlenceli ve en hızlı yoludur.
 
-### 📸 Ekran Görüntüleri
 
 ### 📸 Ekran Görüntüleri
 
