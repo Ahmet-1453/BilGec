@@ -23,9 +23,10 @@ class _QuizScreenState extends State<QuizScreen> {
     }
 
     final currentQuestion = controller.questions[controller.currentIndex];
+    const accent = Color(0xFF3F51B5);
 
     return Scaffold(
-      backgroundColor: const Color(0xFFF8F9FA), 
+      backgroundColor: const Color(0xFFF8F9FA),
       appBar: AppBar(
         backgroundColor: Colors.transparent,
         elevation: 0,
@@ -44,13 +45,12 @@ class _QuizScreenState extends State<QuizScreen> {
           padding: const EdgeInsets.symmetric(horizontal: 20.0, vertical: 10.0),
           child: Column(
             children: [
-
               ClipRRect(
                 borderRadius: BorderRadius.circular(10),
                 child: LinearProgressIndicator(
                   value: (controller.currentIndex + 1) / controller.questions.length,
                   minHeight: 8,
-                  color: const Color(0xFF3F51B5),
+                  color: accent,
                   backgroundColor: Colors.grey.shade300,
                 ),
               ),
@@ -62,10 +62,12 @@ class _QuizScreenState extends State<QuizScreen> {
                   flipOnTouch: false,
                   direction: FlipDirection.HORIZONTAL,
                   speed: 500,
+
                   front: Container(
                     decoration: BoxDecoration(
                       color: Colors.white,
                       borderRadius: BorderRadius.circular(24),
+                      border: Border.all(color: accent.withOpacity(0.12), width: 1.2),
                       boxShadow: [
                         BoxShadow(
                           color: Colors.black.withOpacity(0.05),
@@ -80,81 +82,75 @@ class _QuizScreenState extends State<QuizScreen> {
                         children: [
                           Expanded(
                             flex: 2,
-                            child: Center(
-                              child: Text(
-                                currentQuestion.questionText,
-                                textAlign: TextAlign.center,
-                                style: const TextStyle(
-                                  fontSize: 22,
-                                  fontWeight: FontWeight.w800,
-                                  color: Color(0xFF2C3E50),
-                                  height: 1.3,
+                            child: Container(
+                              width: double.infinity,
+                              padding: const EdgeInsets.all(18),
+                              decoration: BoxDecoration(
+                                color: accent.withOpacity(0.06),
+                                borderRadius: BorderRadius.circular(18),
+                                border: Border.all(color: accent.withOpacity(0.10)),
+                              ),
+                              child: Center(
+                                child: Text(
+                                  currentQuestion.question,
+                                  textAlign: TextAlign.center,
+                                  style: const TextStyle(
+                                    fontSize: 22,
+                                    fontWeight: FontWeight.w800,
+                                    color: Color(0xFF2C3E50),
+                                    height: 1.3,
+                                  ),
                                 ),
                               ),
                             ),
                           ),
-                          const SizedBox(height: 20),
+                          const SizedBox(height: 18),
+
                           Expanded(
                             flex: 3,
-                            child: Column(
-                              mainAxisAlignment: MainAxisAlignment.end,
-                              children: List.generate(currentQuestion.options.length, (index) {
-                                return Padding(
-                                  padding: const EdgeInsets.only(bottom: 12.0),
-                                  child: Material(
-                                    color: Colors.transparent,
-                                    child: InkWell(
-                                      onTap: () {
-                                        controller.checkAnswer(index);
-                                        cardKey.currentState?.toggleCard();
-                                      },
-                                      borderRadius: BorderRadius.circular(16),
-                                      child: Container(
-                                        width: double.infinity,
-                                        padding: const EdgeInsets.symmetric(vertical: 16, horizontal: 20),
-                                        decoration: BoxDecoration(
-                                          color: Colors.white,
-                                          borderRadius: BorderRadius.circular(16),
-                                          border: Border.all(color: Colors.grey.shade300, width: 1.5),
-                                          boxShadow: [
-                                            BoxShadow(
-                                              color: Colors.black.withOpacity(0.02),
-                                              blurRadius: 5,
-                                              offset: const Offset(0, 2),
-                                            ),
-                                          ],
-                                        ),
-                                        child: Text(
-                                          currentQuestion.options[index],
-                                          style: TextStyle(
-                                            fontSize: 16,
-                                            fontWeight: FontWeight.w600,
-                                            color: Colors.grey.shade800,
-                                          ),
-                                        ),
+                            child: ListView.separated(
+                              padding: EdgeInsets.zero,
+                              physics: const BouncingScrollPhysics(),
+                              itemCount: currentQuestion.options.length,
+                              separatorBuilder: (_, __) => const SizedBox(height: 12),
+                              itemBuilder: (context, index) {
+                                return Material(
+                                  color: Colors.transparent,
+                                  child: InkWell(
+                                    onTap: () {
+                                      controller.checkAnswer(index);
+                                      cardKey.currentState?.toggleCard();
+                                    },
+                                    borderRadius: BorderRadius.circular(16),
+                                    child: Container(
+                                      width: double.infinity,
+                                      padding: const EdgeInsets.symmetric(vertical: 16, horizontal: 20),
+                                      decoration: BoxDecoration(
+                                        color: accent.withOpacity(0.04),
+                                        borderRadius: BorderRadius.circular(16),
+                                        border: Border.all(color: accent.withOpacity(0.18), width: 1.4),
+                                        boxShadow: [BoxShadow(color: Colors.black.withOpacity(0.02), blurRadius: 5, offset: const Offset(0, 2))],
+                                      ),
+                                      child: Text(
+                                        currentQuestion.options[index],
+                                        style: TextStyle(fontSize: 16, fontWeight: FontWeight.w600, color: Colors.grey.shade800),
                                       ),
                                     ),
                                   ),
                                 );
-                              }),
+                              },
                             ),
                           ),
                         ],
                       ),
                     ),
                   ),
-                  
+
                   back: Container(
                     decoration: BoxDecoration(
                       color: controller.isLastAnswerCorrect ? const Color(0xFFE8F5E9) : const Color(0xFFFFEBEE),
                       borderRadius: BorderRadius.circular(24),
-                      boxShadow: [
-                        BoxShadow(
-                          color: Colors.black.withOpacity(0.05),
-                          blurRadius: 20,
-                          offset: const Offset(0, 5),
-                        ),
-                      ],
+                      boxShadow: [BoxShadow(color: Colors.black.withOpacity(0.05), blurRadius: 20, offset: const Offset(0, 5))],
                     ),
                     child: Padding(
                       padding: const EdgeInsets.all(24.0),
@@ -171,66 +167,38 @@ class _QuizScreenState extends State<QuizScreen> {
                           Text(
                             controller.isLastAnswerCorrect ? "TEBRİKLER DOĞRU!" : "MAALESEF YANLIŞ!",
                             textAlign: TextAlign.center,
-                            style: TextStyle(
-                              fontSize: 24,
-                              fontWeight: FontWeight.w900,
-                              color: controller.isLastAnswerCorrect ? Colors.green.shade800 : Colors.red.shade800,
-                            ),
+                            style: TextStyle(fontSize: 24, fontWeight: FontWeight.w900, color: controller.isLastAnswerCorrect ? Colors.green.shade800 : Colors.red.shade800),
                           ),
                           const SizedBox(height: 30),
-                          
                           const Text("DOĞRU CEVAP", style: TextStyle(color: Colors.grey, fontWeight: FontWeight.bold, letterSpacing: 1.2)),
                           const SizedBox(height: 10),
                           Container(
                             width: double.infinity,
                             padding: const EdgeInsets.all(16),
                             decoration: BoxDecoration(
-                              color: const Color(0xFF3F51B5), // İndigo
+                              color: const Color(0xFF3F51B5),
                               borderRadius: BorderRadius.circular(16),
-                              boxShadow: [
-                                BoxShadow(color: const Color(0xFF3F51B5).withOpacity(0.3), blurRadius: 10, offset: const Offset(0, 4))
-                              ]
+                              boxShadow: [BoxShadow(color: const Color(0xFF3F51B5).withOpacity(0.3), blurRadius: 10, offset: const Offset(0, 4))],
                             ),
                             child: Text(
                               currentQuestion.options[currentQuestion.correctIndex],
                               textAlign: TextAlign.center,
-                              style: const TextStyle(
-                                color: Colors.white,
-                                fontSize: 18,
-                                fontWeight: FontWeight.bold,
-                              ),
+                              style: const TextStyle(color: Colors.white, fontSize: 18, fontWeight: FontWeight.bold),
                             ),
                           ),
-                          
                           const SizedBox(height: 20),
-                          
-                          Expanded(
-                            flex: 2,
-                            child: SingleChildScrollView(
-                              child: Text(
-                                currentQuestion.explanation.isNotEmpty ? currentQuestion.explanation : "Açıklama bulunmuyor.",
-                                textAlign: TextAlign.center,
-                                style: TextStyle(
-                                  fontSize: 15,
-                                  color: Colors.grey.shade700,
-                                  height: 1.4
-                                ),
-                              ),
+                          if (currentQuestion.explanation.isNotEmpty)
+                            Text(
+                              currentQuestion.explanation,
+                              textAlign: TextAlign.center,
+                              style: TextStyle(fontSize: 14, color: Colors.black54),
                             ),
-                          ),
-                          
                           const Spacer(),
-
                           SizedBox(
                             width: double.infinity,
                             height: 56,
                             child: ElevatedButton(
-                              style: ElevatedButton.styleFrom(
-                                backgroundColor: const Color(0xFFFF5252),
-                                foregroundColor: Colors.white,
-                                elevation: 4,
-                                shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
-                              ),
+                              style: ElevatedButton.styleFrom(backgroundColor: const Color(0xFFFF5252), foregroundColor: Colors.white, elevation: 4, shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16))),
                               onPressed: () {
                                 if (controller.currentIndex < controller.questions.length - 1) {
                                   cardKey.currentState?.toggleCard();
@@ -238,17 +206,11 @@ class _QuizScreenState extends State<QuizScreen> {
                                     controller.nextQuestion();
                                   });
                                 } else {
+                                  controller.finishQuiz();
                                   Navigator.pushReplacement(context, MaterialPageRoute(builder: (_) => const ResultScreen()));
                                 }
                               },
-                              child: Row(
-                                mainAxisAlignment: MainAxisAlignment.center,
-                                children: const [
-                                  Text("Sonraki Soru", style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold)),
-                                  SizedBox(width: 8),
-                                  Icon(Icons.arrow_forward_rounded)
-                                ],
-                              ),
+                              child: Row(mainAxisAlignment: MainAxisAlignment.center, children: const [Text("Sonraki Soru", style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold)), SizedBox(width: 8), Icon(Icons.arrow_forward_rounded)]),
                             ),
                           ),
                         ],

@@ -4,38 +4,40 @@ import 'package:flutter/material.dart';
 import '../models/category_model.dart';
 import '../models/question_model.dart';
 import '../services/gemini_service.dart';
-import '../services/firestore_service.dart'; 
+import '../services/firestore_service.dart';
 
 class QuizController extends ChangeNotifier {
   final GeminiService _geminiService = GeminiService();
   final FirestoreService _firestoreService = FirestoreService(); 
 
-  List<QuestionModel> _allLocalQuestions = [];
+  List<QuestionModel> _allJsonQuestions = []; 
   List<QuestionModel> questions = [];
   CategoryModel? selectedCategory;
   
   int currentIndex = 0;
-  int score = 0;
+  int score = 0; 
   bool isLoading = false;
   String errorMessage = '';
   bool isLastAnswerCorrect = false;
   bool isAiMode = false; 
 
   QuizController() {
-    _loadLocalJson();
+    _loadJsonData();
   }
 
-  Future<void> _loadLocalJson() async {
+  Future<void> _loadJsonData() async {
     try {
       final String response = await rootBundle.loadString('assets/questions.json');
       final data = json.decode(response);
+      
       if (data['questions'] != null) {
-        _allLocalQuestions = (data['questions'] as List)
+        _allJsonQuestions = (data['questions'] as List)
             .map((q) => QuestionModel.fromJson(q))
             .toList();
+        notifyListeners();
       }
     } catch (e) {
-      debugPrint("JSON Yükleme Hatası: $e");
+      debugPrint("JSON Hatası: $e");
     }
   }
 
@@ -52,19 +54,19 @@ class QuizController extends ChangeNotifier {
     isAiMode = false; 
     
     if (selectedCategory != null) {
-      List<QuestionModel> categoryQuestions = _allLocalQuestions
+      List<QuestionModel> categoryQuestions = _allJsonQuestions
           .where((q) => q.categoryId == selectedCategory!.id)
           .toList();
       
-      categoryQuestions.shuffle();
-
-      questions = categoryQuestions.take(10).toList();
-          
-      if (questions.isEmpty) {
-        errorMessage = "Bu kategoride henüz hazır soru bulunmuyor.";
+      if (categoryQuestions.isNotEmpty) {
+        categoryQuestions.shuffle();
+        
+        int count = categoryQuestions.length > 10 ? 10 : categoryQuestions.length;
+        questions = categoryQuestions.take(count).toList();
+      } else {
+        questions = [];
+        errorMessage = "Bu kategoride (${selectedCategory!.name}) hazır soru bulunamadı.";
       }
-    } else {
-      questions = [];
     }
     
     isLoading = false;
@@ -72,8 +74,6 @@ class QuizController extends ChangeNotifier {
   }
 
   Future<bool> startAiQuiz(String topic) async {
-    print("🟢 1. BAŞLADI: startAiQuiz tetiklendi. Konu: $topic"); 
-    
     isLoading = true;
     errorMessage = '';
     score = 0;
@@ -83,47 +83,47 @@ class QuizController extends ChangeNotifier {
     notifyListeners();
 
     try {
-      String currentCatName = selectedCategory?.name ?? "Genel Kültür";
+      String currentCatName = selectedCategory?.name ?? "Genel";
       String currentCatId = selectedCategory?.id ?? "genel";
-
-      print("🟡 2. GEMINI: Soru isteniyor... ($currentCatName)");
 
       questions = await _geminiService.generateQuestions(topic, currentCatName);
 
-      print("🟢 3. GEMINI: Cevap geldi! ${questions.length} soru üretildi."); 
-
       if (questions.isNotEmpty) {
-        print("🟡 4. FIREBASE: Kayıt deneniyor...");
-        
         await _firestoreService.saveAiQuizSet(
           topic: topic,
           categoryId: currentCatId, 
           questions: questions,
         );
-        
-        print("✅ 5. FIREBASE: Kayıt TAMAMLANDI!"); 
       } else {
-        print("🔴 UYARI: Soru listesi boş geldiği için kayıt yapılmadı.");
+        errorMessage = "Yapay zeka soru üretemedi.";
       }
 
       isLoading = false;
       notifyListeners();
-      return true;
+      return questions.isNotEmpty;
     } catch (e) {
-      print("🛑 HATA OLUŞTU (startAiQuiz): $e"); 
-      
-      errorMessage = e.toString().replaceAll('Exception:', '').trim();
+      errorMessage = "Hata: $e";
       isLoading = false;
       notifyListeners();
       return false;
     }
   }
 
+  void startHistoryQuiz(List<QuestionModel> historyQuestions) {
+    questions = historyQuestions;
+    score = 0;
+    currentIndex = 0;
+    isAiMode = true;
+    isLoading = false;
+    errorMessage = '';
+    notifyListeners();
+  }
+
   void checkAnswer(int selectedIndex) {
     if (questions.isEmpty) return;
     
     if (selectedIndex == questions[currentIndex].correctIndex) {
-      score += 10;
+      score += 10; 
       isLastAnswerCorrect = true;
     } else {
       isLastAnswerCorrect = false;
@@ -138,13 +138,14 @@ class QuizController extends ChangeNotifier {
     }
   }
 
-  void finishQuiz() {
-    _firestoreService.saveScore(
+  Future<void> finishQuiz() async {
+    await _firestoreService.saveScore(
       categoryId: selectedCategory?.id ?? 'genel',
-      mode: isAiMode ? "ai" : "ready",
       score: score,
       totalQuestions: questions.length,
+      quizType: isAiMode ? 'ai' : 'standard', 
     );
+    notifyListeners();
   }
 
   void resetQuiz() {
@@ -153,7 +154,6 @@ class QuizController extends ChangeNotifier {
     isLastAnswerCorrect = false;
     questions = [];
     errorMessage = '';
-    selectedCategory = null; 
     isAiMode = false;
     notifyListeners();
   }
